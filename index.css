@@ -49,6 +49,7 @@ section {
 
 .hero-section {
   height: 95rem;
+  position: relative;
 }
 
 nav {
@@ -58,7 +59,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   width: 100vw;
-  padding: 1.6rem var(--horizontal-margin);
+  padding: 1.2rem var(--horizontal-margin);
   z-index: 2;
 }
 
@@ -178,7 +179,7 @@ h1 {
   width: 4.6rem;
   height: 4.6rem;
   object-fit: cover;
-  border: 3px solid var(--white);
+  border: 1px solid var(--white);
 }
 
 .customer-imgs img:not(.first) {
@@ -198,7 +199,7 @@ h1 {
 /* Services section */
 
 .services-section {
-  height: 50rem;
+  height: 300rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -207,7 +208,13 @@ h1 {
 h2 {
   font-size: 3.6rem;
   font-weight: 600;
-  margin: 6.6rem 0;
+  margin-top: 10.5rem;
+}
+
+.services {
+  display: flex;
+  gap: 7.4rem;
+  margin: 10.5rem 12rem;
 }
 
 .service-box {
@@ -215,10 +222,44 @@ h2 {
   flex-direction: column;
   align-items: center;
   gap: 2.6rem;
+  text-align: center;
 }
 
-.services {
-  display: flex;
-  gap: 5.2rem;
-  margin: 0 15rem;
+.service-title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.service-description {
+  color: #454545;
+}
+
+.service-description,
+.service-page:link,
+.service-page:visited {
+  font-size: 1.6rem;
+}
+
+.service-page:link,
+.service-page:visited {
+  color: var(--white);
+  transition: all 250ms ease-in-out;
+  margin-top: 2rem;
+  background-color: var(--dark-secondary);
+  padding: 0.8rem 1.2rem;
+  text-decoration: none;
+}
+
+.service-page:hover,
+.service-page:active {
+  background-color: var(--secondary-color);
+}
+
+.key-icon,
+.person-icon,
+.layers-icon,
+.money-icon {
+  height: 6.6rem;
+  width: 6.6rem;
+  /* color: var(--primary-color); */
 }
