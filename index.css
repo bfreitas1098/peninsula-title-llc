@@ -11,17 +11,19 @@ Text/Margin Scale:
 /* Default settings */
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@700&display=swap");
 
 :root {
   --primary-color: #0c4360;
   --secondary-color: #029347;
-  --dark-primary: #082f43;
-  --dark-secondary: #016732;
-  --light-primary: #557b90;
-  --light-secondary: #4eb37e;
+  --dark-primary: #04141d;
+  --dark-secondary: #001f0f;
+  --light-primary: #e7ecef;
+  --light-secondary: #e6f0eb;
   --white: #f5f5f5;
   --text-color: #1f1f1f;
   --horizontal-margin: 3.6rem;
+  --link-color: #0f54bd;
 }
 
 * {
@@ -29,7 +31,6 @@ Text/Margin Scale:
   padding: 0;
   box-sizing: border-box;
   font-family: "Noto Serif", serif;
-  overflow-x: hidden;
 }
 
 html {
@@ -39,17 +40,27 @@ html {
 body {
   background-color: var(--white);
   color: var(--text-color);
+  overflow-x: hidden;
 }
 
 section {
   width: 100vw;
+  padding: 10.5rem 0;
 }
 
 /* Hero Section */
 
 .hero-section {
-  height: 95rem;
+  height: 85rem;
   position: relative;
+  background-image: url(hero-img.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 7.4rem;
+  padding: 10.5rem 0 6.6rem 0;
 }
 
 nav {
@@ -60,13 +71,13 @@ nav {
   justify-content: space-between;
   width: 100vw;
   padding: 1.2rem var(--horizontal-margin);
-  z-index: 2;
+  z-index: 1000;
 }
 
 .overlay {
   width: 100vw;
-  height: 95rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  height: 85rem;
+  background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   z-index: 1;
   backdrop-filter: blur(3px);
@@ -104,20 +115,11 @@ nav ul {
   color: var(--primary-color) !important;
 }
 
-.bg-img {
-  width: 100vw;
-  height: 95rem;
-}
-
 .heading {
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
   color: var(--white);
-  position: relative;
-  top: -67rem;
-  z-index: 3;
-  height: 100%;
 }
 
 h1 {
@@ -133,17 +135,13 @@ h1 {
 .cta:visited {
   border: 2px solid transparent;
   box-shadow: none;
-  position: relative;
-  top: -130rem;
   padding: 1.1rem 2.6rem;
-  z-index: 6;
   background-color: var(--primary-color);
   text-decoration: none;
   color: var(--white);
   font-weight: 600;
   font-size: 2.3rem;
   transition: all 250ms ease-in-out;
-  height: 100%;
 }
 
 .cta:hover,
@@ -157,16 +155,15 @@ h1 {
   display: flex;
   align-items: center;
   gap: 2rem;
-  position: relative;
-  top: -120rem;
-  z-index: 7;
+  transform: translateY(2rem);
 }
 
 .heading,
 .cta:link,
 .cta:visited,
 .customer-proof {
-  left: 10rem;
+  z-index: 3;
+  margin-left: 10.5rem;
 }
 
 .customer-imgs {
@@ -199,16 +196,15 @@ h1 {
 /* Services section */
 
 .services-section {
-  height: 300rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 0 !important;
 }
 
 h2 {
-  font-size: 3.6rem;
-  font-weight: 600;
-  margin-top: 10.5rem;
+  font-size: 3.2rem;
+  font-weight: 400;
 }
 
 .services {
@@ -227,11 +223,11 @@ h2 {
 
 .service-title {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .service-description {
-  color: #454545;
+  color: #6a6a6a;
 }
 
 .service-description,
@@ -242,17 +238,14 @@ h2 {
 
 .service-page:link,
 .service-page:visited {
-  color: var(--white);
+  color: var(--link-color);
   transition: all 250ms ease-in-out;
   margin-top: 2rem;
-  background-color: var(--dark-secondary);
-  padding: 0.8rem 1.2rem;
-  text-decoration: none;
 }
 
 .service-page:hover,
 .service-page:active {
-  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .key-icon,
@@ -261,5 +254,199 @@ h2 {
 .money-icon {
   height: 6.6rem;
   width: 6.6rem;
-  /* color: var(--primary-color); */
+  color: var(--primary-color);
+}
+
+/* Testimonials section */
+
+.testimonials-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 6.6rem !important;
+}
+
+.testimonials-container {
+  /* display: flex;
+  flex-direction: column; */
+  margin: 10.5rem 0;
+  /* gap: 5.2rem; */
+  width: 80rem;
+}
+
+.testimonial {
+  padding: 4.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  border: 2px solid var(--text-color);
+  box-shadow: 0 6px 12px 2px rgba(0, 0, 0, 0.2);
+  background-color: var(--white);
+}
+
+.first {
+  position: relative;
+  z-index: 300;
+}
+
+.second,
+.last {
+  position: absolute;
+  top: 179.6rem;
+  width: 80rem;
+  z-index: 250;
+  padding: 3.6rem 4.8rem;
+}
+
+.second {
+  left: 27.5rem;
+}
+
+.last {
+  left: 36.5rem;
+}
+
+.prev-icon,
+.next-icon {
+  position: absolute;
+  height: 4.1rem;
+  width: 4.1rem;
+  top: 198rem;
+  z-index: 301;
+  color: #6a6a6a;
+  opacity: 50%;
+}
+
+.prev-icon {
+  left: 21rem;
+}
+
+.next-icon {
+  left: 118.5rem;
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  height: 8.3rem;
+  width: 8.3rem;
+  object-fit: cover;
+}
+
+.five-stars {
+  display: flex;
+  gap: 8px;
+  margin-bottom: -1.2rem;
+}
+
+.star {
+  width: 2.3rem;
+  height: 2.3rem;
+  color: #ffb703;
+}
+
+.testimonial-text {
+  font-size: 1.6rem;
+}
+
+.testimonial-author {
+  font-size: 1.4rem;
+  color: #6a6a6a;
+}
+
+.testimonials-page:link,
+.testimonials-page:visited {
+  font-size: 1.8rem;
+  color: var(--link-color);
+  transition: color 250ms ease-in-out;
+}
+
+.testimonials-page:hover,
+.testimonials-page:active {
+  color: var(--primary-color);
+}
+
+/* FAQ section */
+
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--light-primary);
+}
+
+.faq-container {
+  display: flex;
+  gap: 9.4rem;
+  align-items: center;
+}
+
+.questions-side {
+  display: flex;
+  flex-direction: column;
+  gap: 5.2rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.questions span {
+  font-size: 2rem;
+}
+
+.questions-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5.2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding-bottom: 2.3rem;
+}
+
+.questions-box:last-child {
+  border-bottom: none;
+}
+
+.questions-icon {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.faq-img {
+  object-fit: cover;
+  width: 55rem;
+  height: 55rem;
+}
+
+/* Footer */
+
+footer {
+  margin: 10.5rem 15rem 3.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  padding-top: 3.6rem;
+}
+
+.footer-img img {
+  width: 7.4rem;
+  height: 7.4rem;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  text-align: center;
+  font-size: 1.6rem;
 }
