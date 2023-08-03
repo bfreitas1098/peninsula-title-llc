@@ -7,21 +7,52 @@
     <title>Peninsula Title Agency, LLC.</title>
   </head>
   <body>
+    <div class="contact-snapshot">
+      <div class="peninsula-info">
+        <ion-icon name="phone-portrait-sharp" class="phone-icon"></ion-icon>
+        <div class="phone">(561) 701-8490</div>
+        <ion-icon name="mail-sharp" class="email-icon"></ion-icon>
+        <a href="emailto:peninsulatitlellc@gmail.com" class="email"
+          >peninsulatitlellc@gmail.com</a
+        >
+      </div>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/peninsulatitle/" class="ig-link"
+          ><ion-icon name="logo-instagram" class="ig-icon"></ion-icon
+        ></a>
+        <a href="https://www.facebook.com/PeninsulaTitleLLC" class="fb-link">
+          <ion-icon name="logo-facebook" class="fb-icon"></ion-icon
+        ></a>
+      </div>
+    </div>
     <header>
       <nav>
         <img
-          src="peninsula title logo.png"
+          src="images/peninsula title logo.png"
           alt="Peninsula Title Agency logo"
           class="logo"
         />
         <ul>
           <li class="nav-link"><a href="/" class="active">Home</a></li>
-          <li class="nav-link"><a href="/">About Us</a></li>
+          <li class="nav-link dd-menu about-link">
+            <a href="/">About Us</a
+            ><ion-icon name="chevron-down-sharp" class="arrow-icon"></ion-icon>
+          </li>
           <li class="nav-link"><a href="/">Testimonials</a></li>
           <li class="nav-link"><a href="/">Videos</a></li>
           <li class="nav-link"><a href="/">Contact Us</a></li>
         </ul>
       </nav>
+      <div class="dropdown-menu">
+        <ul>
+          <li class="dd-link">
+            <a href="/">Transaction Coordinator Services</a>
+          </li>
+          <li class="dd-link"><a href="/">Title Agent Services</a></li>
+          <li class="dd-link"><a href="/">Escrow Agent Services</a></li>
+          <li class="dd-link"><a href="/">Closing/Settlement Services</a></li>
+        </ul>
+      </div>
     </header>
     <!-- Hero section -->
     <div class="overlay"></div>
@@ -34,12 +65,12 @@
       <a href="/" class="cta">Contact Us</a>
       <div class="customer-proof">
         <div class="customer-imgs">
-          <img src="portrait1.jpeg" alt="Customer" class="first" />
-          <img src="portrait2.jpeg" alt="Customer" />
-          <img src="portrait3.jpeg" alt="Customer" />
-          <img src="portrait4.jpeg" alt="Customer" />
-          <img src="portrait5.jpeg" alt="Customer" />
-          <img src="portrait6.jpeg" alt="Customer" />
+          <img src="images/portrait1.jpeg" alt="Customer" class="first" />
+          <img src="images/portrait2.jpeg" alt="Customer" />
+          <img src="images/portrait3.jpeg" alt="Customer" />
+          <img src="images/portrait4.jpeg" alt="Customer" />
+          <img src="images/portrait5.jpeg" alt="Customer" />
+          <img src="images/portrait6.jpeg" alt="Customer" />
         </div>
         <span class="customer-text"
           ><strong>1,000+</strong> successful closings done last year!</span
@@ -48,7 +79,8 @@
     </section>
     <!-- Services section -->
     <section class="services-section">
-      <h2>Our Services</h2>
+      <p class="section-heading">Our title services</p>
+      <h2>The services you need, the quality you want</h2>
       <div class="services">
         <div class="service-box">
           <div class="service-icon">
@@ -101,11 +133,12 @@
     </section>
     <!-- Testimonials section -->
     <section class="testimonials-section">
+      <p class="section-heading">Testimonials</p>
       <h2>What Our Clients Say</h2>
       <div class="testimonials-container">
         <div class="testimonial first">
           <img
-            src="portrait5.jpeg"
+            src="images/portrait5.jpeg"
             alt="Customer picture"
             class="testimonial-img"
           />
@@ -130,7 +163,7 @@
         </div>
         <div class="testimonial second">
           <img
-            src="portrait5.jpeg"
+            src="images/portrait5.jpeg"
             alt="Customer picture"
             class="testimonial-img"
           />
@@ -155,7 +188,7 @@
         </div>
         <div class="testimonial last">
           <img
-            src="portrait5.jpeg"
+            src="images/portrait5.jpeg"
             alt="Customer picture"
             class="testimonial-img"
           />
@@ -241,13 +274,17 @@
           </div>
         </div>
         <div class="img-side">
-          <img src="new-family-house.png" alt="Title picture" class="faq-img" />
+          <img
+            src="images/new-family-house.png"
+            alt="Title picture"
+            class="faq-img"
+          />
         </div>
       </div>
     </section>
     <footer>
       <div class="footer-img">
-        <img src="Pen Title Icon.png" alt="Logo" />
+        <img src="images/Pen Title Icon.png" alt="Logo" />
       </div>
       <div class="footer-text">
         <div class="numbers">
