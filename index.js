@@ -1,8 +1,7 @@
 /* Dropdown menu */
 
-const dropDown = document.querySelector(".dropdown-menu");
-const aboutMenuLink = document.querySelector(".about-link");
+const dropDown = document.getElementById("dropdown-menu");
 
-aboutMenuLink.addEventListener("click", () => {
-  dropDown.classList.toggle(".active-menu");
-});
+function makeVisible() {
+  dropDown.classList.toggle("visible");
+}

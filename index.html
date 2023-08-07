@@ -9,9 +9,9 @@
   <body>
     <div class="contact-snapshot">
       <div class="peninsula-info">
-        <ion-icon name="phone-portrait-sharp" class="phone-icon"></ion-icon>
+        <ion-icon name="call" class="phone-icon"></ion-icon>
         <div class="phone">(561) 701-8490</div>
-        <ion-icon name="mail-sharp" class="email-icon"></ion-icon>
+        <ion-icon name="mail" class="email-icon"></ion-icon>
         <a href="emailto:peninsulatitlellc@gmail.com" class="email"
           >peninsulatitlellc@gmail.com</a
         >
@@ -34,16 +34,18 @@
         />
         <ul>
           <li class="nav-link"><a href="/" class="active">Home</a></li>
-          <li class="nav-link dd-menu about-link">
-            <a href="/">About Us</a
-            ><ion-icon name="chevron-down-sharp" class="arrow-icon"></ion-icon>
+          <li class="about-link" onclick="makeVisible()">
+            About Us<ion-icon
+              name="chevron-down-outline"
+              class="arrow-icon"
+            ></ion-icon>
           </li>
           <li class="nav-link"><a href="/">Testimonials</a></li>
           <li class="nav-link"><a href="/">Videos</a></li>
           <li class="nav-link"><a href="/">Contact Us</a></li>
         </ul>
       </nav>
-      <div class="dropdown-menu">
+      <div id="dropdown-menu">
         <ul>
           <li class="dd-link">
             <a href="/">Transaction Coordinator Services</a>
