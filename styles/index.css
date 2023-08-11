@@ -660,7 +660,10 @@ footer {
     left: 134rem;
   }
 
-  .heading {
+  .heading,
+  .cta:link,
+  .cta:visited,
+  .customer-proof {
     margin-left: 15rem;
   }
 
