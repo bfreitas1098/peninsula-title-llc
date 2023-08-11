@@ -36,7 +36,8 @@ html {
 }
 
 body {
-  background-color: var(--white);
+  /* background-color: var(--white); */
+  background-color: #edf7fd;
   color: var(--text-color);
   overflow-x: hidden;
 }
@@ -80,25 +81,28 @@ h3,
 
 nav {
   background-color: rgba(245, 245, 245, 0.7);
+  /* background-color: #edf7fd; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100vw;
   padding: 1.2rem 4.6rem;
   z-index: 1000;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
 #dropdown-menu {
   background-color: var(--white);
   position: absolute;
-  top: 12rem;
-  left: 88rem;
+  top: 8.2rem;
+  left: 87rem;
   z-index: 5000;
   padding: 2.6rem 1.6rem;
   width: 23rem;
   border-top: 2px solid var(--primary-color);
   display: none;
   transition: display 300ms ease-in-out;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 #dropdown-menu ul {
@@ -194,7 +198,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 8.3rem;
-  padding: 24rem 0;
+  padding: 15rem 0;
 }
 
 .text-side {
@@ -206,7 +210,7 @@ main {
 }
 
 h1 {
-  font-size: 2.6rem;
+  font-size: 3.2rem;
 }
 
 p {
@@ -215,10 +219,11 @@ p {
   width: 60rem;
 }
 
-img {
+.transaction-coordinator-img {
   object-fit: cover;
-  width: 50rem;
-  height: 45rem;
+  width: 55rem;
+  height: 40rem;
+  border: 1px solid var(--text-color);
 }
 
 /* Footer */
@@ -232,6 +237,8 @@ footer {
   gap: 4.8rem;
   border-top: 1px solid rgba(0, 0, 0, 0.15);
   padding-top: 3.6rem;
+  /* background-color: #daeffb; */
+  /* box-shadow: 0 -4px 12px 0 rgba(0, 0, 0, 0.15); */
 }
 
 .footer-img img {
@@ -245,4 +252,33 @@ footer {
   gap: 1.6rem;
   text-align: center;
   font-size: 1.6rem;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 1900px) {
+  .contact-snapshot {
+    gap: 27rem;
+  }
+
+  nav {
+    padding: 1.2rem 6.6rem;
+  }
+
+  #dropdown-menu {
+    left: 131rem;
+  }
+
+  main {
+    gap: 15rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+
+  .transaction-coordinator-img {
+    width: 65rem;
+    height: 50rem;
+  }
 }
