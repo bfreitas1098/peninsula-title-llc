@@ -646,7 +646,7 @@ footer {
 
 /* Media Queries */
 
-@media only screen and (min-width: 190rem) {
+@media only screen and (min-width: 1900px) {
   .contact-snapshot {
     gap: 27rem;
   }
