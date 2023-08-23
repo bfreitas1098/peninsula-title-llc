@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="../images/Pen Title Icon.png" />
-    <link rel="stylesheet" href="../styles/services.css" />
-    <title>Escrow Agent Services</title>
+    <link rel="stylesheet" href="../styles/contact.css" />
+    <title>Contact Us</title>
   </head>
   <body>
     <header>
       <nav>
-        <a href="../index.html">
+        <a href="/">
           <img
             src="../images/peninsula title logo.png"
             alt="Peninsula Title Agency logo"
@@ -18,7 +18,7 @@
           />
         </a>
         <ul>
-          <li class="nav-link"><a href="../index.html">Home</a></li>
+          <li class="nav-link"><a href="/">Home</a></li>
           <li class="about-link" onclick="makeVisible()">
             About Us<ion-icon
               name="chevron-down-outline"
@@ -33,7 +33,9 @@
           </li>
           <li class="nav-link"><a href="/">Testimonials</a></li>
           <li class="nav-link"><a href="/">Videos</a></li>
-          <li class="nav-link"><a href="./contact.html">Contact Us</a></li>
+          <li class="nav-link">
+            <a href="./contact.html" class="active">Contact Us</a>
+          </li>
         </ul>
       </nav>
       <div id="dropdown-menu">
@@ -55,59 +57,62 @@
         </ul>
       </div>
     </header>
+    <div class="bg-rectangle"></div>
     <main>
-      <div class="overlay"></div>
-      <div
-        class="heading"
-        style="
-          background-image: url(../images/closing.png);
-          background-position: center;
-        "
-      >
-        <h1 style="width: 40rem">Closing/Settlement Services</h1>
-      </div>
-      <div class="main-content">
-        <div class="description">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-            repellendus accusamus numquam ea qui praesentium cumque maxime omnis
-            aut delectus in autem inventore ex harum nihil alias placeat,
-            facilis esse:
-          </p>
-          <ul>
-            <li>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
-              ratione quo aliquid consequuntur ut dicta possimus ea inventore
-              vitae at accusantium
-            </li>
-            <li>
-              Aspernatur molestiae optio nam, dolorum expedita quia eius rem.
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit
-            </li>
-            <li>
-              Laborum repellendus atque tempore, praesentium nam, sapiente
-              minima nulla rerum veniam mollitia qui pariatur facilis cumque
-              illo quidem maxime? Voluptate, harum nam
-            </li>
-            <li>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
-              pariatur ipsa accusantium perferendis
-            </li>
-            <li>
-              Earum, suscipit quo? Tempore, quam iusto illo iure temporibus ad
-              veniam culpa. Distinctio molestias ullam consectetur blanditiis
-            </li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-            <li>
-              Similique explicabo ratione minus impedit, maxime animi omnis
-              natus molestiae alias, at amet placeat ab aliquam! Rerum minima
-              consequatur natus officiis porro
-            </li>
-          </ul>
+      <div class="contact-info">
+        <div class="heading">
+          <ion-icon name="call" class="heading-icon"></ion-icon
+          ><span>phone:</span>
         </div>
-        <button class="contact-btn">
-          <a href="/">Contact Us</a>
-        </button>
+        <div class="info">(561) 701-8490</div>
+        <div class="heading">
+          <ion-icon name="print" class="heading-icon"></ion-icon
+          ><span>fax:</span>
+        </div>
+        <div class="info">(561) 451-9377</div>
+        <div class="heading">
+          <ion-icon name="mail" class="heading-icon"></ion-icon
+          ><span>email:</span>
+        </div>
+        <div class="info">
+          <a href="emailto:peninsulatitlellc@gmail.com" class="info-link"
+            >peninsulatitlellc@gmail.com</a
+          >
+        </div>
+        <div class="heading">
+          <ion-icon name="location" class="heading-icon"></ion-icon
+          ><span>address:</span>
+        </div>
+        <div class="info">
+          <a
+            href="https://www.google.com/maps/dir/?api=1&destination=Realty+Home+Advisors+Boca+Raton+Florida"
+            class="info-link"
+            target="_blank"
+            >9174 Glades Rd.<br />Boca Raton, FL 33434</a
+          >
+        </div>
+      </div>
+      <div class="contact-form">
+        <form>
+          <h1>Contact us</h1>
+          <div class="name-box">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full-name" />
+          </div>
+          <div class="phone-box">
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone" />
+          </div>
+          <div class="email-box">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div class="message-box">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="8" cols="58"></textarea>
+          </div>
+          <input type="submit" id="submit" name="submit" class="submit-btn" />
+        </form>
       </div>
     </main>
     <footer>
@@ -122,6 +127,7 @@
         <span class="address">9174 Glades Rd, Boca Raton, FL 33434</span>
         <span>© 2023 Peninsula Title Agency, LLC.</span>
       </div>
+      <div class="footer-btm"></div>
     </footer>
     <script
       type="module"

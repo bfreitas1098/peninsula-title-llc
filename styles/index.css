@@ -10,8 +10,7 @@ Text/Margin Scale:
 
 /* Default settings */
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
 
 :root {
   --primary-color: #0c4360;
@@ -29,6 +28,10 @@ Text/Margin Scale:
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+*:focus {
+  outline: 2px solid var(--primary-color);
 }
 
 html {
@@ -54,8 +57,9 @@ section {
 .service-page,
 .footer-text,
 .numbers span,
-.testimonial-author {
-  font-family: sans-serif;
+.testimonial-author,
+.answer {
+  font-family: "Open Sans", sans-serif;
 }
 
 h1,
@@ -167,7 +171,7 @@ nav {
   background-color: var(--white);
   position: absolute;
   top: 12rem;
-  left: 90rem;
+  left: 87rem;
   z-index: 5000;
   padding: 2.6rem 1.6rem;
   width: 23rem;
@@ -252,7 +256,7 @@ nav ul {
 .about-link {
   color: var(--primary-color);
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 2rem;
   transition: all 200ms ease-in-out;
 }
 
@@ -541,17 +545,10 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: #cce9da; */
   padding: 8.3rem 4.6rem 8.3rem 6.6rem;
 }
 
 .faq-container {
-  display: flex;
-  gap: 9.4rem;
-  align-items: center;
-}
-
-.questions-side {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -603,20 +600,14 @@ h3 {
 .answer {
   font-size: 1.6rem;
   text-align: left;
-  line-height: 1.4;
+  line-height: 1.6;
   display: none;
   background-color: var(--white);
-  padding: 1.6rem 0 1.6rem 2rem;
+  padding: 1.6rem 1.6rem 2rem;
   transition: display 300ms ease-out;
   /* animation-name: slidein;
   animation-duration: 2s; */
 }
-
-/* .faq-img {
-  object-fit: cover;
-  width: 60rem;
-  height: 50rem;
-} */
 
 /* Footer */
 
@@ -648,7 +639,7 @@ footer {
 
 @media only screen and (min-width: 1900px) {
   .contact-snapshot {
-    gap: 27rem;
+    gap: 40rem;
   }
 
   nav {
@@ -656,7 +647,7 @@ footer {
   }
 
   #dropdown-menu {
-    left: 134rem;
+    left: 133rem;
   }
 
   .heading,
@@ -668,5 +659,14 @@ footer {
 
   .who-we-are-section {
     gap: 19rem;
+  }
+
+  .faq-container,
+  .questions {
+    width: 110rem;
+  }
+
+  .answer {
+    padding: 1.6rem 1.8rem 2rem;
   }
 }
