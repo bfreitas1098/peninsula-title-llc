@@ -44,8 +44,6 @@ body {
   overflow-x: hidden;
 }
 
-.nav-link,
-.about-link,
 .heading,
 h1 {
   font-family: serif;
@@ -64,6 +62,11 @@ form textarea,
 
 /* Nav */
 
+.logo {
+  width: 20rem;
+  height: 5.5rem;
+}
+
 nav {
   background-color: rgba(245, 245, 245, 0.7);
   /* background-color: #edf7fd; */
@@ -76,11 +79,50 @@ nav {
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
+nav ul {
+  display: flex;
+  gap: 3.6rem;
+  list-style: none;
+}
+
+.nav-link a:link,
+.nav-link a:visited,
+.about-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 1.8rem;
+  transition: all 200ms ease-in-out;
+}
+
+.nav-link a:hover,
+.nav-link a:active,
+.about-link:hover,
+.about-link:active {
+  font-weight: 700;
+}
+
+.about-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.active {
+  font-weight: 700;
+}
+
+.active:hover {
+  color: var(--primary-color) !important;
+}
+
 #dropdown-menu {
   background-color: var(--white);
   position: absolute;
   top: 8.2rem;
-  left: 87rem;
+  left: 85.5rem;
   z-index: 5000;
   padding: 2.6rem 1.6rem;
   width: 23rem;
@@ -113,15 +155,6 @@ nav {
   text-decoration: underline;
 }
 
-.about-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.8rem;
-  cursor: pointer;
-  transition: all 200ms ease-in-out;
-}
-
 .down-arrow-icon,
 .up-arrow-icon {
   font-size: 1.6rem;
@@ -139,41 +172,6 @@ nav {
 
 .visible {
   display: block !important;
-}
-
-.logo {
-  width: 20rem;
-  height: 5.5rem;
-}
-
-nav ul {
-  display: flex;
-  gap: 3.6rem;
-  list-style: none;
-}
-
-.nav-link a:link,
-.nav-link a:visited,
-.about-link {
-  color: var(--primary-color);
-  text-decoration: none;
-  font-size: 2rem;
-  transition: all 200ms ease-in-out;
-}
-
-.nav-link a:hover,
-.nav-link a:active,
-.about-link:hover,
-.about-link:active {
-  font-weight: 700;
-}
-
-.active {
-  font-weight: 700;
-}
-
-.active:hover {
-  color: var(--primary-color) !important;
 }
 
 .bg-rectangle {
@@ -348,7 +346,7 @@ footer {
 
 @media only screen and (min-width: 1900px) {
   #dropdown-menu {
-    left: 130rem;
+    left: 133rem;
   }
 
   .bg-rectangle {
@@ -366,5 +364,10 @@ footer {
 
   form input:not(.submit-btn) {
     height: 5rem;
+  }
+
+  form input:not(.submit-btn),
+  form textarea {
+    font-size: 1.8rem;
   }
 }
