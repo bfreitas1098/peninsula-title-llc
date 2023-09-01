@@ -183,7 +183,7 @@ nav ul {
 .about-link {
   color: var(--primary-color);
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   transition: all 200ms ease-in-out;
 }
 
@@ -215,7 +215,7 @@ nav ul {
   background-color: var(--white);
   position: absolute;
   top: 12rem;
-  left: 86.5rem;
+  left: 90rem;
   z-index: 5000;
   padding: 2.6rem 1.6rem;
   width: 23rem;
@@ -645,7 +645,7 @@ footer {
 
 @media only screen and (min-width: 1900px) {
   .contact-snapshot {
-    gap: 40rem;
+    gap: 19rem;
   }
 
   nav {
@@ -653,14 +653,20 @@ footer {
   }
 
   #dropdown-menu {
-    left: 133rem;
+    left: 135rem;
+  }
+
+  .cta:link,
+  .cta:visited {
+    padding: 1.4rem 3.2rem;
+    font-size: 2.3rem;
   }
 
   .heading,
   .cta:link,
   .cta:visited,
   .customer-proof {
-    margin-left: 15rem;
+    margin-left: 17rem;
   }
 
   .who-we-are-section {

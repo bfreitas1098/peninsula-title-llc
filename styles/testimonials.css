@@ -64,7 +64,6 @@ body {
 
 nav {
   background-color: rgba(245, 245, 245, 0.7);
-  /* background-color: #edf7fd; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -85,7 +84,7 @@ nav ul {
 .about-link {
   color: var(--primary-color);
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   transition: all 200ms ease-in-out;
 }
 
@@ -117,7 +116,7 @@ nav ul {
   background-color: var(--white);
   position: absolute;
   top: 8.2rem;
-  left: 85.5rem;
+  left: 88rem;
   z-index: 5000;
   padding: 2.6rem 1.6rem;
   width: 23rem;
@@ -329,4 +328,58 @@ footer {
 .footer-btm {
   width: 100vw;
   height: 3.6rem;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 1900px) {
+  #dropdown-menu {
+    left: 135.5rem;
+  }
+
+  h1 {
+    font-size: 5.8rem;
+  }
+
+  .subheading {
+    font-size: 2.3rem;
+  }
+
+  .contact-btn {
+    padding: 1.4rem 3.2rem;
+  }
+
+  .contact-btn a {
+    font-size: 2.3rem;
+  }
+
+  .testimonial {
+    padding: 4.6rem 2.6rem 10.5rem;
+  }
+
+  .initials {
+    padding: 1.4rem;
+    font-size: 2.3rem;
+  }
+
+  .author {
+    font-size: 2.3rem;
+  }
+
+  .star {
+    height: 1.8rem;
+    width: 1.8rem;
+  }
+
+  .date {
+    font-size: 1.8rem;
+  }
+
+  .testimonial-heading {
+    font-size: 2.3rem;
+  }
+
+  blockquote {
+    font-size: 1.8rem;
+  }
 }

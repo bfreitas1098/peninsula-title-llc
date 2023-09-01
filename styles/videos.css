@@ -39,7 +39,7 @@ html {
 }
 
 body {
-  background-color: var(--light-primary);
+  background-color: var(--white);
   color: var(--text-color);
   overflow-x: hidden;
 }
@@ -69,7 +69,6 @@ form textarea,
 
 nav {
   background-color: rgba(245, 245, 245, 0.7);
-  /* background-color: #edf7fd; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -90,7 +89,7 @@ nav ul {
 .about-link {
   color: var(--primary-color);
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   transition: all 200ms ease-in-out;
 }
 
@@ -122,7 +121,7 @@ nav ul {
   background-color: var(--white);
   position: absolute;
   top: 8.2rem;
-  left: 85.5rem;
+  left: 89rem;
   z-index: 5000;
   padding: 2.6rem 1.6rem;
   width: 23rem;
@@ -174,6 +173,15 @@ nav ul {
   display: block !important;
 }
 
+.bg-rectangle {
+  background-color: var(--light-primary);
+  width: 100vw;
+  height: 55rem;
+  z-index: -1;
+  position: relative;
+  top: 44rem;
+}
+
 /* Main */
 
 main,
@@ -185,11 +193,14 @@ main,
 
 main {
   flex-direction: column;
+  position: absolute;
+  top: 10.5rem;
+  left: 38rem;
 }
 
 .heading {
   gap: 10.5rem;
-  margin: 11.9rem 0 15rem;
+  margin: 11.9rem auto 0;
 }
 
 h1 {
@@ -205,7 +216,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: -27rem;
+  gap: 3.2rem;
+  margin: -21.4rem 0 -30rem;
 }
 
 /* Footer */
@@ -240,4 +252,28 @@ footer {
 .footer-btm {
   width: 100vw;
   height: 3.6rem;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 1900px) {
+  #dropdown-menu {
+    left: 137rem;
+  }
+
+  main {
+    left: 60rem;
+  }
+
+  h1 {
+    font-size: 5.8rem;
+  }
+
+  .subheading {
+    font-size: 2.3rem;
+  }
+
+  .videos-container {
+    gap: 7.4rem;
+  }
 }

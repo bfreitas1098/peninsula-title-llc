@@ -25,3 +25,10 @@ for (let i = 0; i < accordion.length; i++) {
     }
   });
 }
+
+/* Footer year */
+
+const present = new Date();
+const currentYear = present.getFullYear();
+
+document.getElementById("year").textContent = currentYear;
