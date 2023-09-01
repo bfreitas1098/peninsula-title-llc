@@ -179,7 +179,7 @@ nav ul {
   height: 55rem;
   z-index: -1;
   position: relative;
-  top: 44rem;
+  top: 52rem;
 }
 
 /* Main */
@@ -217,7 +217,7 @@ h1 {
   justify-content: center;
   align-items: center;
   gap: 3.2rem;
-  margin: -21.4rem 0 -30rem;
+  margin: -12rem 0 -30rem;
 }
 
 /* Footer */
@@ -259,6 +259,10 @@ footer {
 @media only screen and (min-width: 1900px) {
   #dropdown-menu {
     left: 137rem;
+  }
+
+  .bg-rectangle {
+    top: 53rem;
   }
 
   main {
