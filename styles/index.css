@@ -146,7 +146,7 @@ h3,
 .hero-section {
   height: 90rem;
   position: relative;
-  background-image: url(/images/hero-img.png);
+  background-image: url(/images/hero-img.webp);
   background-size: cover;
   display: flex;
   flex-direction: column;
