@@ -372,7 +372,7 @@ footer {
 
   form {
     transform: translateY(-2rem);
-    width: 71rem;
+    width: 71.5rem;
   }
 
   h1 {
@@ -381,7 +381,7 @@ footer {
 
   form input:not(.submit-btn) {
     height: 5rem;
-    width: 63.5rem;
+    width: 64rem;
   }
 
   form input:not(.submit-btn),
