@@ -180,7 +180,6 @@ main {
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   width: 100vw;
-  height: 49.8rem;
   z-index: 2;
 }
 
@@ -190,8 +189,12 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50rem;
   z-index: 1;
+}
+
+.heading,
+.overlay {
+  height: 50rem;
 }
 
 h1 {
@@ -200,6 +203,16 @@ h1 {
   z-index: 5;
   font-family: serif;
   text-align: center;
+}
+
+.tcs {
+  width: 62rem;
+}
+
+.tas,
+.eas,
+.cs {
+  width: 40rem;
 }
 
 .main-content {
@@ -280,21 +293,13 @@ footer {
 
 /* Media Queries */
 
-@media only screen and (min-width: 1900px) {
-  .contact-snapshot {
-    gap: 27rem;
-  }
-
+@media only screen and (min-width: 1900px) and (max-width: 2199px) {
   nav {
     padding: 1.2rem 6.6rem;
   }
 
   #dropdown-menu {
     left: 134.5rem;
-  }
-
-  main {
-    gap: 15rem;
   }
 
   .heading {
@@ -309,16 +314,79 @@ footer {
     font-size: 1.8rem;
   }
 
-  .transaction-coordinator-img {
-    width: 65rem;
-    height: 50rem;
-  }
-
   .contact-btn {
     padding: 1.4rem 3.2rem;
   }
 
   .contact-btn a {
     font-size: 2.3rem;
+  }
+}
+
+@media only screen and (min-width: 2200px) {
+  nav {
+    padding: 1.8rem 4.6rem;
+  }
+
+  .logo {
+    width: 23rem;
+    height: 6.3rem;
+  }
+
+  .nav-link a:link,
+  .nav-link a:visited,
+  .about-link {
+    font-size: 1.8rem;
+  }
+
+  #dropdown-menu {
+    top: 10.2rem;
+    left: 162rem;
+  }
+
+  .main-content {
+    gap: 15rem;
+  }
+
+  .heading {
+    height: 66rem;
+  }
+
+  .overlay {
+    height: 65.8rem;
+  }
+
+  h1 {
+    font-size: 6.6rem;
+    line-height: 1.4;
+  }
+
+  .tcs {
+    width: 74rem;
+  }
+
+  .cs {
+    width: 66rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  .contact-btn {
+    padding: 1.6rem 3.6rem;
+  }
+
+  .contact-btn a {
+    font-size: 2.6rem;
+  }
+
+  .footer-img img {
+    width: 7.4rem;
+    height: 7.4rem;
+  }
+
+  .footer-text {
+    font-size: 1.8rem;
   }
 }
