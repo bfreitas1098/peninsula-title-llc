@@ -1,0 +1,97 @@
+@media only screen and (min-width: 1900px) and (max-width: 2199px) {
+  nav {
+    padding: 1.2rem 6.6rem;
+  }
+
+  #dropdown-menu {
+    left: 134.5rem;
+  }
+
+  .heading {
+    height: 55rem;
+  }
+
+  .overlay {
+    height: 54.8rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+
+  .contact-btn {
+    padding: 1.4rem 3.2rem;
+  }
+
+  .contact-btn a {
+    font-size: 2.3rem;
+  }
+}
+
+@media only screen and (min-width: 2200px) {
+  nav {
+    padding: 1.8rem 4.6rem;
+  }
+
+  .logo {
+    width: 23rem;
+    height: 6.3rem;
+  }
+
+  .nav-link a:link,
+  .nav-link a:visited,
+  .about-link {
+    font-size: 1.8rem;
+  }
+
+  #dropdown-menu {
+    top: 10.2rem;
+    left: 162rem;
+  }
+
+  .main-content {
+    gap: 15rem;
+  }
+
+  .heading {
+    height: 66rem;
+  }
+
+  .overlay {
+    height: 65.8rem;
+  }
+
+  h1 {
+    font-size: 6.6rem;
+    line-height: 1.4;
+  }
+
+  .tcs {
+    width: 74rem;
+  }
+
+  .cs {
+    width: 66rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  .contact-btn {
+    padding: 1.6rem 3.6rem;
+  }
+
+  .contact-btn a {
+    font-size: 2.6rem;
+  }
+
+  .footer-img img {
+    width: 7.4rem;
+    height: 7.4rem;
+  }
+
+  .footer-text {
+    font-size: 1.8rem;
+  }
+}
