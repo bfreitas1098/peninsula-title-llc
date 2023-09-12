@@ -1,3 +1,87 @@
+@media only screen and (max-width: 1099px) {
+  nav {
+    padding: 1rem 3.6rem;
+  }
+
+  .logo {
+    width: 16rem;
+    height: 4.5rem;
+  }
+
+  .nav-link a:link,
+  .nav-link a:visited,
+  .about-link {
+    font-size: 1.4rem;
+  }
+
+  #dropdown-menu {
+    top: 6.75rem;
+    left: 66rem;
+    padding: 2rem 1.2rem;
+  }
+
+  .dd-link a:link,
+  .dd-link a:visited {
+    font-size: 1.4rem;
+  }
+
+  .bg-rectangle {
+    top: 51rem;
+  }
+
+  main {
+    left: 25rem;
+  }
+
+  .heading {
+    gap: 8.3rem;
+  }
+
+  h1 {
+    font-size: 4.1rem;
+  }
+
+  .subheading {
+    font-size: 1.8rem;
+  }
+
+  .videos-container {
+    gap: 2.6rem;
+    margin: -12rem 0 -50rem;
+  }
+
+  iframe {
+    max-width: 180px !important;
+  }
+
+  .footer-img img {
+    width: 5.2rem;
+    height: 5.2rem;
+  }
+
+  .footer-text {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1199px) {
+  #dropdown-menu {
+    left: 50rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+  #dropdown-menu {
+    left: 60rem;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1439px) {
+  #dropdown-menu {
+    left: 70rem;
+  }
+}
+
 @media only screen and (min-width: 1900px) and (max-width: 2199px) {
   #dropdown-menu {
     left: 137rem;

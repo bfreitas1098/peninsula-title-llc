@@ -1,3 +1,213 @@
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    width: 4.1rem;
+    height: 4.1rem;
+    color: var(--primary-color);
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1099px) {
+  .nav-link a:link,
+  .nav-link a:visited,
+  .about-link {
+    font-size: 1.4rem;
+  }
+
+  #dropdown-menu {
+    top: 10.5rem;
+    left: 53rem;
+    padding: 2rem 1.2rem;
+  }
+
+  .dd-link a:link,
+  .dd-link a:visited {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 1099px) {
+  .phone,
+  .email:link,
+  .email:visited {
+    font-size: 1.4rem;
+  }
+
+  .ig-icon,
+  .fb-icon {
+    font-size: 1.8rem;
+  }
+
+  nav {
+    padding: 1rem 3.6rem;
+  }
+
+  .logo {
+    width: 16rem;
+    height: 4.5rem;
+  }
+
+  .hero-section,
+  .overlay {
+    height: 75rem;
+  }
+
+  h1 {
+    font-size: 7.4rem;
+  }
+
+  .tagline {
+    font-size: 2.3rem;
+  }
+
+  .cta:link,
+  .cta:visited {
+    font-size: 1.8rem;
+    padding: 8px 2rem;
+  }
+
+  .section-heading {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 2.6rem;
+  }
+
+  .services {
+    margin: 15rem 8.3rem;
+    gap: 6.6rem;
+  }
+
+  .key-icon,
+  .person-icon,
+  .layers-icon,
+  .money-icon {
+    width: 5.8rem;
+    height: 5.8rem;
+  }
+
+  .service-title {
+    font-size: 1.8rem;
+  }
+
+  .service-description,
+  .service-page:link,
+  .service-page:visited {
+    font-size: 1.4rem;
+  }
+
+  .who-we-are-section {
+    padding: 2.6rem 2.6rem 2.6rem 1.6rem;
+    gap: 6.6rem;
+  }
+
+  .who-we-are-img {
+    width: 50rem;
+    height: 35rem;
+  }
+
+  .text-container {
+    width: 50rem;
+    gap: 2.9rem;
+  }
+
+  .who-we-are-section h2 {
+    font-size: 2.9rem;
+  }
+
+  .who-we-are-text {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+  .testimonials-container {
+    width: 95rem;
+    gap: 5.2rem;
+  }
+
+  .row {
+    gap: 4.1rem;
+  }
+
+  .testimonial {
+    padding: 2.6rem;
+    gap: 2.9rem;
+  }
+
+  .initials {
+    width: 4.1rem;
+    height: 4.1rem;
+    font-size: 2rem;
+    padding: 8px;
+  }
+
+  .star {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .testimonial-text {
+    font-size: 1.4rem;
+  }
+
+  .testimonial-author {
+    font-size: 1.2rem;
+  }
+
+  .testimonials-page:link,
+  .testimonials-page:visited {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 2.9rem;
+  }
+
+  .questions-box {
+    padding: 1.8rem 1.8rem 2rem;
+  }
+
+  .questions span {
+    font-size: 1.8rem;
+  }
+
+  .answer {
+    font-size: 1.4rem;
+  }
+
+  .footer-img img {
+    width: 5.2rem;
+    height: 5.2rem;
+  }
+
+  .footer-text {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1199px) {
+  #dropdown-menu {
+    left: 50rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+  #dropdown-menu {
+    left: 60rem;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1439px) {
+  #dropdown-menu {
+    left: 70rem;
+  }
+}
+
 @media only screen and (min-width: 1900px) and (max-width: 2199px) {
   .contact-snapshot {
     gap: 32rem;

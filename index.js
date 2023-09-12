@@ -1,13 +1,29 @@
-/* Dropdown menu */
+/* Dropdown & Responsive menu */
 
 const dropDown = document.getElementById("dropdown-menu");
 const downArrow = document.getElementById("down-arrow");
 const upArrow = document.getElementById("up-arrow");
 
-const makeVisible = () => {
+const makeDDVisible = () => {
   dropDown.classList.toggle("visible");
   downArrow.classList.toggle("not-visible");
   upArrow.classList.toggle("visible");
+};
+
+const rAboutMenu = document.getElementById("r-about");
+const downArr = document.getElementById("down-arr");
+const upArr = document.getElementById("up-arr");
+
+const makeRMVisible = () => {
+  rAboutMenu.classList.toggle("visible");
+  downArr.classList.toggle("not-visible");
+  upArr.classList.toggle("visible");
+};
+
+const responsiveMenu = document.getElementById("responsive-menu");
+
+const closeRMenu = () => {
+  responsiveMenu.classList.toggle("not-visible");
 };
 
 /* FAQ */

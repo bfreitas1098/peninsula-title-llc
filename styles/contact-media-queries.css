@@ -1,3 +1,119 @@
+@media only screen and (max-width: 1099px) {
+  nav {
+    padding: 1rem 3.6rem;
+  }
+
+  .logo {
+    width: 16rem;
+    height: 4.5rem;
+  }
+
+  .nav-link a:link,
+  .nav-link a:visited,
+  .about-link {
+    font-size: 1.4rem;
+  }
+
+  #dropdown-menu {
+    top: 6.75rem;
+    left: 66rem;
+    padding: 2rem 1.2rem;
+  }
+
+  .dd-link a:link,
+  .dd-link a:visited {
+    font-size: 1.4rem;
+  }
+
+  main {
+    left: 4rem;
+    gap: 8.3rem;
+  }
+
+  .heading {
+    gap: 1.4rem;
+    margin-left: -4rem;
+  }
+
+  .heading span {
+    font-size: 2.3rem;
+  }
+
+  .heading-icon {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+
+  .info {
+    font-size: 1.6rem;
+  }
+
+  form {
+    gap: 2.3rem;
+    width: 55rem;
+    transform: translateY(-2rem);
+  }
+
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  form input:not(.submit-btn),
+  textarea {
+    width: 47.5rem;
+  }
+
+  .submit-btn {
+    padding: 8px 1.8rem;
+  }
+
+  footer {
+    margin: 24rem 15rem 0;
+  }
+
+  .footer-img img {
+    width: 5.2rem;
+    height: 5.2rem;
+  }
+
+  .footer-text {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1199px) {
+  #dropdown-menu {
+    left: 50rem;
+  }
+
+  main {
+    top: 12rem;
+    left: -2rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+  #dropdown-menu {
+    left: 60rem;
+  }
+
+  main {
+    top: 13rem;
+    left: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1439px) {
+  #dropdown-menu {
+    left: 70rem;
+  }
+
+  main {
+    top: 14rem;
+    left: 6rem;
+  }
+}
+
 @media only screen and (min-width: 1900px) and (max-width: 2199px) {
   #dropdown-menu {
     left: 136.5rem;

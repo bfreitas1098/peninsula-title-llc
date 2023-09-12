@@ -1,3 +1,95 @@
+@media only screen and (max-width: 1099px) {
+  nav {
+    padding: 1rem 3.6rem;
+  }
+
+  .logo {
+    width: 16rem;
+    height: 4.5rem;
+  }
+
+  .nav-link a:link,
+  .nav-link a:visited,
+  .about-link {
+    font-size: 1.4rem;
+  }
+
+  #dropdown-menu {
+    top: 6.75rem;
+    left: 55rem;
+    padding: 2rem 1.2rem;
+  }
+
+  .dd-link a:link,
+  .dd-link a:visited {
+    font-size: 1.4rem;
+  }
+
+  .heading,
+  .overlay {
+    height: 40rem;
+  }
+
+  h1 {
+    font-size: 4.1rem;
+  }
+
+  .tcs {
+    width: 50rem;
+  }
+
+  .tas {
+    width: 30rem;
+  }
+
+  .cs,
+  .eas {
+    width: 35rem;
+  }
+
+  .main-content {
+    gap: 9.4rem;
+    margin: 10.5rem 0 19rem;
+  }
+
+  .description ul,
+  .description p {
+    font-size: 1.4rem;
+    line-height: 2.3;
+  }
+
+  .contact-btn {
+    padding: 8px 2rem;
+  }
+
+  .footer-img img {
+    width: 5.2rem;
+    height: 5.2rem;
+  }
+
+  .footer-text {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1199px) {
+  #dropdown-menu {
+    left: 50rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+  #dropdown-menu {
+    left: 60rem;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1439px) {
+  #dropdown-menu {
+    left: 70rem;
+  }
+}
+
 @media only screen and (min-width: 1900px) and (max-width: 2199px) {
   nav {
     padding: 1.2rem 6.6rem;

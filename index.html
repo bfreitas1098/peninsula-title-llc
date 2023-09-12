@@ -38,7 +38,7 @@
         </a>
         <ul>
           <li class="nav-link"><a href="/" class="active">Home</a></li>
-          <li class="about-link" onclick="makeVisible()">
+          <li class="about-link" onclick="makeDDVisible()">
             About Us<ion-icon
               name="chevron-down-outline"
               class="down-arrow-icon"
@@ -58,6 +58,7 @@
             <a href="./pages/contact.html">Contact Us</a>
           </li>
         </ul>
+        <ion-icon name="menu-sharp" class="menu-icon"></ion-icon>
       </nav>
       <div id="dropdown-menu">
         <ul>
@@ -80,6 +81,64 @@
             >
           </li>
         </ul>
+      </div>
+      <div id="responsive-menu">
+        <ul class="r-menu">
+          <li class="responsive-link r-active" onclick="closeRMenu()">Home</li>
+          <li
+            class="responsive-link responsive-about"
+            onclick="makeRMVisible()"
+          >
+            About Us<ion-icon
+              name="chevron-down-outline"
+              class="down-icon"
+              id="down-arr"
+            ></ion-icon>
+            <ion-icon
+              name="chevron-up-outline"
+              class="up-icon"
+              id="up-arr"
+            ></ion-icon>
+          </li>
+          <div id="r-about" class="not-visible">
+            <ul class="about-menu">
+              <li class="ab-menu-link">
+                <a href="./pages/transaction-coordinator-services.html"
+                  >Transaction Coordinator Services</a
+                >
+              </li>
+              <li class="ab-menu-link">
+                <a href="./pages/title-agent-services.html"
+                  >Title Agent Services</a
+                >
+              </li>
+              <li class="ab-menu-link">
+                <a href="./pages/escrow-agent-services.html"
+                  >Escrow Agent Services</a
+                >
+              </li>
+              <li class="ab-menu-link">
+                <a href="./pages/closing-services.html"
+                  >Closing/Settlement Services</a
+                >
+              </li>
+            </ul>
+          </div>
+          <li class="responsive-link">
+            <a href="./pages/testimonials.html">Testimonials</a>
+          </li>
+          <li class="responsive-link">
+            <a href="./pages/videos.html">Videos</a>
+          </li>
+          <li class="responsive-link">
+            <a href="./pages/contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <ion-icon
+          name="close-sharp"
+          class="close-btn"
+          onclick="closeRMenu()"
+        ></ion-icon>
       </div>
     </header>
     <!-- Hero section -->
