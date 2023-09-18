@@ -1,13 +1,22 @@
-@media only screen and (max-width: 1099px) {
-  nav {
-    padding: 1rem 3.6rem;
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
   }
 
-  .logo {
-    width: 16rem;
-    height: 4.5rem;
+  #menu-icon {
+    display: block;
+    width: 3.6rem;
+    height: 3.6rem;
+    color: var(--primary-color);
   }
 
+  #responsive-menu {
+    left: 44.5rem;
+    top: 0;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1099px) {
   .nav-link a:link,
   .nav-link a:visited,
   .about-link {
@@ -23,6 +32,17 @@
   .dd-link a:link,
   .dd-link a:visited {
     font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 1099px) {
+  nav {
+    padding: 1rem 3.6rem;
+  }
+
+  .logo {
+    width: 16rem;
+    height: 4.5rem;
   }
 
   .heading {

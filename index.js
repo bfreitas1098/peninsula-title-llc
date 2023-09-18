@@ -20,10 +20,14 @@ const makeRMVisible = () => {
   upArr.classList.toggle("visible");
 };
 
-const responsiveMenu = document.getElementById("responsive-menu");
+const responsiveMenu = document.getElementById("responsive-menu-container");
 
 const closeRMenu = () => {
-  responsiveMenu.classList.toggle("not-visible");
+  responsiveMenu.classList.toggle("visible");
+};
+
+const openRMenu = () => {
+  responsiveMenu.classList.toggle("visible");
 };
 
 /* FAQ */

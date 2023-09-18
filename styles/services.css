@@ -173,34 +173,8 @@ nav ul {
   display: block !important;
 }
 
-.menu-icon {
+#menu-icon {
   display: none;
-}
-
-#r-about {
-  transition: display 400ms ease-in-out;
-}
-
-.about-menu {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 1.6rem;
-  list-style-type: none;
-}
-
-.ab-menu-link a:link,
-.ab-menu-link a:visited {
-  color: var(--white);
-  text-decoration: none;
-  font-size: 1.4rem;
-  transition: all 300ms ease-in-out;
-}
-
-.ab-menu-link a:hover,
-.ab-menu-link a:active {
-  text-decoration: underline;
 }
 
 .close-btn {
@@ -209,22 +183,27 @@ nav ul {
   width: 3.2rem;
   height: 3.2rem;
   margin-top: -2.3rem;
+  transform: translateX(-1.6rem);
   cursor: pointer;
+}
+
+#responsive-menu-container {
+  display: none;
 }
 
 #responsive-menu {
   background-color: var(--primary-color);
   position: absolute;
-  top: 8.2rem;
+  top: 12rem;
   left: 101.5rem;
   z-index: 4000;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 41rem;
-  padding: 4.1rem 2.3rem 4.1rem 4.1rem;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  display: none;
+  width: 58rem;
+  height: 75rem;
+  padding: 4.1rem 2.3rem 4.1rem 11.9rem;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .r-menu {
@@ -232,19 +211,15 @@ nav ul {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 2.6rem;
+  gap: 2.3rem;
   list-style-type: none;
+  /* position: relative; */
 }
 
 .r-active {
   font-weight: 700 !important;
   text-decoration: none !important;
-  color: var(--white);
   cursor: pointer;
-}
-
-.ab-active {
-  font-size: 1.6rem;
 }
 
 .responsive-link a:link,
@@ -255,6 +230,7 @@ nav ul {
   font-weight: 500;
   text-decoration: none;
   transition: all 300ms ease-in-out;
+  text-align: left;
 }
 
 .responsive-link a:hover,
@@ -262,14 +238,6 @@ nav ul {
 .responsive-link:hover,
 .responsive-link:active {
   text-decoration: underline;
-}
-
-.responsive-about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  cursor: pointer;
 }
 
 #up-arr {
