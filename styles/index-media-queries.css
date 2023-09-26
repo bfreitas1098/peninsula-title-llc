@@ -1,49 +1,150 @@
-@media only screen and (max-width: 1024px) {
-  nav ul {
-    display: none;
+@media only screen and (max-width: 989px) {
+  #responsive-menu {
+    left: 40rem;
   }
 
-  #menu-icon {
-    display: block;
+  .close-btn {
+    margin-top: -2rem;
+    transform: translateX(-4.1rem);
+  }
+
+  .hero-section,
+  .overlay {
+    height: 60rem;
+  }
+
+  .heading,
+  .cta:link,
+  .cta:visited {
+    margin-left: 8.3rem;
+    transform: translateY(2rem);
+  }
+
+  h1 {
+    font-size: 6.6rem;
+  }
+
+  .tagline {
+    font-size: 2rem;
+  }
+
+  .cta:link,
+  .cta:visited {
+    font-size: 1.6rem;
+    padding: 7px 1.8rem;
+  }
+
+  h2 {
+    font-size: 2.3rem;
+    margin-top: 1.4rem;
+  }
+
+  .services {
+    gap: 4.1rem;
+    margin: 15rem 4.1rem;
+  }
+
+  .key-icon,
+  .person-icon,
+  .layers-icon,
+  .money-icon {
+    width: 5.2rem;
+    height: 5.2rem;
+  }
+
+  .service-title {
+    font-size: 1.6rem;
+  }
+
+  .service-description,
+  .service-page:link,
+  .service-page:visited {
+    font-size: 1.3rem;
+  }
+
+  .who-we-are-section {
+    padding-right: 2.3rem;
+    gap: 4.1rem;
+  }
+
+  .who-we-are-img {
+    width: 45rem;
+    height: 30rem;
+  }
+
+  .text-container {
+    gap: 2.6rem;
+  }
+
+  .who-we-are-section h2 {
+    font-size: 2.6rem;
+  }
+
+  .who-we-are-text {
+    font-size: 1.4rem;
+    line-height: 1.6;
+  }
+
+  .testimonials-container {
+    width: 90rem;
+    gap: 4.1rem;
+  }
+
+  .row {
+    gap: 3.2rem;
+  }
+
+  .testimonial {
+    padding: 2.3rem;
+    gap: 2.6rem;
+  }
+
+  .initials {
     width: 3.6rem;
     height: 3.6rem;
-    color: var(--primary-color);
+    font-size: 1.8rem;
   }
 
-  #responsive-menu {
-    left: 44.5rem;
-    top: 3.6rem;
+  .star {
+    width: 1.6rem;
+    height: 1.6rem;
   }
 
-  .services {
-    margin: 15rem 5.2rem;
+  .testimonial-text {
+    font-size: 1.2rem;
   }
-}
 
-@media only screen and (min-width: 1025px) and (max-width: 1099px) {
-  .nav-link a:link,
-  .nav-link a:visited,
-  .about-link {
+  .testimonial-author {
+    font-size: 1.2rem;
+  }
+
+  .testimonials-page:link,
+  .testimonials-page:visited {
     font-size: 1.4rem;
   }
 
-  #dropdown-menu {
-    top: 10.5rem;
-    left: 53rem;
-    padding: 2rem 1.2rem;
+  h3 {
+    font-size: 2.6rem;
   }
 
-  .dd-link a:link,
-  .dd-link a:visited {
-    font-size: 1.4rem;
+  .questions {
+    width: 80rem;
   }
 
-  .services {
-    margin: 15rem 8.3rem;
+  .questions-box {
+    padding: 1.6rem 1.6rem 1.8rem;
+  }
+
+  .questions span {
+    font-size: 1.6rem;
+  }
+
+  .answer {
+    font-size: 1.3rem;
   }
 }
 
-@media only screen and (max-width: 1099px) {
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
   .phone,
   .email:link,
   .email:visited {
@@ -64,6 +165,35 @@
     height: 4.5rem;
   }
 
+  .section-heading {
+    font-size: 1.4rem;
+  }
+
+  .initials {
+    padding: 8px;
+  }
+
+  .footer-img img {
+    width: 5.2rem;
+    height: 5.2rem;
+  }
+
+  .footer-text {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1024px) {
+  #responsive-menu {
+    left: 44.5rem;
+  }
+
+  .services {
+    margin: 15rem 5.2rem;
+  }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1099px) {
   .hero-section,
   .overlay {
     height: 75rem;
@@ -81,10 +211,6 @@
   .cta:visited {
     font-size: 1.8rem;
     padding: 8px 2rem;
-  }
-
-  .section-heading {
-    font-size: 1.4rem;
   }
 
   h2 {
@@ -155,7 +281,6 @@
     width: 4.1rem;
     height: 4.1rem;
     font-size: 2rem;
-    padding: 8px;
   }
 
   .star {
@@ -191,14 +316,45 @@
   .answer {
     font-size: 1.4rem;
   }
+}
 
-  .footer-img img {
-    width: 5.2rem;
-    height: 5.2rem;
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
   }
 
-  .footer-text {
+  #menu-icon {
+    display: block;
+    width: 3.6rem;
+    height: 3.6rem;
+    color: var(--primary-color);
+  }
+
+  #responsive-menu {
+    top: 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1099px) {
+  .nav-link a:link,
+  .nav-link a:visited,
+  .about-link {
     font-size: 1.4rem;
+  }
+
+  #dropdown-menu {
+    top: 10.5rem;
+    left: 53rem;
+    padding: 2rem 1.2rem;
+  }
+
+  .dd-link a:link,
+  .dd-link a:visited {
+    font-size: 1.4rem;
+  }
+
+  .services {
+    margin: 15rem 8.3rem;
   }
 }
 

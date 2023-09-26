@@ -1,41 +1,15 @@
-@media only screen and (max-width: 1024px) {
-  nav ul {
-    display: none;
-  }
-
-  #menu-icon {
-    display: block;
-    width: 3.6rem;
-    height: 3.6rem;
-    color: var(--primary-color);
-  }
-
+@media only screen and (max-width: 989px) {
   #responsive-menu {
-    left: 44.5rem;
-    top: 0;
+    left: 40rem;
+  }
+
+  .close-btn {
+    margin-top: -2rem;
+    transform: translateX(-2.3rem);
   }
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1099px) {
-  .nav-link a:link,
-  .nav-link a:visited,
-  .about-link {
-    font-size: 1.4rem;
-  }
-
-  #dropdown-menu {
-    top: 6.75rem;
-    left: 55rem;
-    padding: 2rem 1.2rem;
-  }
-
-  .dd-link a:link,
-  .dd-link a:visited {
-    font-size: 1.4rem;
-  }
-}
-
-@media only screen and (max-width: 1099px) {
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
   nav {
     padding: 1rem 3.6rem;
   }
@@ -88,6 +62,48 @@
   }
 
   .footer-text {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1024px) {
+  #responsive-menu {
+    left: 44.5rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+
+  #menu-icon {
+    display: block;
+    width: 3.6rem;
+    height: 3.6rem;
+    color: var(--primary-color);
+  }
+
+  #responsive-menu {
+    top: 0;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1099px) {
+  .nav-link a:link,
+  .nav-link a:visited,
+  .about-link {
+    font-size: 1.4rem;
+  }
+
+  #dropdown-menu {
+    top: 6.75rem;
+    left: 55rem;
+    padding: 2rem 1.2rem;
+  }
+
+  .dd-link a:link,
+  .dd-link a:visited {
     font-size: 1.4rem;
   }
 }

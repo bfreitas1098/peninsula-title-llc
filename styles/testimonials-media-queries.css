@@ -1,41 +1,59 @@
-@media only screen and (max-width: 1024px) {
-  nav ul {
-    display: none;
-  }
-
-  #menu-icon {
-    display: block;
-    width: 3.6rem;
-    height: 3.6rem;
-    color: var(--primary-color);
-  }
-
+@media only screen and (max-width: 989px) {
   #responsive-menu {
-    left: 44.5rem;
-    top: 0;
+    left: 40rem;
+  }
+
+  .close-btn {
+    margin-top: -2rem;
+    transform: translateX(-2.3rem);
+  }
+
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  .contact-btn {
+    padding: 8px 2rem;
+  }
+
+  .contact-btn a:link,
+  .contact-btn a:visited {
+    font-size: 1.8rem;
+  }
+
+  .testimonials-container {
+    margin: 15rem 3.2rem -10.5rem;
+  }
+
+  .testimonial {
+    gap: 2.6rem;
+    padding: 2.6rem 2rem;
+  }
+
+  .initials {
+    font-size: 1.6rem;
+  }
+
+  .name-box {
+    gap: 3px;
+  }
+
+  .author {
+    font-size: 1.5rem;
+  }
+
+  .star {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+
+  .date,
+  blockquote {
+    font-size: 1.3rem;
   }
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1099px) {
-  .nav-link a:link,
-  .nav-link a:visited,
-  .about-link {
-    font-size: 1.4rem;
-  }
-
-  #dropdown-menu {
-    top: 6.75rem;
-    left: 66rem;
-    padding: 2rem 1.2rem;
-  }
-
-  .dd-link a:link,
-  .dd-link a:visited {
-    font-size: 1.4rem;
-  }
-}
-
-@media only screen and (max-width: 1099px) {
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
   nav {
     padding: 1rem 3.6rem;
   }
@@ -47,10 +65,6 @@
 
   .heading {
     margin: 15rem 0 4.6rem;
-  }
-
-  h1 {
-    font-size: 4.1rem;
   }
 
   .subheading {
@@ -69,12 +83,6 @@
   .testimonials-container {
     column-gap: 2.6rem;
     row-gap: 4.6rem;
-    margin: 19rem 4.1rem -10.5rem;
-  }
-
-  .testimonial {
-    gap: 2.9rem;
-    padding: 2.9rem 2rem;
   }
 
   .author {
@@ -102,6 +110,63 @@
 
   .footer-text {
     font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1024px) {
+  #responsive-menu {
+    left: 44.5rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+
+  #menu-icon {
+    display: block;
+    width: 3.6rem;
+    height: 3.6rem;
+    color: var(--primary-color);
+  }
+
+  #responsive-menu {
+    top: 0;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1099px) {
+  .nav-link a:link,
+  .nav-link a:visited,
+  .about-link {
+    font-size: 1.4rem;
+  }
+
+  #dropdown-menu {
+    top: 6.75rem;
+    left: 66rem;
+    padding: 2rem 1.2rem;
+  }
+
+  .dd-link a:link,
+  .dd-link a:visited {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1099px) {
+  h1 {
+    font-size: 4.1rem;
+  }
+
+  .testimonials-container {
+    margin: 19rem 4.1rem -10.5rem;
+  }
+
+  .testimonial {
+    gap: 2.9rem;
+    padding: 2.9rem 2rem;
   }
 }
 
