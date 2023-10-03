@@ -1,11 +1,100 @@
-@media only screen and (max-width: 989px) {
+@media only screen and (max-width: 899px) {
+  nav {
+    padding: 0.8rem 3.2rem;
+  }
+
+  .logo {
+    width: 15rem;
+    height: 4.2rem;
+  }
+
+  .footer-img img {
+    width: 4.6rem;
+    height: 4.6rem;
+  }
+
+  .footer-text {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 819px) {
+  #responsive-menu {
+    left: 30rem;
+  }
+
+  .close-btn {
+    transform: translateX(-8.3rem);
+  }
+
+  .testimonials-container {
+    width: 70rem;
+  }
+
+  .faq-container {
+    width: 70rem;
+  }
+
+  .questions {
+    width: 65rem;
+  }
+}
+
+@media only screen and (min-width: 820px) and (max-width: 870px) {
+  #responsive-menu {
+    left: 32rem;
+  }
+}
+
+@media only screen and (min-width: 820px) and (max-width: 930px) {
+  .close-btn {
+    transform: translateX(-7.4rem);
+  }
+}
+
+@media only screen and (min-width: 820px) and (max-width: 899px) {
+  .testimonials-container {
+    width: 75rem;
+  }
+
+  .faq-container {
+    width: 80rem;
+  }
+
+  .questions {
+    width: 75rem;
+  }
+}
+
+@media only screen and (min-width: 880px) and (max-width: 930px) {
+  #responsive-menu {
+    left: 38rem;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 989px) {
+  .testimonials-container {
+    width: 90rem;
+  }
+
+  .questions {
+    width: 80rem;
+  }
+}
+
+@media only screen and (min-width: 940px) and (max-width: 989px) {
   #responsive-menu {
     left: 40rem;
   }
 
   .close-btn {
-    margin-top: -2rem;
     transform: translateX(-4.1rem);
+  }
+}
+
+@media only screen and (max-width: 989px) {
+  .close-btn {
+    margin-top: -2rem;
   }
 
   .hero-section,
@@ -86,7 +175,6 @@
   }
 
   .testimonials-container {
-    width: 90rem;
     gap: 4.1rem;
   }
 
@@ -127,10 +215,6 @@
     font-size: 2.6rem;
   }
 
-  .questions {
-    width: 80rem;
-  }
-
   .questions-box {
     padding: 1.6rem 1.6rem 1.8rem;
   }
@@ -144,7 +228,7 @@
   }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1099px) {
+@media only screen and (min-width: 800px) and (max-width: 1099px) {
   .phone,
   .email:link,
   .email:visited {
@@ -156,6 +240,16 @@
     font-size: 1.8rem;
   }
 
+  .section-heading {
+    font-size: 1.4rem;
+  }
+
+  .initials {
+    padding: 8px;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
   nav {
     padding: 1rem 3.6rem;
   }
@@ -163,14 +257,6 @@
   .logo {
     width: 16rem;
     height: 4.5rem;
-  }
-
-  .section-heading {
-    font-size: 1.4rem;
-  }
-
-  .initials {
-    padding: 8px;
   }
 
   .footer-img img {

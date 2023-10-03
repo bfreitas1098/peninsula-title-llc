@@ -1,60 +1,168 @@
-@media only screen and (max-width: 989px) {
+@media only screen and (max-width: 819px) {
   #responsive-menu {
+    left: 26rem;
+  }
+
+  .close-btn {
+    transform: translateX(-5.8rem);
+    margin-top: -2rem;
+  }
+}
+
+@media only screen and (min-width: 820px) and (max-width: 870px) {
+  #responsive-menu {
+    left: 29rem;
+  }
+}
+
+@media only screen and (min-width: 820px) and (max-width: 859px) {
+  .close-btn {
+    transform: translateX(-5.8rem);
+  }
+}
+
+@media only screen and (max-width: 829px) {
+  main {
+    gap: 4.1rem;
+    padding: 10.5rem 3.6rem;
+    left: 3rem;
+  }
+}
+
+@media only screen and (min-width: 830px) and (max-width: 859px) {
+  main {
+    gap: 4.6rem;
+    padding: 10.5rem 4.1rem;
+    left: 4rem;
+  }
+}
+
+@media only screen and (min-width: 860px) and (max-width: 899px) {
+  main {
+    gap: 5.2rem;
+    padding: 10.5rem 4.6rem;
+    left: 6rem;
+  }
+}
+
+@media only screen and (min-width: 860px) and (max-width: 889px) {
+  #responsive-menu {
+    left: 30rem;
+  }
+
+  .close-btn {
+    margin-top: -2rem;
+    transform: translateX(-3.6rem);
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 980px) {
+  main {
+    gap: 4.6rem;
+    padding: 10.5rem 4.1rem;
+    left: 10rem;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .bg-rectangle {
+    height: 46rem;
+    top: 27rem;
+  }
+
+  .heading {
+    gap: 1.2rem;
+    margin-left: -3rem;
+  }
+
+  .heading span {
+    font-size: 1.8rem;
+  }
+
+  .heading-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .info {
+    font-size: 1.4rem;
+  }
+
+  form {
+    gap: 2.3rem;
+    padding: 2.9rem;
+    width: 46rem;
+    transform: translateY(0rem);
+  }
+
+  form label,
+  .submit-btn {
+    font-size: 1.4rem;
+  }
+
+  .submit-btn {
+    padding: 8px 1.8rem;
+  }
+
+  h1 {
+    font-size: 2.9rem;
+  }
+
+  form input:not(.submit-btn),
+  form textarea {
+    width: 40rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 890px) and (max-width: 909px) {
+  #responsive-menu {
+    left: 32rem;
+  }
+
+  .close-btn {
+    margin-top: -1.8rem;
+    transform: translateX(-2.6rem);
+  }
+}
+
+@media only screen and (min-width: 910px) and (max-width: 929px) {
+  #responsive-menu {
+    left: 34rem;
+  }
+}
+
+@media only screen and (min-width: 930px) and (max-width: 949px) {
+  #responsive-menu {
+    left: 36rem;
+  }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 969px) {
+  #responsive-menu {
+    left: 38rem;
+  }
+}
+
+@media only screen and (min-width: 970px) and (max-width: 989px) {
+  #responsive-menu {
+    left: 40rem;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 989px) {
+  /* #responsive-menu {
     left: 40rem;
   }
 
   .close-btn {
     margin-top: -2rem;
     transform: translateX(-2.3rem);
-  }
+  } */
 
   .bg-rectangle {
     height: 45rem;
     top: 28rem;
-  }
-
-  main {
-    left: 0;
-    gap: 6.6rem;
-  }
-
-  .heading {
-    gap: 1.2rem;
-    margin-left: -3.3rem;
-  }
-
-  .heading span {
-    font-size: 2rem;
-  }
-
-  .heading-icon {
-    width: 2rem;
-    height: 2rem;
-  }
-
-  .info {
-    font-size: 1.6rem;
-  }
-
-  form {
-    gap: 2.3rem;
-    padding: 3.2rem;
-    width: 52rem;
-    transform: translateY(0rem);
-  }
-
-  form label,
-  .submit-btn {
-    font-size: 1.6rem;
-  }
-
-  h1 {
-    font-size: 3.2rem;
-  }
-
-  form input:not(.submit-btn),
-  textarea {
-    width: 45.5rem;
   }
 
   footer {
@@ -83,12 +191,20 @@
 }
 
 @media only screen and (min-width: 990px) and (max-width: 1024px) {
-  #responsive-menu {
-    left: 44.5rem;
-  }
-
   main {
-    left: 1rem;
+    left: 2rem;
+  }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1009px) {
+  #responsive-menu {
+    left: 42rem;
+  }
+}
+
+@media only screen and (min-width: 1010px) and (max-width: 1024px) {
+  #responsive-menu {
+    left: 44rem;
   }
 }
 
@@ -134,7 +250,8 @@
 
 @media only screen and (min-width: 990px) and (max-width: 1099px) {
   main {
-    gap: 8.3rem;
+    gap: 6.6rem;
+    padding: 10.5rem 6.6rem;
   }
 
   .heading {
@@ -166,7 +283,7 @@
   }
 
   form input:not(.submit-btn),
-  textarea {
+  form textarea {
     width: 47.5rem;
   }
 
@@ -186,7 +303,17 @@
 
   main {
     top: 12rem;
-    left: -2rem;
+    left: 4rem;
+    gap: 7.4rem;
+    padding: 10.5rem 6.6rem;
+  }
+
+  .bg-rectangle {
+    top: 25rem;
+  }
+
+  form {
+    transform: translateY(1rem);
   }
 }
 
@@ -197,7 +324,9 @@
 
   main {
     top: 13rem;
-    left: 3rem;
+    left: 5rem;
+    padding: 10.5rem 9.4rem;
+    gap: 9.4rem;
   }
 }
 

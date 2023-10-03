@@ -1,24 +1,92 @@
-@media only screen and (max-width: 989px) {
+@media only screen and (max-width: 819px) {
+  #responsive-menu {
+    left: 30rem;
+  }
+
+  .close-btn {
+    transform: translateX(-8.3rem);
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  nav {
+    padding: 0.8rem 3.2rem;
+  }
+
+  .logo {
+    width: 15rem;
+    height: 4.2rem;
+  }
+
+  .description {
+    margin: 0 8.3rem;
+  }
+
+  .description ul,
+  .description p {
+    font-size: 1.3rem;
+    line-height: 2;
+  }
+
+  .contact-btn {
+    padding: 6px 1.8rem;
+  }
+
+  .contact-btn a {
+    font-size: 1.8rem;
+  }
+
+  .footer-img img {
+    width: 4.6rem;
+    height: 4.6rem;
+  }
+
+  .footer-text {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 820px) and (max-width: 870px) {
+  #responsive-menu {
+    left: 32rem;
+  }
+}
+
+@media only screen and (min-width: 820px) and (max-width: 930px) {
+  .close-btn {
+    transform: translateX(-7.4rem);
+  }
+}
+
+@media only screen and (min-width: 880px) and (max-width: 930px) {
+  #responsive-menu {
+    left: 38rem;
+  }
+}
+
+@media only screen and (min-width: 940px) and (max-width: 989px) {
   #responsive-menu {
     left: 40rem;
   }
 
   .close-btn {
-    margin-top: -2rem;
+    transform: translateX(-4.1rem);
+  }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 989px) {
+  .close-btn {
     transform: translateX(-2.3rem);
   }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1099px) {
-  nav {
-    padding: 1rem 3.6rem;
+@media only screen and (max-width: 989px) {
+  .close-btn {
+    margin-top: -2rem;
   }
+}
 
-  .logo {
-    width: 16rem;
-    height: 4.5rem;
-  }
-
+@media only screen and (min-width: 800px) and (max-width: 1099px) {
   .heading,
   .overlay {
     height: 40rem;
@@ -44,6 +112,17 @@
   .main-content {
     gap: 9.4rem;
     margin: 10.5rem 0 19rem;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  nav {
+    padding: 1rem 3.6rem;
+  }
+
+  .logo {
+    width: 16rem;
+    height: 4.5rem;
   }
 
   .description ul,

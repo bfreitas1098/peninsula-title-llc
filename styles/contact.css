@@ -346,8 +346,12 @@ form label {
   font-weight: 500;
 }
 
-form input:not(.submit-btn) {
+form input:not(.submit-btn),
+form textarea {
   width: 52.5rem;
+}
+
+form input:not(.submit-btn) {
   height: 4rem;
   padding: 0 1rem;
   border: 1px solid;
