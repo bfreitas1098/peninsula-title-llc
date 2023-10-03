@@ -108,7 +108,7 @@ h3,
 .phone,
 .email:link,
 .email:visited {
-  color: var(--white);
+  color: var(--white) !important;
   font-size: 1.6rem;
   transition: opacity 150ms ease-in-out;
 }
@@ -717,4 +717,8 @@ footer {
   gap: 1.6rem;
   text-align: center;
   font-size: 1.6rem;
+}
+
+.numbers {
+  color: var(--text-color) !important;
 }

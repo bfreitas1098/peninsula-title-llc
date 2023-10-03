@@ -324,6 +324,10 @@ footer {
   font-size: 1.6rem;
 }
 
+.numbers {
+  color: var(--text-color) !important;
+}
+
 .footer-btm {
   width: 100vw;
   height: 3.6rem;
