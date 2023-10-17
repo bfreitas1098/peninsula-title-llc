@@ -271,38 +271,6 @@ nav ul {
   display: none;
 }
 
-/* #r-about {
-  display: none;
-  transition: all 400ms ease-in-out;
-  position: absolute;
-  top: 10rem;
-  left: -9rem;
-  width: 30rem;
-  z-index: 5;
-} */
-
-/* .about-menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1.6rem;
-  list-style-type: none;
-}
-
-.ab-menu-link a:link,
-.ab-menu-link a:visited {
-  color: var(--white);
-  text-decoration: none;
-  font-size: 1.4rem;
-  transition: all 300ms ease-in-out;
-}
-
-.ab-menu-link a:hover,
-.ab-menu-link a:active {
-  text-decoration: underline;
-} */
-
 .close-btn {
   align-self: flex-start;
   color: var(--white);
@@ -365,14 +333,6 @@ nav ul {
 .responsive-link:active {
   text-decoration: underline;
 }
-
-/* .responsive-about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  cursor: pointer;
-} */
 
 #up-arr {
   display: none;

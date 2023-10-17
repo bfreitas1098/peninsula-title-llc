@@ -1,6 +1,260 @@
+/* 
+Text/Margin Scale:
+11 px  12px  14 px  16 px  18 px
+20 px  23 px  26 px  29px 32px
+36px  41px  46px  52px  58px
+66px 74px  83px  94px  105px
+119px  133px  150px  169px  190px
+214px 240px 270px
+*/
+
+@media only screen and (max-width: 649px) {
+  #responsive-menu {
+    left: 10rem;
+  }
+
+  h1 {
+    font-size: 5.8rem;
+  }
+
+  .who-we-are-img {
+    width: 55rem;
+    height: 35rem;
+  }
+
+  .who-we-are-text {
+    font-size: 1.4rem;
+  }
+
+  .text-container {
+    padding: 0 1.6rem 0 2.9rem;
+  }
+
+  .testimonials-container {
+    width: 55rem;
+    transform: translateX(1rem);
+  }
+
+  .faq-container,
+  .questions {
+    width: 55rem;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .who-we-are-img {
+    width: 60rem;
+    height: 40rem;
+  }
+
+  .who-we-are-text {
+    font-size: 1.6rem;
+  }
+
+  .testimonials-container {
+    width: 60rem;
+    transform: translateX(0.8rem);
+  }
+
+  .faq-container,
+  .questions {
+    width: 60rem;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 669px) {
+  #responsive-menu {
+    left: 15rem;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 989px) {
+  h1 {
+    font-size: 6.6rem;
+  }
+}
+
+@media only screen and (min-width: 670px) and (max-width: 679px) {
+  #responsive-menu {
+    left: 16rem;
+  }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 689px) {
+  #responsive-menu {
+    left: 17rem;
+  }
+}
+
+@media only screen and (min-width: 690px) and (max-width: 699rpx) {
+  #responsive-menu {
+    left: 18rem;
+  }
+}
+
+@media only screen and (max-width: 699px) {
+  .contact-snapshot {
+    gap: 11.9rem;
+  }
+
+  .services {
+    row-gap: 8.3rem;
+    column-gap: 4.6rem;
+    margin: 10.5rem 3.6rem 15rem;
+  }
+
+  .who-we-are-section {
+    flex-direction: column;
+    gap: 2.3rem;
+    padding: 2.9rem 1.6rem 4.6rem 2.9rem;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .third-testimonial,
+  .fourth-testimonial {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 719px) {
+  .testimonials-container {
+    width: 65rem;
+  }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 819px) {
+  .testimonials-container {
+    width: 70rem;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  .phone-icon,
+  .phone,
+  .email-icon,
+  .email {
+    font-size: 1.4rem;
+  }
+
+  .ig-icon,
+  .fb-icon {
+    font-size: 1.8rem;
+  }
+
+  #responsive-menu {
+    width: 52rem;
+  }
+
+  .responsive-link a:link,
+  .responsive-link a:visited,
+  .responsive-link {
+    font-size: 1.8rem;
+  }
+
+  .heading,
+  .cta:link,
+  .cta:visited {
+    margin-left: 7.4rem;
+  }
+
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .service-box {
+    padding: 0 2.6rem;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 799px) {
+  #responsive-menu {
+    left: 23rem;
+  }
+
+  .contact-snapshot {
+    gap: 19rem;
+  }
+
+  .services {
+    row-gap: 10.5rem;
+    column-gap: 6.6rem;
+  }
+
+  .who-we-are-section {
+    gap: 2.6rem;
+    padding: 1rem 1.8rem 2.3rem 2.3rem;
+  }
+
+  .who-we-are-img {
+    width: 30rem;
+    height: 25rem;
+  }
+
+  .text-container {
+    gap: 2.3rem;
+    width: fit-content;
+  }
+
+  .who-we-are-text {
+    font-size: 1.3rem;
+    line-height: 1.6;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 989px) {
+  .services {
+    margin: 15rem 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .heading,
+  .cta:link,
+  .cta:visited {
+    margin-left: 8.3rem;
+  }
+
+  .services {
+    gap: 3.6rem;
+  }
+
+  .who-we-are-section {
+    padding-right: 2.3rem;
+    gap: 4.1rem;
+  }
+
+  .who-we-are-img {
+    width: 45rem;
+    height: 30rem;
+  }
+
+  .text-container {
+    gap: 2.6rem;
+  }
+
+  .who-we-are-text {
+    font-size: 1.4rem;
+    line-height: 1.6;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 819px) {
+  #responsive-menu {
+    left: 30rem;
+  }
+
+  .close-btn {
+    transform: translateX(-8.3rem);
+  }
+}
+
 @media only screen and (max-width: 899px) {
   nav {
-    padding: 0.8rem 3.2rem;
+    padding: 0.8rem 4.1rem;
   }
 
   .logo {
@@ -18,19 +272,7 @@
   }
 }
 
-@media only screen and (max-width: 819px) {
-  #responsive-menu {
-    left: 30rem;
-  }
-
-  .close-btn {
-    transform: translateX(-8.3rem);
-  }
-
-  .testimonials-container {
-    width: 70rem;
-  }
-
+@media only screen and (min-width: 700px) and (max-width: 819px) {
   .faq-container {
     width: 70rem;
   }
@@ -105,12 +347,7 @@
   .heading,
   .cta:link,
   .cta:visited {
-    margin-left: 8.3rem;
     transform: translateY(2rem);
-  }
-
-  h1 {
-    font-size: 6.6rem;
   }
 
   .tagline {
@@ -123,14 +360,9 @@
     padding: 7px 1.8rem;
   }
 
-  h2 {
+  h2:not(.who-we-are-section h2) {
     font-size: 2.3rem;
     margin-top: 1.4rem;
-  }
-
-  .services {
-    gap: 3.6rem;
-    margin: 15rem 3.6rem;
   }
 
   .key-icon,
@@ -151,27 +383,8 @@
     font-size: 1.3rem;
   }
 
-  .who-we-are-section {
-    padding-right: 2.3rem;
-    gap: 4.1rem;
-  }
-
-  .who-we-are-img {
-    width: 45rem;
-    height: 30rem;
-  }
-
-  .text-container {
-    gap: 2.6rem;
-  }
-
   .who-we-are-section h2 {
     font-size: 2.6rem;
-  }
-
-  .who-we-are-text {
-    font-size: 1.4rem;
-    line-height: 1.6;
   }
 
   .testimonials-container {
