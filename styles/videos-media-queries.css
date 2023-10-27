@@ -1,8 +1,169 @@
-@media only screen and (max-width: 819px) {
+@media only screen and (min-width: 600px) and (max-width: 649px) {
+  main {
+    left: 5rem;
+  }
+
+  .heading {
+    gap: 6.6rem;
+  }
+
+  .videos-container {
+    column-gap: 2.9rem;
+  }
+
+  iframe {
+    max-width: 260px !important;
+    min-width: 260px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 699px) {
+  #responsive-menu {
+    width: 46rem;
+    padding: 4.1rem 2.3rem 4.1rem 9.4rem;
+  }
+
+  .responsive-link a:link,
+  .responsive-link a:visited,
+  .responsive-link {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 619px) {
+  #responsive-menu {
+    left: 16rem;
+  }
+}
+
+@media only screen and (min-width: 620px) and (max-width: 639px) {
+  #responsive-menu {
+    left: 18rem;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 659px) {
+  #responsive-menu {
+    left: 20rem;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 699px) {
+  main {
+    left: 6rem;
+  }
+
+  .videos-container {
+    column-gap: 4.1rem;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1099px) {
+  .heading {
+    gap: 8.3rem;
+  }
+}
+
+@media only screen and (min-width: 660px) and (max-width: 679px) {
+  #responsive-menu {
+    left: 22rem;
+  }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 699px) {
+  #responsive-menu {
+    left: 24rem;
+  }
+}
+
+@media only screen and (max-width: 699px) {
+  h1 {
+    font-size: 2.9rem;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 749px) {
+  main {
+    left: 9rem;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 799px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  .videos-container {
+    column-gap: 5.2rem;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 749px) {
+  iframe {
+    max-width: 280px !important;
+    min-width: 280px !important;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 719px) {
+  #responsive-menu {
+    left: 20rem;
+  }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 739px) {
+  #responsive-menu {
+    left: 22rem;
+  }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 759px) {
+  #responsive-menu {
+    left: 24rem;
+  }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 799px) {
+  main {
+    left: 12rem;
+  }
+
+  iframe {
+    max-width: 300px !important;
+    min-width: 300px !important;
+  }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 779px) {
+  #responsive-menu {
+    left: 26rem;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 799px) {
+  #responsive-menu {
+    left: 28rem;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  .subheading {
+    font-size: 1.6rem;
+  }
+
+  .bg-rectangle {
+    height: 124rem;
+    top: 54rem;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 819px) {
   #responsive-menu {
     left: 30rem;
   }
+}
 
+@media only screen and (min-width: 800px) and (max-width: 819px) {
   .close-btn {
     transform: translateX(-8.3rem);
   }
@@ -20,7 +181,7 @@
   }
 }
 
-@media only screen and (max-width: 859px) {
+@media only screen and (min-width: 800px) and (max-width: 859px) {
   main {
     left: 12rem;
   }
@@ -34,12 +195,7 @@
   }
 
   .videos-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     column-gap: 6.6rem;
-    row-gap: 5.2rem;
-    margin: -80rem 0 -50rem;
-    padding: 0 10rem;
   }
 
   iframe {
@@ -71,12 +227,7 @@
   }
 
   .videos-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     column-gap: 8.3rem;
-    row-gap: 5.2rem;
-    margin: -80rem 0 -50rem;
-    padding: 0 10rem;
   }
 
   iframe {
@@ -103,6 +254,15 @@
   .logo {
     width: 15rem;
     height: 4.2rem;
+  }
+
+  .footer-img img {
+    width: 4.6rem;
+    height: 4.6rem;
+  }
+
+  .footer-text {
+    font-size: 1.3rem;
   }
 }
 
@@ -147,6 +307,16 @@
 @media only screen and (min-width: 950px) and (max-width: 989px) {
   .close-btn {
     transform: translateX(-2.3rem);
+  }
+}
+
+@media only screen and (max-width: 989px) {
+  .videos-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5.2rem;
+    margin: -80rem 0 -50rem;
+    padding: 0 10rem;
   }
 }
 
@@ -216,12 +386,6 @@
 
   iframe {
     max-width: 180px !important;
-  }
-}
-
-@media only screen and (max-width: 1099px) {
-  .heading {
-    gap: 8.3rem;
   }
 }
 

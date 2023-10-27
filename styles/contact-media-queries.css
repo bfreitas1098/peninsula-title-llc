@@ -1,4 +1,198 @@
-@media only screen and (max-width: 819px) {
+@media only screen and (min-width: 600px) and (max-width: 609px) {
+  main {
+    left: 3rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 619px) {
+  #responsive-menu {
+    left: 15rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 699px) {
+  #responsive-menu {
+    width: 46rem;
+    padding: 4.1rem 2.3rem 4.1rem 9.4rem;
+  }
+
+  .responsive-link a:link,
+  .responsive-link a:visited,
+  .responsive-link {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 610px) and (max-width: 639px) {
+  main {
+    left: 4rem;
+  }
+}
+
+@media only screen and (min-width: 620px) and (max-width: 639px) {
+  #responsive-menu {
+    left: 17rem;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 659px) {
+  #responsive-menu {
+    left: 19rem;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 669px) {
+  main {
+    left: 6rem;
+  }
+}
+
+@media only screen and (min-width: 660px) and (max-width: 679px) {
+  #responsive-menu {
+    left: 21rem;
+  }
+}
+
+@media only screen and (max-width: 669px) {
+  .contact-info {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 670px) and (max-width: 699px) {
+  main {
+    left: 8rem;
+  }
+
+  .contact-info {
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 699px) {
+  #responsive-menu {
+    left: 23rem;
+  }
+}
+
+@media only screen and (max-width: 699px) {
+  form {
+    width: 52rem;
+  }
+
+  form input:not(.submit-btn),
+  form textarea {
+    width: 46rem;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 799px) {
+  form {
+    width: 58rem;
+  }
+
+  form input:not(.submit-btn),
+  form textarea {
+    width: 52rem;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 749px) {
+  main {
+    left: 6rem;
+  }
+
+  .contact-info {
+    margin-left: -2rem;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 719px) {
+  #responsive-menu {
+    left: 14rem;
+  }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 739px) {
+  #responsive-menu {
+    left: 16rem;
+  }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 759px) {
+  #responsive-menu {
+    left: 18rem;
+  }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 799px) {
+  main {
+    left: 9rem;
+  }
+
+  .contact-info {
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 779px) {
+  #responsive-menu {
+    left: 20rem;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 799px) {
+  #responsive-menu {
+    left: 22rem;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem;
+  }
+
+  .bg-rectangle {
+    display: none;
+  }
+
+  .contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .heading {
+    margin-bottom: 3.2rem;
+    margin-left: 0;
+  }
+
+  .info {
+    margin-bottom: 3.2rem;
+  }
+
+  .contact-form {
+    margin-top: -8rem;
+  }
+
+  footer {
+    top: 102rem;
+    margin: 21rem 15rem 0;
+  }
+
+  .footer-img img {
+    width: 4.6rem;
+    height: 4.6rem;
+  }
+
+  .footer-text {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 819px) {
   #responsive-menu {
     left: 26rem;
   }
@@ -6,6 +200,34 @@
   .close-btn {
     transform: translateX(-5.8rem);
     margin-top: -2rem;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 829px) {
+  main {
+    gap: 4.1rem;
+    padding: 10.5rem 3.6rem;
+    left: 3rem;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 980px) {
+  .bg-rectangle {
+    height: 46rem;
+    top: 27rem;
+  }
+
+  .heading {
+    margin-left: -3rem;
+  }
+
+  form {
+    width: 46rem;
+  }
+
+  form input:not(.submit-btn),
+  form textarea {
+    width: 40rem;
   }
 }
 
@@ -18,14 +240,6 @@
 @media only screen and (min-width: 820px) and (max-width: 859px) {
   .close-btn {
     transform: translateX(-5.8rem);
-  }
-}
-
-@media only screen and (max-width: 829px) {
-  main {
-    gap: 4.1rem;
-    padding: 10.5rem 3.6rem;
-    left: 3rem;
   }
 }
 
@@ -56,62 +270,23 @@
   }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 980px) {
-  main {
-    gap: 4.6rem;
-    padding: 10.5rem 4.1rem;
-    left: 10rem;
-  }
-}
-
-@media only screen and (max-width: 980px) {
-  .bg-rectangle {
-    height: 46rem;
-    top: 27rem;
+@media only screen and (max-width: 899px) {
+  nav {
+    padding: 0.8rem 3.2rem;
   }
 
-  .heading {
-    gap: 1.2rem;
-    margin-left: -3rem;
+  .logo {
+    width: 15rem;
+    height: 4.2rem;
   }
 
-  .heading span {
-    font-size: 1.8rem;
+  .footer-img img {
+    width: 4.6rem;
+    height: 4.6rem;
   }
 
-  .heading-icon {
-    width: 1.8rem;
-    height: 1.8rem;
-  }
-
-  .info {
-    font-size: 1.4rem;
-  }
-
-  form {
-    gap: 2.3rem;
-    padding: 2.9rem;
-    width: 46rem;
-    transform: translateY(0rem);
-  }
-
-  form label,
-  .submit-btn {
-    font-size: 1.4rem;
-  }
-
-  .submit-btn {
-    padding: 8px 1.8rem;
-  }
-
-  h1 {
-    font-size: 2.9rem;
-  }
-
-  form input:not(.submit-btn),
-  form textarea {
-    width: 40rem;
-    font-size: 1.4rem;
+  .footer-text {
+    font-size: 1.3rem;
   }
 }
 
@@ -123,6 +298,14 @@
   .close-btn {
     margin-top: -1.8rem;
     transform: translateX(-2.6rem);
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 980px) {
+  main {
+    gap: 4.6rem;
+    padding: 10.5rem 4.1rem;
+    left: 10rem;
   }
 }
 
@@ -151,15 +334,6 @@
 }
 
 @media only screen and (min-width: 900px) and (max-width: 989px) {
-  /* #responsive-menu {
-    left: 40rem;
-  }
-
-  .close-btn {
-    margin-top: -2rem;
-    transform: translateX(-2.3rem);
-  } */
-
   .bg-rectangle {
     height: 45rem;
     top: 28rem;
@@ -186,6 +360,49 @@
   }
 
   .footer-text {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .heading {
+    gap: 1.2rem;
+  }
+
+  .heading span {
+    font-size: 1.8rem;
+  }
+
+  .heading-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .info {
+    font-size: 1.4rem;
+  }
+
+  form {
+    gap: 2.3rem;
+    padding: 2.9rem;
+    transform: translateY(0rem);
+  }
+
+  form label,
+  .submit-btn {
+    font-size: 1.4rem;
+  }
+
+  .submit-btn {
+    padding: 8px 1.8rem;
+  }
+
+  h1 {
+    font-size: 2.9rem;
+  }
+
+  form input:not(.submit-btn),
+  form textarea {
     font-size: 1.4rem;
   }
 }

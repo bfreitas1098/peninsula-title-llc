@@ -1,4 +1,161 @@
-@media only screen and (max-width: 819px) {
+/* 
+Text/Margin Scale:
+11 px  12px  14 px  16 px  18 px
+20 px  23 px  26 px  29px 32px
+36px  41px  46px  52px  58px
+66px 74px  83px  94px  105px
+119px  133px  150px  169px  190px
+214px 240px 270px
+*/
+
+@media only screen and (min-width: 600px) and (max-width: 69px) {
+  #responsive-menu {
+    left: 15rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 650px) {
+  .description {
+    margin: 0 5.8rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 699px) {
+  #responsive-menu {
+    width: 46rem;
+    padding: 4.1rem 2.3rem 4.1rem 9.4rem;
+  }
+
+  .responsive-link a:link,
+  .responsive-link a:visited,
+  .responsive-link {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 610px) and (max-width: 619px) {
+  #responsive-menu {
+    left: 16rem;
+  }
+}
+
+@media only screen and (min-width: 620px) and (max-width: 629px) {
+  #responsive-menu {
+    left: 17rem;
+  }
+}
+
+@media only screen and (min-width: 651px) and (max-width: 899px) {
+  .description {
+    margin: 0 8.3rem;
+  }
+}
+
+@media only screen and (min-width: 630px) and (max-width: 639px) {
+  #responsive-menu {
+    left: 18rem;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 649px) {
+  #responsive-menu {
+    left: 19rem;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 659px) {
+  #responsive-menu {
+    left: 20rem;
+  }
+}
+
+@media only screen and (min-width: 660px) and (max-width: 669px) {
+  #responsive-menu {
+    left: 21rem;
+  }
+}
+
+@media only screen and (min-width: 670px) and (max-width: 679px) {
+  #responsive-menu {
+    left: 22rem;
+  }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 689px) {
+  #responsive-menu {
+    left: 23rem;
+  }
+}
+
+@media only screen and (min-width: 690px) and (max-width: 699px) {
+  #responsive-menu {
+    left: 24rem;
+  }
+}
+@media only screen and (min-width: 680px) and (max-width: 689px) {
+  #responsive-menu {
+    left: 23rem;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  .heading {
+    height: 40rem;
+  }
+
+  .overlay {
+    height: 39.9rem;
+  }
+
+  h1 {
+    font-size: 4.1rem;
+  }
+
+  .main-content {
+    margin: 8.3rem 0 19rem;
+  }
+
+  .tcs {
+    width: 50rem;
+  }
+
+  .tas,
+  .eas,
+  .cs {
+    width: 30rem;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 719px) {
+  #responsive-menu {
+    left: 13rem;
+  }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 739px) {
+  #responsive-menu {
+    left: 15rem;
+  }
+}
+@media only screen and (min-width: 740px) and (max-width: 759px) {
+  #responsive-menu {
+    left: 17rem;
+  }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 779px) {
+  #responsive-menu {
+    left: 19rem;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 799px) {
+  #responsive-menu {
+    left: 22rem;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 819px) {
   #responsive-menu {
     left: 30rem;
   }
@@ -16,10 +173,6 @@
   .logo {
     width: 15rem;
     height: 4.2rem;
-  }
-
-  .description {
-    margin: 0 8.3rem;
   }
 
   .description ul,

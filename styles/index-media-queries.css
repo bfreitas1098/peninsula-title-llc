@@ -8,15 +8,88 @@ Text/Margin Scale:
 214px 240px 270px
 */
 
-@media only screen and (max-width: 649px) {
+@media only screen and (max-width: 610px) {
+  .phone-icon,
+  .phone,
+  .email-icon,
+  .email {
+    font-size: 1.3rem;
+  }
+
+  .ig-icon,
+  .fb-icon {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (min-width: 611px) and (max-width: 799px) {
+  .phone-icon,
+  .phone,
+  .email-icon,
+  .email {
+    font-size: 1.4rem;
+  }
+
+  .ig-icon,
+  .fb-icon {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 614px) {
+  .who-we-are-section {
+    padding: 2.9rem 1rem 4.6rem 1rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 619px) {
   #responsive-menu {
-    left: 10rem;
+    top: 3.8rem;
   }
 
-  h1 {
-    font-size: 5.8rem;
+  .who-we-are-img {
+    width: 55rem;
+    height: 35rem;
   }
 
+  .who-we-are-text {
+    font-size: 1.3rem;
+  }
+
+  .text-container {
+    padding: 0 3.2rem 0 2.9rem;
+  }
+
+  .testimonials-container {
+    width: 45rem;
+    transform: translateX(1rem);
+  }
+
+  .faq-container,
+  .questions {
+    width: 45rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 609px) {
+  #responsive-menu {
+    left: 15rem;
+  }
+}
+
+@media only screen and (min-width: 610px) and (max-width: 619px) {
+  #responsive-menu {
+    left: 16rem;
+  }
+}
+
+@media only screen and (min-width: 615px) and (max-width: 699px) {
+  .who-we-are-section {
+    padding: 2.9rem 1.6rem 4.6rem 2.9rem;
+  }
+}
+
+@media only screen and (min-width: 620px) and (max-width: 649px) {
   .who-we-are-img {
     width: 55rem;
     height: 35rem;
@@ -41,7 +114,13 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 600px) and (max-width: 649px) {
+  h1 {
+    font-size: 5.8rem;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 699px) {
   .who-we-are-img {
     width: 60rem;
     height: 40rem;
@@ -62,9 +141,27 @@ Text/Margin Scale:
   }
 }
 
+@media only screen and (min-width: 620px) and (max-width: 629px) {
+  #responsive-menu {
+    left: 17rem;
+  }
+}
+
+@media only screen and (min-width: 630px) and (max-width: 639px) {
+  #responsive-menu {
+    left: 18rem;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 649px) {
+  #responsive-menu {
+    left: 19rem;
+  }
+}
+
 @media only screen and (min-width: 650px) and (max-width: 669px) {
   #responsive-menu {
-    left: 15rem;
+    left: 20rem;
   }
 }
 
@@ -76,25 +173,31 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 670px) and (max-width: 679px) {
   #responsive-menu {
-    left: 16rem;
+    left: 21rem;
   }
 }
 
 @media only screen and (min-width: 680px) and (max-width: 689px) {
   #responsive-menu {
-    left: 17rem;
+    left: 22rem;
   }
 }
 
-@media only screen and (min-width: 690px) and (max-width: 699rpx) {
+@media only screen and (min-width: 690px) and (max-width: 699px) {
   #responsive-menu {
-    left: 18rem;
+    left: 24rem;
   }
 }
 
 @media only screen and (max-width: 699px) {
   .contact-snapshot {
     gap: 11.9rem;
+  }
+
+  .heading,
+  .cta:link,
+  .cta:visited {
+    margin-left: 5.8rem;
   }
 
   .services {
@@ -106,7 +209,6 @@ Text/Margin Scale:
   .who-we-are-section {
     flex-direction: column;
     gap: 2.3rem;
-    padding: 2.9rem 1.6rem 4.6rem 2.9rem;
   }
 
   .row {
@@ -132,32 +234,15 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 799px) {
-  .phone-icon,
-  .phone,
-  .email-icon,
-  .email {
-    font-size: 1.4rem;
-  }
-
-  .ig-icon,
-  .fb-icon {
-    font-size: 1.8rem;
-  }
-
   #responsive-menu {
-    width: 52rem;
+    width: 46rem;
+    padding: 4.1rem 2.3rem 4.1rem 9.4rem;
   }
 
   .responsive-link a:link,
   .responsive-link a:visited,
   .responsive-link {
     font-size: 1.8rem;
-  }
-
-  .heading,
-  .cta:link,
-  .cta:visited {
-    margin-left: 7.4rem;
   }
 
   .services {
@@ -171,12 +256,14 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 700px) and (max-width: 799px) {
-  #responsive-menu {
-    left: 23rem;
-  }
-
   .contact-snapshot {
     gap: 19rem;
+  }
+
+  .heading,
+  .cta:link,
+  .cta:visited {
+    margin-left: 7.4rem;
   }
 
   .services {
@@ -242,13 +329,60 @@ Text/Margin Scale:
   }
 }
 
+@media only screen and (min-width: 700px) and (max-width: 719px) {
+  #responsive-menu {
+    left: 25rem;
+  }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 739px) {
+  #responsive-menu {
+    left: 27rem;
+  }
+}
+
+@media only screen and (min-width: 620px) and (max-width: 780px) {
+  #responsive-menu {
+    top: 3.8rem;
+  }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 759px) {
+  #responsive-menu {
+    left: 29rem;
+  }
+}
+@media only screen and (min-width: 760px) and (max-width: 779px) {
+  #responsive-menu {
+    left: 31rem;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 789px) {
+  #responsive-menu {
+    left: 33rem;
+  }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 1024px) {
+  #responsive-menu {
+    top: 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 790px) and (max-width: 799px) {
+  #responsive-menu {
+    left: 34rem;
+  }
+}
+
 @media only screen and (min-width: 800px) and (max-width: 819px) {
   #responsive-menu {
-    left: 30rem;
+    left: 23rem;
   }
 
   .close-btn {
-    transform: translateX(-8.3rem);
+    transform: translateX(-2.3rem);
   }
 }
 
@@ -260,6 +394,10 @@ Text/Margin Scale:
   .logo {
     width: 15rem;
     height: 4.2rem;
+  }
+
+  .close-btn {
+    margin-top: -2.3rem;
   }
 
   .footer-img img {
@@ -274,7 +412,7 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 700px) and (max-width: 819px) {
   .faq-container {
-    width: 70rem;
+    width: 65rem;
   }
 
   .questions {
@@ -314,13 +452,26 @@ Text/Margin Scale:
   }
 }
 
+@media only screen and (min-width: 900px) and (max-width: 919px) {
+  .testimonials-container,
+  .faq-container {
+    width: 85rem;
+  }
+}
+
 @media only screen and (min-width: 900px) and (max-width: 989px) {
-  .testimonials-container {
-    width: 90rem;
+  .close-btn {
+    margin-top: -2rem;
   }
 
   .questions {
     width: 80rem;
+  }
+}
+
+@media only screen and (min-width: 920px) and (max-width: 989px) {
+  .testimonials-container {
+    width: 90rem;
   }
 }
 
@@ -335,10 +486,6 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 989px) {
-  .close-btn {
-    margin-top: -2rem;
-  }
-
   .hero-section,
   .overlay {
     height: 60rem;
@@ -627,10 +774,6 @@ Text/Margin Scale:
     width: 3.6rem;
     height: 3.6rem;
     color: var(--primary-color);
-  }
-
-  #responsive-menu {
-    top: 3.6rem;
   }
 }
 

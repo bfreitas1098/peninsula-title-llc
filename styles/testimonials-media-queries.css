@@ -1,10 +1,90 @@
-@media only screen and (max-width: 819px) {
+@media only screen and (min-width: 600px) and (max-width: 619px) {
   #responsive-menu {
-    left: 30rem;
+    left: 16rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 699px) {
+  #responsive-menu {
+    width: 46rem;
+    padding: 4.1rem 2.3rem 4.1rem 9.4rem;
   }
 
+  .responsive-link a:link,
+  .responsive-link a:visited,
+  .responsive-link {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 620px) and (max-width: 639px) {
+  #responsive-menu {
+    left: 18rem;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 659px) {
+  #responsive-menu {
+    left: 20rem;
+  }
+}
+
+@media only screen and (min-width: 660px) and (max-width: 679px) {
+  #responsive-menu {
+    left: 22rem;
+  }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 699px) {
+  #responsive-menu {
+    left: 24rem;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 719px) {
+  #responsive-menu {
+    left: 20rem;
+  }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 739px) {
+  #responsive-menu {
+    left: 22rem;
+  }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 759px) {
+  #responsive-menu {
+    left: 24rem;
+  }
+}
+@media only screen and (min-width: 740px) and (max-width: 759px) {
+  #responsive-menu {
+    left: 24rem;
+  }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 779px) {
+  #responsive-menu {
+    left: 26rem;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 799px) {
+  #responsive-menu {
+    left: 28rem;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 819px) {
   .close-btn {
     transform: translateX(-8.3rem);
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 819) {
+  #responsive-menu {
+    left: 30rem;
   }
 }
 
