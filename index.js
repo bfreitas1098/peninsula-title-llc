@@ -52,5 +52,3 @@ const present = new Date();
 const currentYear = present.getFullYear();
 
 document.getElementById("year").textContent = currentYear;
-
-console.log(window.visualViewport);

@@ -8,11 +8,213 @@ Text/Margin Scale:
 214px 240px 270px
 */
 
-@media only screen and (max-width: 610px) {
+@media only screen and (min-width: 500px) and (max-width: 519px) {
+  #responsive-menu {
+    left: 10rem;
+  }
+}
+
+@media only screen and (max-width: 519px) {
+  .contact-snapshot {
+    gap: 8.3rem;
+  }
+}
+
+@media only screen and (max-width: 529px) {
+  .heading,
+  .cta:link,
+  .cta:visited {
+    margin-left: 4.1rem;
+  }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 599px) {
+  .contact-snapshot {
+    gap: 10.5rem;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 799px) {
+  .service-box {
+    padding: 0 2.6rem;
+  }
+}
+
+@media only screen and (min-width: 530px) and (max-width: 699px) {
+  .heading,
+  .cta:link,
+  .cta:visited {
+    margin-left: 5.8rem;
+  }
+}
+
+@media only screen and (max-width: 549px) {
+  h1 {
+    font-size: 5.2rem;
+  }
+
+  .service-box {
+    padding: 0 1.2rem;
+  }
+
+  .who-we-are-img {
+    width: 45rem;
+    height: 30rem;
+  }
+
+  .text-container {
+    padding: 0 2rem 0 2rem;
+    width: 50rem;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 599px) {
+  .who-we-are-img {
+    width: 50rem;
+    height: 35rem;
+  }
+
+  .text-container {
+    padding: 0 2rem 0 2rem;
+    width: 55rem;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 649px) {
+  h1 {
+    font-size: 5.8rem;
+  }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 539px) {
+  #responsive-menu {
+    left: 12rem;
+  }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 559px) {
+  #responsive-menu {
+    left: 14rem;
+  }
+}
+
+@media only screen and (max-width: 559px) {
+  footer {
+    margin: 10.5rem 10.5rem 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 560px) and (max-width: 579px) {
+  #responsive-menu {
+    left: 16rem;
+  }
+}
+
+@media only screen and (min-width: 580px) and (max-width: 599px) {
+  #responsive-menu {
+    left: 18rem;
+  }
+}
+
+@media only screen and (max-width: 599px) {
   .phone-icon,
   .phone,
   .email-icon,
-  .email {
+  .email:link,
+  .email:visited {
+    font-size: 1.2rem;
+  }
+
+  .ig-icon,
+  .fb-icon {
+    font-size: 1.6rem;
+  }
+
+  nav {
+    padding: 0.6rem 3.6rem;
+  }
+
+  .logo {
+    width: 12rem;
+    height: 3.4rem;
+  }
+
+  #menu-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  #responsive-menu {
+    top: 3.4rem;
+    width: 41rem;
+    height: 55rem;
+    padding: 3.2rem 2rem 3.2rem 7.4rem;
+  }
+
+  .responsive-link a:link,
+  .responsive-link a:visited,
+  .responsive-link {
+    font-size: 1.6rem;
+  }
+
+  .hero-section,
+  .overlay {
+    height: 55rem;
+  }
+
+  .tagline {
+    font-size: 1.8rem;
+  }
+
+  .cta:link,
+  .cta:visited {
+    font-size: 1.4rem;
+    padding: 6px 1.6rem;
+    transform: translateY(1rem);
+  }
+
+  .section-heading {
+    font-size: 1.4rem;
+  }
+
+  h2:not(.who-we-are-section h2) {
+    font-size: 2rem;
+  }
+
+  .key-icon,
+  .person-icon,
+  .layers-icon,
+  .money-icon {
+    width: 4.6rem;
+    height: 4.6rem;
+  }
+
+  .questions span {
+    font-size: 1.5rem;
+  }
+
+  .footer-img img {
+    width: 4.1rem;
+    height: 4.1rem;
+  }
+
+  .footer-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 609px) {
+  #responsive-menu {
+    left: 15rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 610px) {
+  .phone-icon,
+  .phone,
+  .email-icon,
+  .email:link,
+  .email:visited {
     font-size: 1.3rem;
   }
 
@@ -22,11 +224,113 @@ Text/Margin Scale:
   }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 619px) {
+  .who-we-are-img {
+    width: 55rem;
+    height: 35rem;
+  }
+
+  .text-container {
+    padding: 0 3.2rem 0 2.9rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 699px) {
+  .contact-snapshot {
+    gap: 11.9rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 780px) {
+  #responsive-menu {
+    top: 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 799px) {
+  #responsive-menu {
+    width: 46rem;
+    padding: 4.1rem 2.3rem 4.1rem 9.4rem;
+  }
+
+  .responsive-link a:link,
+  .responsive-link a:visited,
+  .responsive-link {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  nav {
+    padding: 0.8rem 4.1rem;
+  }
+
+  .logo {
+    width: 15rem;
+    height: 4.2rem;
+  }
+
+  .footer-img img {
+    width: 4.6rem;
+    height: 4.6rem;
+  }
+
+  .footer-text {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 989px) {
+  #responsive-menu {
+    height: 60rem;
+  }
+
+  .hero-section,
+  .overlay {
+    height: 60rem;
+  }
+
+  .tagline {
+    font-size: 2rem;
+  }
+
+  .cta:link,
+  .cta:visited {
+    font-size: 1.6rem;
+    padding: 7px 1.8rem;
+    transform: translateY(2rem);
+  }
+
+  h2:not(.who-we-are-section h2) {
+    font-size: 2.3rem;
+  }
+
+  .key-icon,
+  .person-icon,
+  .layers-icon,
+  .money-icon {
+    width: 5.2rem;
+    height: 5.2rem;
+  }
+
+  .questions span {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  #menu-icon {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+}
+
 @media only screen and (min-width: 611px) and (max-width: 799px) {
   .phone-icon,
   .phone,
   .email-icon,
-  .email {
+  .email:link,
+  .email:visited {
     font-size: 1.4rem;
   }
 
@@ -36,28 +340,15 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 614px) {
+@media only screen and (max-width: 614px) {
   .who-we-are-section {
     padding: 2.9rem 1rem 4.6rem 1rem;
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 619px) {
-  #responsive-menu {
-    top: 3.8rem;
-  }
-
-  .who-we-are-img {
-    width: 55rem;
-    height: 35rem;
-  }
-
+@media only screen and (max-width: 619px) {
   .who-we-are-text {
     font-size: 1.3rem;
-  }
-
-  .text-container {
-    padding: 0 3.2rem 0 2.9rem;
   }
 
   .testimonials-container {
@@ -68,12 +359,6 @@ Text/Margin Scale:
   .faq-container,
   .questions {
     width: 45rem;
-  }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 609px) {
-  #responsive-menu {
-    left: 15rem;
   }
 }
 
@@ -111,12 +396,6 @@ Text/Margin Scale:
   .faq-container,
   .questions {
     width: 55rem;
-  }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 649px) {
-  h1 {
-    font-size: 5.8rem;
   }
 }
 
@@ -190,16 +469,6 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 699px) {
-  .contact-snapshot {
-    gap: 11.9rem;
-  }
-
-  .heading,
-  .cta:link,
-  .cta:visited {
-    margin-left: 5.8rem;
-  }
-
   .services {
     row-gap: 8.3rem;
     column-gap: 4.6rem;
@@ -234,24 +503,9 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 799px) {
-  #responsive-menu {
-    width: 46rem;
-    padding: 4.1rem 2.3rem 4.1rem 9.4rem;
-  }
-
-  .responsive-link a:link,
-  .responsive-link a:visited,
-  .responsive-link {
-    font-size: 1.8rem;
-  }
-
   .services {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-
-  .service-box {
-    padding: 0 2.6rem;
   }
 }
 
@@ -341,12 +595,6 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 620px) and (max-width: 780px) {
-  #responsive-menu {
-    top: 3.8rem;
-  }
-}
-
 @media only screen and (min-width: 740px) and (max-width: 759px) {
   #responsive-menu {
     left: 29rem;
@@ -387,26 +635,8 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 899px) {
-  nav {
-    padding: 0.8rem 4.1rem;
-  }
-
-  .logo {
-    width: 15rem;
-    height: 4.2rem;
-  }
-
   .close-btn {
     margin-top: -2.3rem;
-  }
-
-  .footer-img img {
-    width: 4.6rem;
-    height: 4.6rem;
-  }
-
-  .footer-text {
-    font-size: 1.3rem;
   }
 }
 
@@ -486,38 +716,12 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 989px) {
-  .hero-section,
-  .overlay {
-    height: 60rem;
-  }
-
-  .heading,
-  .cta:link,
-  .cta:visited {
+  .heading {
     transform: translateY(2rem);
   }
 
-  .tagline {
-    font-size: 2rem;
-  }
-
-  .cta:link,
-  .cta:visited {
-    font-size: 1.6rem;
-    padding: 7px 1.8rem;
-  }
-
   h2:not(.who-we-are-section h2) {
-    font-size: 2.3rem;
     margin-top: 1.4rem;
-  }
-
-  .key-icon,
-  .person-icon,
-  .layers-icon,
-  .money-icon {
-    width: 5.2rem;
-    height: 5.2rem;
   }
 
   .service-title {
@@ -577,10 +781,6 @@ Text/Margin Scale:
 
   .questions-box {
     padding: 1.6rem 1.6rem 1.8rem;
-  }
-
-  .questions span {
-    font-size: 1.6rem;
   }
 
   .answer {
@@ -771,8 +971,6 @@ Text/Margin Scale:
 
   #menu-icon {
     display: block;
-    width: 3.6rem;
-    height: 3.6rem;
     color: var(--primary-color);
   }
 }
