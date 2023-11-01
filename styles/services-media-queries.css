@@ -8,13 +8,107 @@ Text/Margin Scale:
 214px 240px 270px
 */
 
-@media only screen and (min-width: 600px) and (max-width: 69px) {
+@media only screen and (min-width: 500px) and (max-width: 519px) {
+  #responsive-menu {
+    left: 10rem;
+  }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 539px) {
+  #responsive-menu {
+    left: 12rem;
+  }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 559px) {
+  #responsive-menu {
+    left: 14rem;
+  }
+}
+
+@media only screen and (max-width: 559px) {
+  footer {
+    margin: 10.5rem 10.5rem 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 560px) and (max-width: 579px) {
+  #responsive-menu {
+    left: 16rem;
+  }
+}
+
+@media only screen and (min-width: 580px) and (max-width: 599px) {
+  #responsive-menu {
+    left: 18rem;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  nav {
+    padding: 0.6rem 3.6rem;
+  }
+
+  .logo {
+    width: 12rem;
+    height: 3.4rem;
+  }
+
+  #menu-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  #responsive-menu {
+    top: 3.4rem;
+    width: 41rem;
+    height: 55rem;
+    padding: 3.2rem 2rem 3.2rem 7.4rem;
+  }
+
+  .responsive-link a:link,
+  .responsive-link a:visited,
+  .responsive-link {
+    font-size: 1.6rem;
+  }
+
+  .heading {
+    height: 35rem;
+  }
+
+  .overlay {
+    height: 34.9rem;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  .contact-btn {
+    padding: 6px 1.6rem;
+  }
+
+  .contact-btn a {
+    font-size: 1.4rem;
+  }
+
+  .footer-img img {
+    width: 4.1rem;
+    height: 4.1rem;
+  }
+
+  .footer-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 609px) {
   #responsive-menu {
     left: 15rem;
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 650px) {
+@media only screen and (max-width: 650px) {
   .description {
     margin: 0 5.8rem;
   }
@@ -30,6 +124,55 @@ Text/Margin Scale:
   .responsive-link a:visited,
   .responsive-link {
     font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 799px) {
+  .heading {
+    height: 40rem;
+  }
+
+  .overlay {
+    height: 39.9rem;
+  }
+
+  h1 {
+    font-size: 4.1rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  nav {
+    padding: 0.8rem 3.2rem;
+  }
+
+  .logo {
+    width: 15rem;
+    height: 4.2rem;
+  }
+
+  .contact-btn {
+    padding: 6px 1.8rem;
+  }
+
+  .contact-btn a {
+    font-size: 1.8rem;
+  }
+
+  .footer-img img {
+    width: 4.6rem;
+    height: 4.6rem;
+  }
+
+  .footer-text {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  #menu-icon {
+    width: 3.6rem;
+    height: 3.6rem;
   }
 }
 
@@ -99,18 +242,6 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 799px) {
-  .heading {
-    height: 40rem;
-  }
-
-  .overlay {
-    height: 39.9rem;
-  }
-
-  h1 {
-    font-size: 4.1rem;
-  }
-
   .main-content {
     margin: 8.3rem 0 19rem;
   }
@@ -166,36 +297,10 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 899px) {
-  nav {
-    padding: 0.8rem 3.2rem;
-  }
-
-  .logo {
-    width: 15rem;
-    height: 4.2rem;
-  }
-
   .description ul,
   .description p {
     font-size: 1.3rem;
     line-height: 2;
-  }
-
-  .contact-btn {
-    padding: 6px 1.8rem;
-  }
-
-  .contact-btn a {
-    font-size: 1.8rem;
-  }
-
-  .footer-img img {
-    width: 4.6rem;
-    height: 4.6rem;
-  }
-
-  .footer-text {
-    font-size: 1.3rem;
   }
 }
 
@@ -311,8 +416,6 @@ Text/Margin Scale:
 
   #menu-icon {
     display: block;
-    width: 3.6rem;
-    height: 3.6rem;
     color: var(--primary-color);
   }
 
