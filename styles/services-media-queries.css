@@ -60,7 +60,6 @@ Text/Margin Scale:
   }
 
   #responsive-menu {
-    top: 3.4rem;
     width: 41rem;
     height: 55rem;
     padding: 3.2rem 2rem 3.2rem 7.4rem;
@@ -88,7 +87,8 @@ Text/Margin Scale:
     padding: 6px 1.6rem;
   }
 
-  .contact-btn a {
+  .contact-btn a:link,
+  .contact-bt a:visited {
     font-size: 1.4rem;
   }
 
