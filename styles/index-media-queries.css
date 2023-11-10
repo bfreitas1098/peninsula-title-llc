@@ -8,15 +8,297 @@ Text/Margin Scale:
 214px 240px 270px
 */
 
+@media only screen and (min-width: 400px) and (max-width: 419px) {
+  #responsive-menu {
+    left: 1rem;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 439px) {
+  #responsive-menu {
+    left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 429px) {
+  .contact-snapshot {
+    padding: 1rem 2.3rem;
+    gap: 1.4rem;
+  }
+
+  .who-we-are-section {
+    padding: 2.9rem 3.6rem 4.6rem;
+  }
+
+  .who-we-are-img,
+  .testimonials-container,
+  .faq-container,
+  .questions {
+    width: 35rem;
+  }
+
+  footer {
+    margin: 10.5rem 8.3rem 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 439px) {
+  .who-we-are-section {
+    padding: 2.9rem 1.6rem 4.6rem;
+  }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 469px) {
+  .contact-snapshot {
+    gap: 1rem;
+  }
+
+  .who-we-are-img,
+  .testimonials-container,
+  .faq-container,
+  .questions {
+    width: 40rem;
+  }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 559px) {
+  footer {
+    margin: 10.5rem 10.5rem 3.6rem;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  h1 {
+    font-size: 4.1rem;
+  }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 449px) {
+  .who-we-are-section {
+    padding: 2.9rem 2.3rem 4.6rem;
+  }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 459px) {
+  #responsive-menu {
+    left: 5rem;
+  }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 499px) {
+  h1 {
+    font-size: 4.6rem;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 469px) {
+  .who-we-are-section {
+    padding: 2.9rem 2.6rem 4.6rem;
+  }
+}
+
+@media only screen and (min-width: 460px) and (max-width: 479px) {
+  #responsive-menu {
+    left: 7rem;
+  }
+}
+
+@media only screen and (max-width: 469px) {
+  .section-heading {
+    font-size: 1.3rem;
+  }
+
+  h2:not(.who-we-are-section h2) {
+    font-size: 1.8rem;
+  }
+
+  .services {
+    row-gap: 7.4rem;
+    column-gap: 3.2rem;
+    margin: 10.5rem 2.6rem 15rem;
+  }
+
+  .key-icon,
+  .person-icon,
+  .layers-icon,
+  .money-icon {
+    width: 4.1rem;
+    height: 4.1rem;
+  }
+
+  .service-title {
+    font-size: 1.4rem;
+  }
+
+  .service-description,
+  .service-page:link,
+  .service-page:visited {
+    font-size: 1.2rem;
+  }
+
+  .who-we-are-img {
+    height: 25rem;
+  }
+
+  .text-container {
+    width: fit-content;
+    gap: 2.6rem;
+  }
+
+  .who-we-are-section h2 {
+    font-size: 2.3rem;
+  }
+
+  h3 {
+    font-size: 2.3rem;
+  }
+
+  .footer-img img {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+
+  .footer-text {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 470px) and (max-width: 499px) {
+  .contact-snapshot {
+    gap: 5.8rem;
+  }
+
+  .who-we-are-section {
+    padding: 2.9rem 1rem 4.6rem 1.6rem;
+  }
+
+  .text-container {
+    padding: 0 1rem 0 1rem;
+    width: 45rem;
+  }
+}
+
+@media only screen and (min-width: 470px) and (max-width: 549px) {
+  .who-we-are-img {
+    width: 45rem;
+    height: 30rem;
+  }
+}
+
+@media only screen and (min-width: 470px) and (max-width: 599px) {
+  .key-icon,
+  .person-icon,
+  .layers-icon,
+  .money-icon {
+    width: 4.6rem;
+    height: 4.6rem;
+  }
+
+  .section-heading {
+    font-size: 1.4rem;
+  }
+
+  h2:not(.who-we-are-section h2) {
+    font-size: 2rem;
+  }
+
+  .footer-img img {
+    width: 4.1rem;
+    height: 4.1rem;
+  }
+
+  .footer-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 470px) and (max-width: 619px) {
+  .testimonials-container {
+    width: 45rem;
+  }
+
+  .faq-container,
+  .questions {
+    width: 45rem;
+  }
+}
+
+@media only screen and (min-width: 470px) and (max-width: 699px) {
+  .services {
+    row-gap: 8.3rem;
+    column-gap: 4.6rem;
+    margin: 10.5rem 3.6rem 15rem;
+  }
+}
+
+@media only screen and (min-width: 470px) and (max-width: 989px) {
+  .service-title {
+    font-size: 1.6rem;
+  }
+
+  .service-description,
+  .service-page:link,
+  .service-page:visited {
+    font-size: 1.3rem;
+  }
+
+  .who-we-are-section h2 {
+    font-size: 2.6rem;
+  }
+
+  h3 {
+    font-size: 2.6rem;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 499px) {
+  #responsive-menu {
+    left: 9rem;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .who-we-are-section {
+    align-items: flex-start;
+  }
+
+  .faq-section {
+    padding: 8.3rem 4.6rem;
+  }
+}
+
 @media only screen and (min-width: 500px) and (max-width: 519px) {
   #responsive-menu {
     left: 10rem;
   }
 }
 
-@media only screen and (max-width: 519px) {
+@media only screen and (min-width: 500px) and (max-width: 519px) {
   .contact-snapshot {
     gap: 8.3rem;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 549px) {
+  h1 {
+    font-size: 5.2rem;
+  }
+
+  .text-container {
+    padding: 0 2rem 0 2rem;
+    width: 50rem;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 614px) {
+  .who-we-are-section {
+    padding: 2.9rem 1rem 4.6rem 1rem;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 619px) {
+  .testimonials-container {
+    transform: translateX(1rem);
   }
 }
 
@@ -49,22 +331,8 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 549px) {
-  h1 {
-    font-size: 5.2rem;
-  }
-
   .service-box {
-    padding: 0 1.2rem;
-  }
-
-  .who-we-are-img {
-    width: 45rem;
-    height: 30rem;
-  }
-
-  .text-container {
-    padding: 0 2rem 0 2rem;
-    width: 50rem;
+    padding: 0 1rem;
   }
 }
 
@@ -95,12 +363,6 @@ Text/Margin Scale:
 @media only screen and (min-width: 540px) and (max-width: 559px) {
   #responsive-menu {
     left: 14rem;
-  }
-}
-
-@media only screen and (max-width: 559px) {
-  footer {
-    margin: 10.5rem 10.5rem 3.6rem;
   }
 }
 
@@ -173,33 +435,8 @@ Text/Margin Scale:
     transform: translateY(1rem);
   }
 
-  .section-heading {
-    font-size: 1.4rem;
-  }
-
-  h2:not(.who-we-are-section h2) {
-    font-size: 2rem;
-  }
-
-  .key-icon,
-  .person-icon,
-  .layers-icon,
-  .money-icon {
-    width: 4.6rem;
-    height: 4.6rem;
-  }
-
   .questions span {
     font-size: 1.5rem;
-  }
-
-  .footer-img img {
-    width: 4.1rem;
-    height: 4.1rem;
-  }
-
-  .footer-text {
-    font-size: 1.2rem;
   }
 }
 
@@ -340,25 +577,9 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (max-width: 614px) {
-  .who-we-are-section {
-    padding: 2.9rem 1rem 4.6rem 1rem;
-  }
-}
-
 @media only screen and (max-width: 619px) {
   .who-we-are-text {
     font-size: 1.3rem;
-  }
-
-  .testimonials-container {
-    width: 45rem;
-    transform: translateX(1rem);
-  }
-
-  .faq-container,
-  .questions {
-    width: 45rem;
   }
 }
 
@@ -469,12 +690,6 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 699px) {
-  .services {
-    row-gap: 8.3rem;
-    column-gap: 4.6rem;
-    margin: 10.5rem 3.6rem 15rem;
-  }
-
   .who-we-are-section {
     flex-direction: column;
     gap: 2.3rem;
@@ -724,20 +939,6 @@ Text/Margin Scale:
     margin-top: 1.4rem;
   }
 
-  .service-title {
-    font-size: 1.6rem;
-  }
-
-  .service-description,
-  .service-page:link,
-  .service-page:visited {
-    font-size: 1.3rem;
-  }
-
-  .who-we-are-section h2 {
-    font-size: 2.6rem;
-  }
-
   .testimonials-container {
     gap: 4.1rem;
   }
@@ -773,10 +974,6 @@ Text/Margin Scale:
   .testimonials-page:link,
   .testimonials-page:visited {
     font-size: 1.4rem;
-  }
-
-  h3 {
-    font-size: 2.6rem;
   }
 
   .questions-box {
