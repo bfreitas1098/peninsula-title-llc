@@ -8,9 +8,130 @@ Text/Margin Scale:
 214px 240px 270px
 */
 
+@media only screen and (min-width: 400px) and (max-width: 419px) {
+  #responsive-menu {
+    left: 1rem;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 439px) {
+  #responsive-menu {
+    left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 429px) {
+  footer {
+    margin: 0 8.3rem 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 559px) {
+  footer {
+    margin: 0 10.5rem 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 459px) {
+  #responsive-menu {
+    left: 5rem;
+  }
+}
+
+@media only screen and (max-width: 449px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  .subheading {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 599px) {
+  h1 {
+    font-size: 2.6rem;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 899px) {
+  .subheading {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 460px) and (max-width: 479px) {
+  #responsive-menu {
+    left: 7rem;
+  }
+}
+
+@media only screen and (max-width: 469px) {
+  .footer-img img {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+
+  .footer-text {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 470px) and (max-width: 599px) {
+  .footer-img img {
+    width: 4.1rem;
+    height: 4.1rem;
+  }
+
+  .footer-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 499px) {
+  #responsive-menu {
+    left: 9rem;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  nav {
+    padding: 0.6rem 2.6rem;
+  }
+
+  .logo {
+    width: 11rem;
+    height: 3.2rem;
+  }
+
+  .testimonials-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 @media only screen and (min-width: 500px) and (max-width: 519px) {
   #responsive-menu {
     left: 10rem;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px) {
+  nav {
+    padding: 0.6rem 3.6rem;
+  }
+
+  .logo {
+    width: 12rem;
+    height: 3.4rem;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 859px) {
+  .testimonials-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -74,12 +195,6 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (max-width: 559px) {
-  footer {
-    margin: 10.5rem 10.5rem 3.6rem;
-  }
-}
-
 @media only screen and (min-width: 560px) and (max-width: 579px) {
   #responsive-menu {
     left: 16rem;
@@ -93,15 +208,6 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 599px) {
-  nav {
-    padding: 0.6rem 3.6rem;
-  }
-
-  .logo {
-    width: 12rem;
-    height: 3.4rem;
-  }
-
   #menu-icon {
     width: 3.2rem;
     height: 3.2rem;
@@ -117,10 +223,6 @@ Text/Margin Scale:
   .responsive-link a:visited,
   .responsive-link {
     font-size: 1.6rem;
-  }
-
-  h1 {
-    font-size: 2.6rem;
   }
 
   .contact-btn {
@@ -147,15 +249,6 @@ Text/Margin Scale:
 
   .testimonial-heading {
     font-size: 1.6rem;
-  }
-
-  .footer-img img {
-    width: 4.1rem;
-    height: 4.1rem;
-  }
-
-  .footer-text {
-    font-size: 1.2rem;
   }
 }
 
@@ -336,18 +429,6 @@ Text/Margin Scale:
 @media only screen and (min-width: 950px) and (max-width: 989px) {
   .close-btn {
     transform: translateX(-2.3rem);
-  }
-}
-
-@media only screen and (max-width: 859px) {
-  .testimonials-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media only screen and (max-width: 899px) {
-  .subheading {
-    font-size: 1.6rem;
   }
 }
 
