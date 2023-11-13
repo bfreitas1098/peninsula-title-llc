@@ -8,9 +8,166 @@ Text/Margin Scale:
 214px 240px 270px
 */
 
+@media only screen and (min-width: 400px) and (max-width: 419px) {
+  #responsive-menu {
+    left: 1rem;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 439px) {
+  #responsive-menu {
+    left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 429px) {
+  footer {
+    margin: 10.5rem 8.3rem 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 559px) {
+  footer {
+    margin: 10.5rem 10.5rem 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 459px) {
+  #responsive-menu {
+    left: 5rem;
+  }
+}
+
+@media only screen and (min-width: 460px) and (max-width: 479px) {
+  #responsive-menu {
+    left: 7rem;
+  }
+}
+
+@media only screen and (max-width: 469px) {
+  .description ul,
+  .description p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+
+  .footer-img img {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+
+  .footer-text {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 470px) and (max-width: 599px) {
+  .footer-img img {
+    width: 4.1rem;
+    height: 4.1rem;
+  }
+
+  .footer-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 470px) and (max-width: 899px) {
+  .description ul,
+  .description p {
+    font-size: 1.3rem;
+    line-height: 2;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 499px) {
+  #responsive-menu {
+    left: 9rem;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  nav {
+    padding: 0.6rem 2.6rem;
+  }
+
+  .logo {
+    width: 11rem;
+    height: 3.2rem;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  .tcs {
+    width: 40rem;
+  }
+
+  .tas,
+  .eas,
+  .cs {
+    width: 26rem;
+  }
+
+  .main-content {
+    margin: 6.6rem 0 19rem;
+  }
+
+  .description {
+    margin: 0 4.1rem;
+  }
+}
+
 @media only screen and (min-width: 500px) and (max-width: 519px) {
   #responsive-menu {
     left: 10rem;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px) {
+  nav {
+    padding: 0.6rem 3.6rem;
+  }
+
+  .logo {
+    width: 12rem;
+    height: 3.4rem;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  .footer-img img {
+    width: 4.1rem;
+    height: 4.1rem;
+  }
+
+  .footer-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 650px) {
+  .description {
+    margin: 0 5.8rem;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 799px) {
+  .tcs {
+    width: 50rem;
+  }
+
+  .tas,
+  .eas,
+  .cs {
+    width: 30rem;
+  }
+
+  .main-content {
+    margin: 8.3rem 0 19rem;
   }
 }
 
@@ -23,12 +180,6 @@ Text/Margin Scale:
 @media only screen and (min-width: 540px) and (max-width: 559px) {
   #responsive-menu {
     left: 14rem;
-  }
-}
-
-@media only screen and (max-width: 559px) {
-  footer {
-    margin: 10.5rem 10.5rem 3.6rem;
   }
 }
 
@@ -45,15 +196,6 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 599px) {
-  nav {
-    padding: 0.6rem 3.6rem;
-  }
-
-  .logo {
-    width: 12rem;
-    height: 3.4rem;
-  }
-
   #menu-icon {
     width: 3.2rem;
     height: 3.2rem;
@@ -79,10 +221,6 @@ Text/Margin Scale:
     height: 34.9rem;
   }
 
-  h1 {
-    font-size: 3.6rem;
-  }
-
   .contact-btn {
     padding: 6px 1.6rem;
   }
@@ -91,26 +229,11 @@ Text/Margin Scale:
   .contact-bt a:visited {
     font-size: 1.4rem;
   }
-
-  .footer-img img {
-    width: 4.1rem;
-    height: 4.1rem;
-  }
-
-  .footer-text {
-    font-size: 1.2rem;
-  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 609px) {
   #responsive-menu {
     left: 15rem;
-  }
-}
-
-@media only screen and (max-width: 650px) {
-  .description {
-    margin: 0 5.8rem;
   }
 }
 
@@ -241,22 +364,6 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (max-width: 799px) {
-  .main-content {
-    margin: 8.3rem 0 19rem;
-  }
-
-  .tcs {
-    width: 50rem;
-  }
-
-  .tas,
-  .eas,
-  .cs {
-    width: 30rem;
-  }
-}
-
 @media only screen and (min-width: 700px) and (max-width: 719px) {
   #responsive-menu {
     left: 13rem;
@@ -293,14 +400,6 @@ Text/Margin Scale:
 
   .close-btn {
     transform: translateX(-8.3rem);
-  }
-}
-
-@media only screen and (max-width: 899px) {
-  .description ul,
-  .description p {
-    font-size: 1.3rem;
-    line-height: 2;
   }
 }
 
