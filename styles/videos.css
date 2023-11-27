@@ -10,7 +10,7 @@ Text/Margin Scale:
 
 /* Default settings */
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap");
 
 :root {
   --primary-color: #0c4360;
@@ -275,6 +275,7 @@ main {
 .heading {
   gap: 10.5rem;
   margin: 11.9rem auto 0;
+  font-family: "Frank Ruhl Libre", serif;
 }
 
 h1 {

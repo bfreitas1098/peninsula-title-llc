@@ -10,7 +10,7 @@ Text/Margin Scale:
 
 /* Default settings */
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap");
 
 :root {
   --primary-color: #0c4360;
@@ -275,7 +275,7 @@ h1 {
   font-size: 5.2rem;
   color: var(--white);
   z-index: 5;
-  font-family: serif;
+  font-family: "Frank Ruhl Libre", serif;
   text-align: center;
 }
 

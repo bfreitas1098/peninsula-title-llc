@@ -10,7 +10,7 @@ Text/Margin Scale:
 
 /* Default settings */
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap");
 
 :root {
   --primary-color: #0c4360;
@@ -54,7 +54,8 @@ body {
 .dd-link,
 .responsive-link,
 .responsive-about,
-.ab-menu-link {
+.ab-menu-link,
+.testimonial {
   font-family: "Inter", sans-serif;
 }
 
@@ -255,6 +256,7 @@ main,
 .heading {
   margin: 9.4rem 0 5.2rem;
   gap: 1.6rem;
+  font-family: "Frank Ruhl Libre", serif;
 }
 
 h1 {
@@ -271,6 +273,7 @@ h1 {
   font-size: 2rem;
   color: var(--white) !important;
   text-decoration: none;
+  font-family: "Frank Ruhl Libre", serif;
 }
 
 .contact-btn {
