@@ -248,7 +248,7 @@ nav ul {
 }
 
 .bg-rectangle {
-  background-color: var(--light-primary);
+  background-color: #5686ae;
   width: 100vw;
   height: 55rem;
   z-index: -1;
