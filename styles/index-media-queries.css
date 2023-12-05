@@ -68,7 +68,6 @@ Text/Margin Scale:
 
 @media only screen and (max-width: 329px) {
   #responsive-menu {
-    width: 29rem;
     padding: 2.6rem 1.4rem 2.6rem 4.6rem;
     top: 2.9rem;
   }
@@ -91,7 +90,6 @@ Text/Margin Scale:
   }
 
   #responsive-menu {
-    width: 29rem;
     padding: 2.6rem 1.6rem 2.6rem 4.6rem;
     top: 3.1rem;
   }
@@ -296,6 +294,7 @@ Text/Margin Scale:
   }
 
   #responsive-menu {
+    width: 29rem;
     height: 50rem;
   }
 
@@ -698,6 +697,10 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 499px) {
+  .hero-section {
+    background-position: -21rem 0;
+  }
+
   .heading,
   .cta:link,
   .cta:visited {
