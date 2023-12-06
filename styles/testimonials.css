@@ -295,7 +295,7 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 4.1rem;
   row-gap: 7.4rem;
-  margin: 19rem 6.6rem 0 6.6rem;
+  padding: 19rem 6.6rem 0 6.6rem;
 }
 
 .testimonial {
