@@ -8,13 +8,219 @@ Text/Margin Scale:
 214px 240px 270px
 */
 
+@media only screen and (min-width: 300px) and (max-width: 309px) {
+  #responsive-menu {
+    left: 4rem;
+  }
+}
+
+@media only screen and (min-width: 310px) and (max-width: 319px) {
+  #responsive-menu {
+    left: 5rem;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 329px) {
+  #responsive-menu {
+    left: 6rem;
+  }
+}
+
+@media only screen and (max-width: 329px) {
+  .subheading {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+  }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 339px) {
+  #responsive-menu {
+    left: 7rem;
+  }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 399px) {
+  .subheading {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 599px) {
+  .subheading {
+    padding: 0 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 339px) {
+  #responsive-menu {
+    width: 26rem;
+  }
+}
+
+@media only screen and (min-width: 340px) and (max-width: 349px) {
+  #responsive-menu {
+    left: 4rem;
+  }
+}
+
+@media only screen and (min-width: 340px) and (max-width: 399px) {
+  #responsive-menu {
+    width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 349px) {
+  iframe {
+    max-width: 260px !important;
+    min-width: 260px !important;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 359px) {
+  #responsive-menu {
+    left: 5rem;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 399px) {
+  iframe {
+    max-width: 290px !important;
+    min-width: 290px !important;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 369px) {
+  #responsive-menu {
+    left: 6rem;
+  }
+}
+
+@media only screen and (min-width: 370px) and (max-width: 379px) {
+  #responsive-menu {
+    left: 7rem;
+  }
+}
+
+@media only screen and (min-width: 380px) and (max-width: 389px) {
+  #responsive-menu {
+    left: 8rem;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 399px) {
+  #responsive-menu {
+    left: 9rem;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  nav {
+    padding: 0.4rem 2.3rem;
+  }
+
+  .logo {
+    width: 9.5rem;
+    height: 2.9rem;
+  }
+
+  #menu-icon {
+    width: 2.9rem;
+    height: 2.9rem;
+  }
+
+  #responsive-menu {
+    height: 41rem;
+    padding: 2.6rem 1rem 2.6rem 5.2rem;
+  }
+
+  .responsive-link a:link,
+  .responsive-link a:visited,
+  .responsive-link {
+    font-size: 1.4rem;
+  }
+
+  .close-btn {
+    margin-top: -2rem;
+    transform: translateX(-1rem);
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+
+  .heading {
+    gap: 4.1rem;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  .videos-container {
+    top: -3.6rem;
+  }
+
+  footer {
+    margin: 10.5rem 5.2rem 3.6rem;
+  }
+}
+
 @media only screen and (min-width: 400px) and (max-width: 419px) {
   #responsive-menu {
     left: 1rem;
   }
+}
 
-  main {
-    left: 3rem;
+@media only screen and (min-width: 400px) and (max-width: 439px) {
+  iframe {
+    max-width: 320px !important;
+    min-width: 320px !important;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+  nav {
+    padding: 0.6rem 2.6rem;
+  }
+
+  .logo {
+    width: 11rem;
+    height: 3.2rem;
+  }
+
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  .subheading {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 559px) {
+  footer {
+    margin: 10.5rem 10.5rem 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+  #menu-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  #responsive-menu {
+    width: 41rem;
+    height: 55rem;
+    padding: 3.2rem 2rem 3.2rem 7.4rem;
+  }
+
+  .responsive-link a:link,
+  .responsive-link a:visited,
+  .responsive-link {
+    font-size: 1.6rem;
+  }
+
+  .heading {
+    gap: 6.6rem;
   }
 }
 
@@ -22,25 +228,10 @@ Text/Margin Scale:
   #responsive-menu {
     left: 3rem;
   }
-
-  main {
-    left: 4rem;
-  }
-}
-
-@media only screen and (max-width: 439px) {
-  iframe {
-    max-width: 320px !important;
-    min-width: 320px !important;
-  }
 }
 
 @media only screen and (min-width: 440px) and (max-width: 459px) {
   #responsive-menu {
-    left: 5rem;
-  }
-
-  main {
     left: 5rem;
   }
 }
@@ -55,10 +246,6 @@ Text/Margin Scale:
 @media only screen and (min-width: 460px) and (max-width: 479px) {
   #responsive-menu {
     left: 7rem;
-  }
-
-  main {
-    left: 6rem;
   }
 }
 
@@ -88,40 +275,11 @@ Text/Margin Scale:
   #responsive-menu {
     left: 8rem;
   }
-
-  main {
-    left: 7rem;
-  }
-}
-
-@media only screen and (max-width: 499px) {
-  nav {
-    padding: 0.6rem 2.6rem;
-  }
-
-  .logo {
-    width: 11rem;
-    height: 3.2rem;
-  }
-
-  h1 {
-    font-size: 2.6rem;
-  }
-
-  .subheading {
-    font-size: 1.4rem;
-  }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 519px) {
   #responsive-menu {
     left: 10rem;
-  }
-}
-
-@media only screen and (min-width: 500px) and (max-width: 529px) {
-  main {
-    left: 8rem;
   }
 }
 
@@ -154,21 +312,9 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 530px) and (max-width: 599px) {
-  main {
-    left: 10rem;
-  }
-}
-
 @media only screen and (min-width: 540px) and (max-width: 559px) {
   #responsive-menu {
     left: 14rem;
-  }
-}
-
-@media only screen and (max-width: 559px) {
-  footer {
-    margin: 10.5rem 10.5rem 3.6rem;
   }
 }
 
@@ -185,41 +331,22 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 599px) {
-  #menu-icon {
-    width: 3.2rem;
-    height: 3.2rem;
-  }
-
-  #responsive-menu {
-    width: 41rem;
-    height: 55rem;
-    padding: 3.2rem 2rem 3.2rem 7.4rem;
-  }
-
-  .responsive-link a:link,
-  .responsive-link a:visited,
-  .responsive-link {
-    font-size: 1.6rem;
-  }
-
-  main {
-    top: 8.3rem;
-  }
-
   .bg-rectangle {
     display: none;
   }
 
   .heading {
-    gap: 6.6rem;
     flex-direction: column;
+    text-align: center;
+  }
+
+  .subheading {
     text-align: center;
   }
 
   .videos-container {
     flex-direction: column;
     gap: 3.2rem;
-    margin: 46rem 0 -40rem;
   }
 }
 
@@ -230,8 +357,8 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 600px) and (max-width: 649px) {
-  main {
-    left: 5rem;
+  .bg-rectangle {
+    top: 48rem;
   }
 
   .heading {
@@ -286,8 +413,6 @@ Text/Margin Scale:
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 5.2rem;
-    margin: -80rem 0 -50rem;
-    padding: 0 10rem;
   }
 }
 
@@ -311,12 +436,14 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 650px) and (max-width: 699px) {
-  main {
-    left: 6rem;
-  }
-
   .videos-container {
     column-gap: 4.1rem;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 799px) {
+  .bg-rectangle {
+    top: 46rem;
   }
 }
 
@@ -335,12 +462,6 @@ Text/Margin Scale:
 @media only screen and (min-width: 680px) and (max-width: 699px) {
   #responsive-menu {
     left: 24rem;
-  }
-}
-
-@media only screen and (min-width: 700px) and (max-width: 749px) {
-  main {
-    left: 9rem;
   }
 }
 
@@ -380,10 +501,6 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 750px) and (max-width: 799px) {
-  main {
-    left: 12rem;
-  }
-
   iframe {
     max-width: 300px !important;
     min-width: 300px !important;
@@ -404,8 +521,7 @@ Text/Margin Scale:
 
 @media only screen and (max-width: 799px) {
   .bg-rectangle {
-    height: 124rem;
-    top: 54rem;
+    height: 125rem;
   }
 }
 
@@ -434,10 +550,6 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 800px) and (max-width: 859px) {
-  main {
-    left: 12rem;
-  }
-
   h1 {
     font-size: 3.2rem;
   }
@@ -468,10 +580,6 @@ Text/Margin Scale:
   .close-btn {
     margin-top: -2rem;
     transform: translateX(-2.3rem);
-  }
-
-  main {
-    left: 15rem;
   }
 
   h1 {
@@ -557,17 +665,12 @@ Text/Margin Scale:
     top: 51rem;
   }
 
-  main {
-    left: 25rem;
-  }
-
   h1 {
     font-size: 4.1rem;
   }
 
   .videos-container {
     gap: 2.6rem;
-    margin: -12rem 0 -50rem;
   }
 }
 
@@ -636,10 +739,6 @@ Text/Margin Scale:
     top: 55rem;
   }
 
-  main {
-    left: 60rem;
-  }
-
   h1 {
     font-size: 5.8rem;
   }
@@ -683,11 +782,6 @@ Text/Margin Scale:
     top: 62rem;
   }
 
-  main {
-    top: 15rem;
-    left: 74rem;
-  }
-
   h1 {
     font-size: 5.8rem;
   }
@@ -698,7 +792,6 @@ Text/Margin Scale:
   }
 
   .videos-container {
-    margin: -9.4rem 0 -41rem;
     gap: 10.5rem;
   }
 

@@ -252,8 +252,8 @@ nav ul {
   width: 100vw;
   height: 55rem;
   z-index: -1;
-  position: relative;
-  top: 52rem;
+  position: absolute;
+  top: 49rem;
 }
 
 /* Main */
@@ -262,17 +262,16 @@ main,
 .heading {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 main {
   flex-direction: column;
-  position: absolute;
-  top: 10.5rem;
-  left: 38rem;
+  justify-content: flex-start;
+  gap: 15rem;
 }
 
 .heading {
+  justify-content: center;
   gap: 10.5rem;
   margin: 11.9rem auto 0;
   font-family: "Frank Ruhl Libre", serif;
@@ -286,6 +285,7 @@ h1 {
 .subheading {
   font-size: 2rem;
   line-height: 1.5;
+  text-align: left;
 }
 
 .videos-container {
@@ -293,7 +293,7 @@ h1 {
   justify-content: center;
   align-items: center;
   gap: 3.2rem;
-  margin: -12rem 0 -40rem;
+  position: relative;
 }
 
 /* Footer */
@@ -307,9 +307,6 @@ footer {
   gap: 4.8rem;
   border-top: 1px solid rgba(0, 0, 0, 0.15);
   padding-top: 3.6rem;
-  position: relative;
-  z-index: 2;
-  top: 45rem;
 }
 
 .footer-img img {
