@@ -1575,7 +1575,7 @@ Text/Margin Scale:
   .cta,
   .cta:link,
   .cta:visited {
-    padding: 1.2rem 2.6rem;
+    padding: 1rem 2.6rem;
     font-size: 2rem;
   }
 }
