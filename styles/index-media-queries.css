@@ -1571,6 +1571,15 @@ Text/Margin Scale:
   }
 }
 
+@media only screen and (min-width: 1900px) {
+  .cta,
+  .cta:link,
+  .cta:visited {
+    padding: 1.2rem 2.6rem;
+    font-size: 2.3rem;
+  }
+}
+
 @media only screen and (min-width: 1900px) and (max-width: 2199px) {
   .contact-snapshot {
     gap: 32rem;
@@ -1582,12 +1591,6 @@ Text/Margin Scale:
 
   #dropdown-menu {
     left: 135rem;
-  }
-
-  .cta:link,
-  .cta:visited {
-    padding: 1.4rem 3.2rem;
-    font-size: 2.6rem;
   }
 
   .heading,
@@ -1660,12 +1663,6 @@ Text/Margin Scale:
 
   .tagline {
     font-size: 3.2rem;
-  }
-
-  .cta:link,
-  .cta:visited {
-    padding: 1.6rem 3.6rem;
-    font-size: 2.9rem;
   }
 
   .section-heading,
