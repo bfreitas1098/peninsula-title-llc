@@ -734,6 +734,10 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 1900px) {
+  .main-content {
+    gap: 15rem;
+  }
+
   .contact-btn {
     padding: 1rem 2.6rem;
   }
@@ -741,6 +745,10 @@ Text/Margin Scale:
   .contact-btn a:link,
   .contact-btn a:visited {
     font-size: 2rem;
+  }
+
+  footer {
+    padding: 10.5rem 0 20rem;
   }
 }
 
@@ -785,10 +793,6 @@ Text/Margin Scale:
   #dropdown-menu {
     top: 10.2rem;
     left: 162rem;
-  }
-
-  .main-content {
-    gap: 15rem;
   }
 
   .heading {

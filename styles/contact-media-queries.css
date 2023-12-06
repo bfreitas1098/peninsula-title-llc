@@ -8,6 +8,12 @@ Text/Margin Scale:
 214px 240px 270px
 */
 
+@media only screen and (max-width: 399px) {
+  main {
+    left: 0rem;
+  }
+}
+
 @media only screen and (min-width: 400px) and (max-width: 409px) {
   #responsive-menu {
     left: 1rem;

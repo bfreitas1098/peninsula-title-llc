@@ -778,6 +778,10 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 1900px) {
+  .heading {
+    margin: 9.4rem 0;
+  }
+
   .contact-btn {
     padding: 1rem 2.6rem;
   }
@@ -824,7 +828,7 @@ Text/Margin Scale:
   }
 
   .testimonial-heading {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
 
   blockquote {
@@ -863,7 +867,7 @@ Text/Margin Scale:
   }
 
   .subheading {
-    font-size: 2.6rem;
+    font-size: 2.3rem;
   }
 
   .testimonial {
