@@ -8,9 +8,238 @@ Text/Margin Scale:
 214px 240px 270px
 */
 
-@media only screen and (max-width: 399px) {
+@media only screen and (min-width: 300px) and (max-width: 309px) {
+  #responsive-menu {
+    left: 4rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 319px) {
   main {
-    left: 0rem;
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: 310px) and (max-width: 319px) {
+  #responsive-menu {
+    left: 5rem;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 329px) {
+  #responsive-menu {
+    left: 6rem;
+  }
+
+  main {
+    left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 329px) {
+  .phones {
+    gap: 4.6rem;
+  }
+
+  form {
+    width: 26rem;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  form input:not(.submit-btn),
+  form textarea {
+    width: 22rem;
+    height: 3rem;
+  }
+
+  form label,
+  .submit-btn {
+    font-size: 1.4rem;
+  }
+
+  form input:not(.submit-btn),
+  form textarea {
+    font-size: 1.2rem;
+  }
+
+  .submit-btn {
+    padding: 6px 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 339px) {
+  #responsive-menu {
+    left: 7rem;
+  }
+
+  main {
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 359px) {
+  .phones {
+    gap: 7.4rem;
+  }
+
+  form {
+    width: 29rem;
+  }
+
+  form input:not(.submit-btn),
+  form textarea {
+    width: 25rem;
+  }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 980px) {
+  h1 {
+    font-size: 2.9rem;
+  }
+
+  form label,
+  .submit-btn {
+    font-size: 1.6rem;
+  }
+
+  form input:not(.submit-btn),
+  form textarea {
+    font-size: 1.4rem;
+  }
+
+  .submit-btn {
+    padding: 8px 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 339px) {
+  #responsive-menu {
+    width: 26rem;
+  }
+}
+
+@media only screen and (min-width: 340px) and (max-width: 349px) {
+  #responsive-menu {
+    left: 2rem;
+  }
+}
+
+@media only screen and (min-width: 340px) and (max-width: 359px) {
+  main {
+    left: 1rem;
+  }
+}
+
+@media only screen and (min-width: 340px) and (max-width: 399px) {
+  #responsive-menu {
+    width: 32rem;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 359px) {
+  #responsive-menu {
+    left: 3rem;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 369px) {
+  #responsive-menu {
+    left: 4rem;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 379px) {
+  main {
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 399px) {
+  .phones {
+    gap: 8.3rem;
+  }
+
+  form {
+    width: 32rem;
+  }
+
+  form input:not(.submit-btn),
+  form textarea {
+    width: 28rem;
+  }
+}
+
+@media only screen and (min-width: 370px) and (max-width: 379px) {
+  #responsive-menu {
+    left: 5rem;
+  }
+}
+
+@media only screen and (min-width: 380px) and (max-width: 389px) {
+  #responsive-menu {
+    left: 6rem;
+  }
+}
+
+@media only screen and (min-width: 380px) and (max-width: 399px) {
+  main {
+    left: 1rem;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 399px) {
+  #responsive-menu {
+    left: 7rem;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  nav {
+    padding: 0.4rem 2.3rem;
+  }
+
+  .logo {
+    width: 9.5rem;
+    height: 2.9rem;
+  }
+
+  #menu-icon {
+    width: 2.9rem;
+    height: 2.9rem;
+  }
+
+  #responsive-menu {
+    height: 45rem;
+    padding: 2.6rem 1rem 2.6rem 5.2rem;
+  }
+
+  .responsive-link a:link,
+  .responsive-link a:visited,
+  .responsive-link {
+    font-size: 1.4rem;
+  }
+
+  .close-btn {
+    margin-top: -2rem;
+    transform: translateX(-1rem);
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+
+  main {
+    top: 12rem;
+  }
+
+  form {
+    padding: 2rem;
+  }
+
+  footer {
+    margin: 10.5rem 5.2rem 3.6rem;
+    top: 105rem;
   }
 }
 
@@ -21,6 +250,69 @@ Text/Margin Scale:
 
   main {
     left: 0rem;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 459px) {
+  form {
+    width: 36rem;
+  }
+
+  form input:not(.submit-btn),
+  form textarea {
+    width: 30rem;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+  nav {
+    padding: 0.6rem 2.6rem;
+  }
+
+  .logo {
+    width: 11rem;
+    height: 3.2rem;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 559px) {
+  footer {
+    margin: 10.5rem 10.5rem 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+  #menu-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  #responsive-menu {
+    width: 41rem;
+    height: 55rem;
+    padding: 3.2rem 2rem 3.2rem 7.4rem;
+  }
+
+  .responsive-link a:link,
+  .responsive-link a:visited,
+  .responsive-link {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 799px) {
+  .phones {
+    gap: 10.5rem;
+  }
+
+  footer {
+    top: 120rem;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 980px) {
+  form {
+    padding: 2.9rem;
   }
 }
 
@@ -57,15 +349,6 @@ Text/Margin Scale:
 @media only screen and (max-width: 459px) {
   .contact-info {
     padding: 1rem;
-  }
-
-  form {
-    width: 36rem;
-  }
-
-  form input:not(.submit-btn),
-  form textarea {
-    width: 30rem;
   }
 }
 
@@ -125,17 +408,6 @@ Text/Margin Scale:
 
   main {
     left: 2rem;
-  }
-}
-
-@media only screen and (max-width: 499px) {
-  nav {
-    padding: 0.6rem 2.6rem;
-  }
-
-  .logo {
-    width: 11rem;
-    height: 3.2rem;
   }
 }
 
@@ -235,12 +507,6 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (max-width: 559px) {
-  footer {
-    margin: 10.5rem 10.5rem 3.6rem;
-  }
-}
-
 @media only screen and (min-width: 560px) and (max-width: 579px) {
   #responsive-menu {
     left: 16rem;
@@ -255,25 +521,6 @@ Text/Margin Scale:
 @media only screen and (min-width: 580px) and (max-width: 599px) {
   #responsive-menu {
     left: 18rem;
-  }
-}
-
-@media only screen and (max-width: 599px) {
-  #menu-icon {
-    width: 3.2rem;
-    height: 3.2rem;
-  }
-
-  #responsive-menu {
-    width: 41rem;
-    height: 55rem;
-    padding: 3.2rem 2rem 3.2rem 7.4rem;
-  }
-
-  .responsive-link a:link,
-  .responsive-link a:visited,
-  .responsive-link {
-    font-size: 1.6rem;
   }
 }
 
@@ -464,14 +711,13 @@ Text/Margin Scale:
     display: none;
   }
 
-  .contact-info {
-    align-self: flex-start;
-  }
-
   .phones {
     display: flex;
     align-items: center;
-    gap: 10.5rem;
+  }
+
+  .contact-info {
+    align-self: flex-start;
   }
 
   .heading {
@@ -485,10 +731,6 @@ Text/Margin Scale:
 
   .contact-form {
     margin-top: -8rem;
-  }
-
-  footer {
-    top: 120rem;
   }
 }
 
@@ -651,26 +893,7 @@ Text/Margin Scale:
 
   form {
     gap: 2.3rem;
-    padding: 2.9rem;
     transform: translateY(0rem);
-  }
-
-  form label,
-  .submit-btn {
-    font-size: 1.4rem;
-  }
-
-  .submit-btn {
-    padding: 8px 1.8rem;
-  }
-
-  h1 {
-    font-size: 2.9rem;
-  }
-
-  form input:not(.submit-btn),
-  form textarea {
-    font-size: 1.4rem;
   }
 }
 
