@@ -400,11 +400,6 @@ Text/Margin Scale:
   .peninsula-info {
     gap: 2.9rem;
   }
-
-  .email-icon,
-  .email {
-    transform: translateX(-1rem);
-  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 339px) {
@@ -941,6 +936,11 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 499px) {
+  .email-icon,
+  .email {
+    transform: translateX(-1rem);
+  }
+
   .hero-section {
     background-position: -25rem 0;
   }

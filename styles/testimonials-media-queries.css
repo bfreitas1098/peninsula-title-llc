@@ -8,49 +8,83 @@ Text/Margin Scale:
 214px 240px 270px
 */
 
-@media only screen and (min-width: 300px) and (max-width: 309px) {
+@media only screen and (max-width: 259px) {
   #responsive-menu {
-    left: 4rem;
+    left: 2rem;
   }
 }
 
-@media only screen and (min-width: 310px) and (max-width: 319px) {
-  #responsive-menu {
-    left: 5rem;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 329px) {
-  #responsive-menu {
-    left: 6rem;
-  }
-}
-
-@media only screen and (min-width: 330px) and (max-width: 339px) {
-  #responsive-menu {
-    left: 7rem;
-  }
-}
-
-@media only screen and (max-width: 339px) {
-  #responsive-menu {
-    width: 26rem;
-  }
-}
-
-@media only screen and (min-width: 340px) and (max-width: 359px) {
+@media only screen and (min-width: 260px) and (max-width: 269px) {
   #responsive-menu {
     left: 3rem;
   }
 }
 
-@media only screen and (min-width: 340px) and (max-width: 399px) {
-  #responsive-menu {
-    width: 32rem;
+@media only screen and (max-width: 269px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .subheading {
+    font-size: 1rem;
+    padding: 0 4.6rem;
+  }
+
+  .contact-btn {
+    padding: 0 1rem 4px;
+  }
+
+  .contact-btn a,
+  .contact-btn a:link,
+  .contact-bt a:visited {
+    font-size: 8px;
+  }
+
+  .testimonials-container {
+    gap: 3.6rem;
+    padding: 8.3rem 2rem 0;
+  }
+
+  .testimonial {
+    padding: 2rem 1rem;
+  }
+
+  .initials {
+    padding: 6px;
+    font-size: 1.3rem;
+  }
+
+  .author {
+    font-size: 1rem;
+  }
+
+  .date,
+  blockquote {
+    font-size: 8px;
+  }
+
+  .testimonial-btm {
+    gap: 1rem;
+  }
+
+  .testimonial-heading {
+    font-size: 1.1rem;
   }
 }
 
-@media only screen and (max-width: 349px) {
+@media only screen and (min-width: 270px) and (max-width: 279px) {
+  #responsive-menu {
+    left: 4rem;
+  }
+}
+
+@media only screen and (min-width: 270px) and (max-width: 299px) {
+  .subheading {
+    padding: 0 3.2rem;
+  }
+}
+
+@media only screen and (min-width: 270px) and (max-width: 349px) {
   h1 {
     font-size: 2rem;
   }
@@ -60,7 +94,7 @@ Text/Margin Scale:
   }
 
   .contact-btn {
-    padding: 4px 1.2rem;
+    padding: 2px 1.2rem 4px;
   }
 
   .contact-btn a:link,
@@ -93,9 +127,164 @@ Text/Margin Scale:
   .testimonial-heading {
     font-size: 1.3rem;
   }
+}
+
+@media only screen and (min-width: 270px) and (max-width: 539px) {
+  .testimonials-container {
+    padding: 11.9rem 2.3rem 0;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 289px) {
+  #responsive-menu {
+    left: 5rem;
+  }
+}
+
+@media only screen and (min-width: 290px) and (max-width: 299px) {
+  #responsive-menu {
+    left: 6rem;
+  }
+}
+
+@media only screen and (max-width: 299px) {
+  nav {
+    padding: 0.2rem 2rem;
+  }
+
+  .logo {
+    width: 7.5rem;
+    height: 2.3rem;
+  }
+
+  #menu-icon {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+
+  #responsive-menu {
+    width: 23rem;
+    height: 35rem;
+    padding: 2.3rem 1rem 2.3rem 2.6rem;
+  }
+
+  .responsive-link a:link,
+  .responsive-link a:visited,
+  .responsive-link {
+    font-size: 1.2rem;
+  }
+
+  .close-btn {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+
+  .heading {
+    margin: 6.6rem 0 3.6rem;
+  }
 
   footer {
+    margin: 0 2rem 3.6rem;
+  }
+
+  .footer-img img {
+    width: 2.9rem;
+    height: 2.9rem;
+  }
+
+  .footer-text {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 309px) {
+  #responsive-menu {
+    left: 4rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 339px) {
+  #responsive-menu {
+    width: 26rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 349px) {
+  footer {
     margin: 0 5.2rem 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  nav {
+    padding: 0.4rem 2.3rem;
+  }
+
+  .logo {
+    width: 9.5rem;
+    height: 2.9rem;
+  }
+
+  #menu-icon {
+    width: 2.9rem;
+    height: 2.9rem;
+  }
+
+  #responsive-menu {
+    height: 40rem;
+    padding: 2.6rem 1.4rem 2.6rem 5.2rem;
+  }
+
+  .responsive-link a:link,
+  .responsive-link a:visited,
+  .responsive-link {
+    font-size: 1.4rem;
+  }
+
+  .close-btn {
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 469px) {
+  .footer-img img {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+
+  .footer-text {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 310px) and (max-width: 319px) {
+  #responsive-menu {
+    left: 5rem;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 329px) {
+  #responsive-menu {
+    left: 6rem;
+  }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 339px) {
+  #responsive-menu {
+    left: 7rem;
+  }
+}
+
+@media only screen and (min-width: 340px) and (max-width: 359px) {
+  #responsive-menu {
+    left: 3rem;
+  }
+}
+
+@media only screen and (min-width: 340px) and (max-width: 399px) {
+  #responsive-menu {
+    width: 32rem;
   }
 }
 
@@ -164,35 +353,8 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 399px) {
-  nav {
-    padding: 0.4rem 2.3rem;
-  }
-
-  .logo {
-    width: 9.5rem;
-    height: 2.9rem;
-  }
-
-  #menu-icon {
-    width: 2.9rem;
-    height: 2.9rem;
-  }
-
-  #responsive-menu {
-    height: 40rem;
-    padding: 2.6rem 1.4rem 2.6rem 5.2rem;
-  }
-
-  .responsive-link a:link,
-  .responsive-link a:visited,
-  .responsive-link {
-    font-size: 1.4rem;
-  }
-
   .close-btn {
     transform: translateX(-1rem);
-    width: 2.6rem;
-    height: 2.6rem;
   }
 }
 
@@ -296,17 +458,6 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (max-width: 469px) {
-  .footer-img img {
-    width: 3.6rem;
-    height: 3.6rem;
-  }
-
-  .footer-text {
-    font-size: 1rem;
-  }
-}
-
 @media only screen and (min-width: 470px) and (max-width: 599px) {
   .footer-img img {
     width: 4.1rem;
@@ -371,7 +522,6 @@ Text/Margin Scale:
 
 @media only screen and (max-width: 539px) {
   .testimonials-container {
-    padding: 11.9rem 2.3rem 0;
     margin-bottom: -26rem;
   }
 }
