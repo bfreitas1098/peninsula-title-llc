@@ -8,9 +8,219 @@ Text/Margin Scale:
 214px 240px 270px
 */
 
+@media only screen and (max-width: 259px) {
+  #responsive-menu {
+    left: 2rem;
+  }
+}
+
+@media only screen and (min-width: 260px) and (max-width: 269px) {
+  #responsive-menu {
+    left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 269px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .description ul,
+  .description p {
+    font-size: 8px;
+    line-height: 1.6;
+  }
+
+  .contact-btn {
+    padding: 2px 1rem;
+  }
+
+  .contact-btn a,
+  .contact-btn a:link,
+  .contact-bt a:visited {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (min-width: 270px) and (max-width: 279px) {
+  #responsive-menu {
+    left: 4rem;
+  }
+}
+
+@media only screen and (min-width: 270px) and (max-width: 299px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+}
+
+@media only screen and (min-width: 270px) and (max-width: 349px) {
+  .description ul,
+  .description p {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .contact-btn {
+    padding: 4px 1.2rem;
+  }
+
+  .contact-btn a:link,
+  .contact-bt a:visited {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 289px) {
+  #responsive-menu {
+    left: 5rem;
+  }
+}
+
+@media only screen and (min-width: 290px) and (max-width: 299px) {
+  #responsive-menu {
+    left: 6rem;
+  }
+}
+
+@media only screen and (max-width: 299px) {
+  nav {
+    padding: 0.2rem 2rem;
+  }
+
+  .logo {
+    width: 7.5rem;
+    height: 2.3rem;
+  }
+
+  #menu-icon {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+
+  #responsive-menu {
+    width: 23rem;
+    height: 35rem;
+    padding: 2.3rem 1rem 2.3rem 2.6rem;
+  }
+
+  .responsive-link a:link,
+  .responsive-link a:visited,
+  .responsive-link {
+    font-size: 1.2rem;
+  }
+
+  .close-btn {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+
+  .heading {
+    height: 25rem;
+  }
+
+  .overlay {
+    height: 24.9rem;
+  }
+
+  .tas,
+  .eas,
+  .cs {
+    width: 20rem;
+  }
+
+  .main-content {
+    padding: 4.1rem 0 3.2rem;
+  }
+
+  footer {
+    margin: 10.5rem 2rem 3.6rem;
+  }
+
+  .footer-img img {
+    width: 2.9rem;
+    height: 2.9rem;
+  }
+
+  .footer-text {
+    font-size: 8px;
+  }
+}
+
 @media only screen and (min-width: 300px) and (max-width: 309px) {
   #responsive-menu {
     left: 1rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 339px) {
+  #responsive-menu {
+    width: 29rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 349px) {
+  .main-content {
+    padding: 5.2rem 0 8.3rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  nav {
+    padding: 0.4rem 2.3rem;
+  }
+
+  .logo {
+    width: 9.5rem;
+    height: 2.9rem;
+  }
+
+  #menu-icon {
+    width: 2.9rem;
+    height: 2.9rem;
+  }
+
+  #responsive-menu {
+    height: 40rem;
+    padding: 2.9rem 1rem 2.9rem 4.6rem;
+  }
+
+  .responsive-link a:link,
+  .responsive-link a:visited,
+  .responsive-link {
+    font-size: 1.4rem;
+  }
+
+  .close-btn {
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+
+  .heading {
+    height: 30rem;
+  }
+
+  .overlay {
+    height: 29.9rem;
+  }
+
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  footer {
+    margin: 10.5rem 4.1rem 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 469px) {
+  .footer-img img {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+
+  .footer-text {
+    font-size: 1rem;
   }
 }
 
@@ -32,12 +242,6 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (max-width: 339px) {
-  #responsive-menu {
-    width: 29rem;
-  }
-}
-
 @media only screen and (min-width: 340px) and (max-width: 349px) {
   #responsive-menu {
     left: 2rem;
@@ -47,27 +251,6 @@ Text/Margin Scale:
 @media only screen and (min-width: 340px) and (max-width: 399px) {
   #responsive-menu {
     width: 32rem;
-  }
-}
-
-@media only screen and (max-width: 349px) {
-  .main-content {
-    padding: 5.2rem 0 8.3rem;
-  }
-
-  .description ul,
-  .description p {
-    font-size: 1rem;
-    line-height: 1.8;
-  }
-
-  .contact-btn {
-    padding: 4px 1.2rem;
-  }
-
-  .contact-btn a:link,
-  .contact-bt a:visited {
-    font-size: 1rem;
   }
 }
 
@@ -123,57 +306,17 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 399px) {
-  nav {
-    padding: 0.4rem 2.3rem;
-  }
-
-  .logo {
-    width: 9.5rem;
-    height: 2.9rem;
-  }
-
-  #menu-icon {
-    width: 2.9rem;
-    height: 2.9rem;
-  }
-
-  #responsive-menu {
-    height: 40rem;
-    padding: 2.9rem 1rem 2.9rem 4.6rem;
-  }
-
-  .responsive-link a:link,
-  .responsive-link a:visited,
-  .responsive-link {
-    font-size: 1.4rem;
-  }
-
   .close-btn {
     margin-top: -2rem;
     transform: translateX(-1rem);
-    width: 2.6rem;
-    height: 2.6rem;
-  }
-
-  .heading {
-    height: 30rem;
-  }
-
-  .overlay {
-    height: 29.9rem;
   }
 
   h1 {
-    font-size: 2.6rem;
     padding: 0 2rem;
   }
 
   .description {
     padding: 0 3.2rem;
-  }
-
-  footer {
-    margin: 10.5rem 4.1rem 3.6rem;
   }
 }
 
@@ -286,17 +429,6 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (max-width: 469px) {
-  .footer-img img {
-    width: 3.6rem;
-    height: 3.6rem;
-  }
-
-  .footer-text {
-    font-size: 1rem;
-  }
-}
-
 @media only screen and (min-width: 470px) and (max-width: 599px) {
   .footer-img img {
     width: 4.1rem;
@@ -319,18 +451,6 @@ Text/Margin Scale:
 @media only screen and (min-width: 480px) and (max-width: 499px) {
   #responsive-menu {
     left: 9rem;
-  }
-}
-
-@media only screen and (max-width: 499px) {
-  .tcs {
-    width: 40rem;
-  }
-
-  .tas,
-  .eas,
-  .cs {
-    width: 26rem;
   }
 }
 
