@@ -961,7 +961,7 @@ Text/Margin Scale:
 
   .heading {
     gap: 1.4rem;
-    margin-left: -4rem;
+    margin-left: 0;
   }
 
   .heading span {
