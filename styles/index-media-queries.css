@@ -8,42 +8,132 @@ Text/Margin Scale:
 214px 240px 270px
 */
 
-@media only screen and (min-width: 300px) and (max-width: 319px) {
+@media only screen and (max-width: 259px) {
   #responsive-menu {
     left: 2rem;
   }
 }
 
-@media only screen and (max-width: 319px) {
-  .who-we-are-img {
-    width: 25rem;
-    height: 15rem;
+@media only screen and (min-width: 260px) and (max-width: 269px) {
+  #responsive-menu {
+    left: 3rem;
   }
 }
 
-@media only screen and (max-width: 329px) {
-  .contact-snapshot {
-    padding: 9px 1.2rem;
-    gap: 8px;
-  }
-
-  .peninsula-info {
-    gap: 2.9rem;
-  }
-
-  .email-icon,
-  .email {
-    transform: translateX(-1rem);
-  }
-
+@media only screen and (max-width: 269px) {
   h1 {
-    font-size: 2.9rem;
+    font-size: 2.3rem;
   }
 
   .tagline {
+    font-size: 1rem;
+  }
+
+  .cta:link,
+  .cta:visited {
+    font-size: 0.8rem;
+    padding: 4px 1rem;
+  }
+
+  .who-we-are-section {
+    padding: 2.9rem 2rem 4.6rem;
+  }
+
+  .who-we-are-img {
+    width: 21rem;
+    height: 11rem;
+  }
+
+  .who-we-are-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .who-we-are-text {
+    font-size: 1rem;
+  }
+
+  .testimonials-container {
+    margin: 6.6rem 0;
+  }
+
+  .testimonials-container,
+  .faq-container,
+  .questions {
+    width: 22rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  .initials {
+    width: 2.9rem;
+    height: 2.9rem;
     font-size: 1.4rem;
   }
 
+  .star {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  .testimonial-text,
+  .testimonial-author {
+    font-size: 8px;
+  }
+
+  .faq-section {
+    padding: 6.6rem 2rem;
+  }
+
+  .faq-container {
+    gap: 5.2rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  .questions span {
+    font-size: 1.2rem;
+  }
+
+  .answer {
+    font-size: 1rem;
+  }
+
+  .questions-icon {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 270px) and (max-width: 279px) {
+  #responsive-menu {
+    left: 4rem;
+  }
+}
+
+@media only screen and (min-width: 270px) and (max-width: 299px) {
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  .tagline {
+    font-size: 1.2rem;
+  }
+
+  .who-we-are-section {
+    padding: 2.9rem 2.3rem 4.6rem 2.6rem;
+  }
+
+  .who-we-are-img {
+    width: 23rem;
+    height: 13rem;
+  }
+}
+
+@media only screen and (min-width: 270px) and (max-width: 329px) {
   .testimonials-container,
   .faq-container,
   .questions {
@@ -55,6 +145,268 @@ Text/Margin Scale:
   }
 }
 
+@media only screen and (min-width: 270px) and (max-width: 359px) {
+  .cta:link,
+  .cta:visited {
+    font-size: 1rem;
+    padding: 4px 1.2rem;
+  }
+
+  .who-we-are-section h2 {
+    font-size: 2rem;
+  }
+
+  .who-we-are-text {
+    font-size: 1.2rem;
+  }
+
+  .initials {
+    width: 3.2rem;
+    height: 3.2rem;
+    font-size: 1.6rem;
+  }
+
+  .star {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+
+  .testimonial-text,
+  .testimonial-author {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 270px) and (max-width: 399px) {
+  .questions span {
+    font-size: 1.3rem;
+  }
+
+  .answer {
+    font-size: 1.1rem;
+  }
+
+  .questions-icon {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 270px) and (max-width: 499px) {
+  .faq-section {
+    padding: 8.3rem 4.6rem;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 289px) {
+  #responsive-menu {
+    left: 5rem;
+  }
+}
+
+@media only screen and (min-width: 290px) and (max-width: 299px) {
+  #responsive-menu {
+    left: 6rem;
+  }
+}
+
+@media only screen and (max-width: 299px) {
+  .contact-snapshot {
+    padding: 7px 9px;
+    gap: 7px;
+  }
+
+  .phone-icon,
+  .phone,
+  .email-icon,
+  .email:link,
+  .email:visited {
+    font-size: 7px;
+  }
+
+  .ig-icon,
+  .fb-icon {
+    font-size: 8px;
+    transform: translateY(-3px);
+  }
+
+  nav {
+    padding: 0.2rem 2rem;
+  }
+
+  .logo {
+    width: 7.5rem;
+    height: 2.3rem;
+  }
+
+  #menu-icon {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+
+  #responsive-menu {
+    width: 23rem;
+    height: 35rem;
+    padding: 2.3rem 1rem 2.3rem 2.6rem;
+    top: 2.5rem;
+  }
+
+  .responsive-link a:link,
+  .responsive-link a:visited,
+  .responsive-link {
+    font-size: 1.2rem;
+  }
+
+  .close-btn {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+
+  .hero-section,
+  .overlay {
+    height: 35rem;
+  }
+
+  .cta:link,
+  .cta:visited {
+    transform: translateY(-1rem);
+  }
+
+  footer {
+    margin: 10.5rem 2rem 3.6rem;
+  }
+
+  .footer-img img {
+    width: 2.9rem;
+    height: 2.9rem;
+  }
+
+  .footer-text {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 319px) {
+  #responsive-menu {
+    left: 2rem;
+  }
+
+  .who-we-are-img {
+    width: 25rem;
+    height: 15rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 329px) {
+  .contact-snapshot {
+    padding: 9px 1.2rem;
+    gap: 8px;
+  }
+
+  #responsive-menu {
+    padding: 2.6rem 1.4rem 2.6rem 4.6rem;
+    top: 2.9rem;
+  }
+
+  h1 {
+    font-size: 2.9rem;
+  }
+
+  .tagline {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 359px) {
+  .who-we-are-section {
+    padding: 2.9rem 2.6rem 4.6rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  .phone-icon,
+  .phone,
+  .email-icon,
+  .email:link,
+  .email:visited {
+    font-size: 9px;
+  }
+
+  .ig-icon,
+  .fb-icon {
+    font-size: 1rem;
+    transform: translateY(-2px);
+  }
+
+  nav {
+    padding: 0.4rem 2.3rem;
+  }
+
+  .logo {
+    width: 9.5rem;
+    height: 2.9rem;
+  }
+
+  #menu-icon {
+    width: 2.9rem;
+    height: 2.9rem;
+  }
+
+  #responsive-menu {
+    width: 29rem;
+    height: 50rem;
+  }
+
+  .responsive-link a:link,
+  .responsive-link a:visited,
+  .responsive-link {
+    font-size: 1.4rem;
+  }
+
+  .close-btn {
+    width: 2.9rem;
+    height: 2.9rem;
+  }
+
+  .hero-section,
+  .overlay {
+    height: 50rem;
+  }
+
+  footer {
+    margin: 10.5rem 4.1rem 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 469px) {
+  .footer-img img {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+
+  .footer-text {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+  .cta:link,
+  .cta:visited {
+    transform: translateY(1rem);
+  }
+}
+
+@media only screen and (max-width: 329px) {
+  .peninsula-info {
+    gap: 2.9rem;
+  }
+
+  .email-icon,
+  .email {
+    transform: translateX(-1rem);
+  }
+}
+
 @media only screen and (min-width: 320px) and (max-width: 339px) {
   #responsive-menu {
     left: 4rem;
@@ -63,13 +415,6 @@ Text/Margin Scale:
   .who-we-are-img {
     width: 27rem;
     height: 17rem;
-  }
-}
-
-@media only screen and (max-width: 329px) {
-  #responsive-menu {
-    padding: 2.6rem 1.4rem 2.6rem 4.6rem;
-    top: 2.9rem;
   }
 }
 
@@ -122,12 +467,6 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 359px) {
-  .cta:link,
-  .cta:visited {
-    font-size: 1rem;
-    padding: 4px 1.2rem;
-  }
-
   .section-heading {
     font-size: 1rem;
   }
@@ -154,34 +493,6 @@ Text/Margin Scale:
   .testimonials-page:link,
   .testimonials-page:visited {
     font-size: 1.1rem;
-  }
-
-  .who-we-are-section {
-    padding: 2.9rem 2.6rem 4.6rem;
-  }
-
-  .who-we-are-section h2 {
-    font-size: 2rem;
-  }
-
-  .who-we-are-text {
-    font-size: 1.2rem;
-  }
-
-  .initials {
-    width: 3.2rem;
-    height: 3.2rem;
-    font-size: 1.6rem;
-  }
-
-  .star {
-    width: 1.4rem;
-    height: 1.4rem;
-  }
-
-  .testimonial-text,
-  .testimonial-author {
-    font-size: 1rem;
   }
 }
 
@@ -279,67 +590,9 @@ Text/Margin Scale:
 }
 
 @media only screen and (max-width: 399px) {
-  nav {
-    padding: 0.4rem 2.3rem;
-  }
-
-  .logo {
-    width: 9.5rem;
-    height: 2.9rem;
-  }
-
-  #menu-icon {
-    width: 2.9rem;
-    height: 2.9rem;
-  }
-
-  #responsive-menu {
-    width: 29rem;
-    height: 50rem;
-  }
-
-  .responsive-link a:link,
-  .responsive-link a:visited,
-  .responsive-link {
-    font-size: 1.4rem;
-  }
-
   .close-btn {
     margin-top: -2rem;
     transform: translateX(-1rem);
-    width: 2.9rem;
-    height: 2.9rem;
-  }
-
-  .phone-icon,
-  .phone,
-  .email-icon,
-  .email:link,
-  .email:visited {
-    font-size: 9px;
-  }
-
-  .ig-icon,
-  .fb-icon {
-    font-size: 1rem;
-    transform: translateY(-2px);
-  }
-
-  .hero-section,
-  .overlay {
-    height: 50rem;
-  }
-
-  .questions span {
-    font-size: 1.3rem;
-  }
-
-  .answer {
-    font-size: 1.1rem;
-  }
-
-  footer {
-    margin: 10.5rem 4.1rem 3.6rem;
   }
 }
 
@@ -591,15 +844,6 @@ Text/Margin Scale:
     width: fit-content;
     gap: 2.6rem;
   }
-
-  .footer-img img {
-    width: 3.6rem;
-    height: 3.6rem;
-  }
-
-  .footer-text {
-    font-size: 1rem;
-  }
 }
 
 @media only screen and (min-width: 470px) and (max-width: 499px) {
@@ -709,10 +953,6 @@ Text/Margin Scale:
 
   .who-we-are-section {
     align-items: flex-start;
-  }
-
-  .faq-section {
-    padding: 8.3rem 4.6rem;
   }
 }
 
@@ -835,13 +1075,6 @@ Text/Margin Scale:
 @media only screen and (min-width: 580px) and (max-width: 599px) {
   #responsive-menu {
     left: 18rem;
-  }
-}
-
-@media only screen and (max-width: 599px) {
-  .cta:link,
-  .cta:visited {
-    transform: translateY(1rem);
   }
 }
 

@@ -484,12 +484,6 @@ h2:not(.who-we-are-section h2) {
   line-height: 1.7;
 }
 
-.img-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .who-we-are-img {
   width: 60rem;
   height: 40rem;
@@ -603,6 +597,7 @@ h2:not(.who-we-are-section h2) {
 h3 {
   font-size: 3.2rem;
   font-weight: 600;
+  text-align: center;
 }
 
 .questions {
