@@ -837,19 +837,49 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 1100px) and (max-width: 1199px) {
   #dropdown-menu {
-    left: 50rem;
+    left: 60rem;
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1299px) {
   #dropdown-menu {
-    left: 60rem;
+    left: 70rem;
   }
 }
 
-@media only screen and (min-width: 1300px) and (max-width: 1439px) {
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
   #dropdown-menu {
-    left: 70rem;
+    left: 80rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1499px) {
+  #dropdown-menu {
+    left: 90rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1599px) {
+  #dropdown-menu {
+    left: 100rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1699px) {
+  #dropdown-menu {
+    left: 110rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 1799px) {
+  #dropdown-menu {
+    left: 120rem;
+  }
+}
+
+@media only screen and (min-width: 1800px) and (max-width: 1899px) {
+  #dropdown-menu {
+    left: 130rem;
   }
 }
 
@@ -858,27 +888,20 @@ Text/Margin Scale:
     gap: 15rem;
   }
 
-  .contact-btn {
-    padding: 1rem 2.6rem;
-  }
-
-  .contact-btn a:link,
-  .contact-btn a:visited {
-    font-size: 2rem;
-  }
-
   footer {
     padding: 10.5rem 0 20rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) and (max-width: 1999px) {
+  #dropdown-menu {
+    left: 140rem;
   }
 }
 
 @media only screen and (min-width: 1900px) and (max-width: 2199px) {
   nav {
     padding: 1.2rem 6.6rem;
-  }
-
-  #dropdown-menu {
-    left: 134.5rem;
   }
 
   .heading {
@@ -888,9 +911,28 @@ Text/Margin Scale:
   .overlay {
     height: 54.8rem;
   }
+}
 
-  p {
-    font-size: 1.8rem;
+@media only screen and (min-width: 1900px) and (max-width: 2299px) {
+  .contact-btn {
+    padding: 1rem 2.6rem;
+  }
+
+  .contact-btn a:link,
+  .contact-btn a:visited {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 2099px) {
+  #dropdown-menu {
+    left: 150rem;
+  }
+}
+
+@media only screen and (min-width: 2100px) and (max-width: 2199px) {
+  #dropdown-menu {
+    left: 157rem;
   }
 }
 
@@ -915,14 +957,6 @@ Text/Margin Scale:
     left: 162rem;
   }
 
-  .heading {
-    height: 66rem;
-  }
-
-  .overlay {
-    height: 65.8rem;
-  }
-
   h1 {
     font-size: 6.6rem;
     line-height: 1.4;
@@ -930,6 +964,10 @@ Text/Margin Scale:
 
   .tcs {
     width: 74rem;
+  }
+
+  .eas {
+    width: 45rem;
   }
 
   .cs {
@@ -947,5 +985,77 @@ Text/Margin Scale:
 
   .footer-text {
     font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 2200px) and (max-width: 2250px) {
+  #dropdown-menu {
+    left: 162rem;
+  }
+}
+
+@media only screen and (min-width: 2200px) and (max-width: 2999px) {
+  .heading {
+    height: 66rem;
+  }
+
+  .overlay {
+    height: 65.8rem;
+  }
+}
+
+@media only screen and (min-width: 2251px) {
+  ul .hidden-links {
+    display: flex;
+    gap: 3.6rem;
+    list-style: none;
+  }
+
+  .about-link {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 2300px) and (max-width: 2999px) {
+  .description p,
+  .description ul {
+    font-size: 1.8rem;
+  }
+
+  .contact-btn {
+    padding: 1.4rem 3.2rem;
+  }
+
+  .contact-btn a:link,
+  .contact-btn a:visited {
+    font-size: 2.3rem;
+  }
+}
+@media only screen and (min-width: 3000px) {
+  .heading {
+    height: 83rem;
+  }
+
+  .overlay {
+    height: 82.8rem;
+  }
+
+  .description {
+    padding: 0;
+  }
+
+  .description p,
+  .description ul {
+    font-size: 2rem;
+    line-height: 2.2;
+  }
+
+  .contact-btn {
+    padding: 1.6rem 3.6rem;
+  }
+
+  .contact-btn a:link,
+  .contact-btn a:visited {
+    font-size: 2.6rem;
   }
 }
