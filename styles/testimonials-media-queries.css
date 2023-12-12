@@ -884,7 +884,7 @@ Text/Margin Scale:
 
   #dropdown-menu {
     top: 6.75rem;
-    left: 66rem;
+    left: 55rem;
     padding: 2rem 1.2rem;
   }
 
@@ -911,19 +911,49 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 1100px) and (max-width: 1199px) {
   #dropdown-menu {
-    left: 50rem;
+    left: 60rem;
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1299px) {
   #dropdown-menu {
-    left: 60rem;
+    left: 70rem;
   }
 }
 
-@media only screen and (min-width: 1300px) and (max-width: 1439px) {
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
   #dropdown-menu {
-    left: 70rem;
+    left: 80rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1499px) {
+  #dropdown-menu {
+    left: 90rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1599px) {
+  #dropdown-menu {
+    left: 100rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1699px) {
+  #dropdown-menu {
+    left: 110rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 1799px) {
+  #dropdown-menu {
+    left: 120rem;
+  }
+}
+
+@media only screen and (min-width: 1800px) and (max-width: 1899px) {
+  #dropdown-menu {
+    left: 130rem;
   }
 }
 
@@ -931,22 +961,15 @@ Text/Margin Scale:
   .heading {
     margin: 9.4rem 0;
   }
+}
 
-  .contact-btn {
-    padding: 1rem 2.6rem;
-  }
-
-  .contact-btn a:link,
-  .contact-btn a:visited {
-    font-size: 2rem;
+@media only screen and (min-width: 1900px) and (max-width: 1999px) {
+  #dropdown-menu {
+    left: 140rem;
   }
 }
 
 @media only screen and (min-width: 1900px) and (max-width: 2199px) {
-  #dropdown-menu {
-    left: 135.5rem;
-  }
-
   h1 {
     font-size: 5.2rem;
   }
@@ -986,6 +1009,29 @@ Text/Margin Scale:
   }
 }
 
+@media only screen and (min-width: 1900px) and (max-width: 3499px) {
+  .contact-btn {
+    padding: 1rem 2.6rem;
+  }
+
+  .contact-btn a:link,
+  .contact-btn a:visited {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 2099px) {
+  #dropdown-menu {
+    left: 150rem;
+  }
+}
+
+@media only screen and (min-width: 2100px) and (max-width: 2199px) {
+  #dropdown-menu {
+    left: 160rem;
+  }
+}
+
 @media only screen and (min-width: 2200px) {
   nav {
     padding: 1.8rem 4.6rem;
@@ -1012,6 +1058,32 @@ Text/Margin Scale:
     margin: 15rem 0 7.4rem;
   }
 
+  .testimonial {
+    gap: 4.6rem;
+    padding: 4.6rem 3.6rem 11.9rem;
+  }
+
+  .testimonial-btm {
+    gap: 2.3rem;
+  }
+
+  .footer-img img {
+    width: 7.4rem;
+    height: 7.4rem;
+  }
+
+  .footer-text {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 2200px) and (max-width: 2250px) {
+  #dropdown-menu {
+    left: 165rem;
+  }
+}
+
+@media only screen and (min-width: 2200px) and (max-width: 2999px) {
   h1 {
     font-size: 5.8rem;
   }
@@ -1019,12 +1091,9 @@ Text/Margin Scale:
   .subheading {
     font-size: 2.3rem;
   }
+}
 
-  .testimonial {
-    gap: 4.6rem;
-    padding: 4.6rem 3.6rem 11.9rem;
-  }
-
+@media only screen and (min-width: 2200px) and (max-width: 3499px) {
   .initials {
     font-size: 2.3rem;
     padding: 1.4rem;
@@ -1039,10 +1108,6 @@ Text/Margin Scale:
     font-size: 1.8rem;
   }
 
-  .testimonial-btm {
-    gap: 2.3rem;
-  }
-
   .author,
   .testimonial-heading {
     font-size: 2.3rem;
@@ -1051,13 +1116,92 @@ Text/Margin Scale:
   blockquote {
     font-size: 2rem;
   }
+}
 
-  .footer-img img {
-    width: 7.4rem;
-    height: 7.4rem;
+@media only screen and (min-width: 2200px) and (max-width: 3999px) {
+  nav {
+    padding: 1.8rem 4.6rem;
   }
 
-  .footer-text {
+  .logo {
+    width: 23rem;
+    height: 6.3rem;
+  }
+
+  .nav-link a:link,
+  .nav-link a:visited,
+  .about-link {
     font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 2251px) {
+  ul .hidden-links {
+    display: flex;
+    gap: 3.6rem;
+    list-style: none;
+  }
+
+  .about-link {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 3500px) {
+  h1 {
+    font-size: 7.4rem;
+  }
+
+  .subheading {
+    font-size: 2.9rem;
+  }
+
+  .contact-btn {
+    padding: 1.4rem 3.6rem;
+  }
+
+  .contact-btn a:link,
+  .contact-btn a:visited {
+    font-size: 2.3rem;
+  }
+
+  .initials {
+    font-size: 2.6rem;
+    padding: 1.6rem;
+  }
+
+  .star {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+
+  .date {
+    font-size: 2rem;
+  }
+
+  .author,
+  .testimonial-heading {
+    font-size: 2.6rem;
+  }
+
+  blockquote {
+    font-size: 2.3rem;
+  }
+}
+
+@media only screen and (min-width: 4000px) {
+  nav {
+    padding: 2rem 6.6rem;
+  }
+
+  .logo {
+    width: 26.5rem;
+    height: 8.3rem;
+  }
+
+  .nav-link a:link,
+  .nav-link a:visited,
+  .about-link {
+    font-size: 2rem;
   }
 }
