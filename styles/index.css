@@ -212,10 +212,14 @@ nav ul {
   color: var(--primary-color) !important;
 }
 
+ul .hidden-links {
+  display: none;
+}
+
 #dropdown-menu {
   background-color: var(--white);
   position: absolute;
-  top: 12rem;
+  top: 12.2rem;
   left: 90rem;
   z-index: 5000;
   padding: 2.6rem 1.6rem;

@@ -946,6 +946,7 @@ Text/Margin Scale:
   }
 
   .heading,
+  .cta,
   .cta:link,
   .cta:visited {
     margin-left: 3.2rem;
@@ -970,6 +971,7 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 500px) and (max-width: 529px) {
   .heading,
+  .cta,
   .cta:link,
   .cta:visited {
     margin-left: 4.1rem;
@@ -1024,6 +1026,7 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 530px) and (max-width: 699px) {
   .heading,
+  .cta,
   .cta:link,
   .cta:visited {
     margin-left: 5.8rem;
@@ -1349,6 +1352,7 @@ Text/Margin Scale:
   }
 
   .heading,
+  .cta,
   .cta:link,
   .cta:visited {
     margin-left: 7.4rem;
@@ -1389,37 +1393,6 @@ Text/Margin Scale:
 @media only screen and (min-width: 720px) and (max-width: 819px) {
   .testimonials-container {
     width: 70rem;
-  }
-}
-
-@media only screen and (min-width: 800px) {
-  .heading,
-  .cta:link,
-  .cta:visited {
-    margin-left: 8.3rem;
-  }
-
-  .services {
-    gap: 3.6rem;
-  }
-
-  .who-we-are-section {
-    padding-right: 2.3rem;
-    gap: 4.1rem;
-  }
-
-  .who-we-are-img {
-    width: 45rem;
-    height: 30rem;
-  }
-
-  .text-container {
-    gap: 2.6rem;
-  }
-
-  .who-we-are-text {
-    font-size: 1.4rem;
-    line-height: 1.6;
   }
 }
 
@@ -1464,6 +1437,28 @@ Text/Margin Scale:
   }
 }
 
+@media only screen and (min-width: 800px) {
+  .heading,
+  .cta,
+  .cta:link,
+  .cta:visited {
+    margin-left: 8.3rem;
+  }
+
+  .services {
+    gap: 3.6rem;
+  }
+
+  .who-we-are-section {
+    padding-right: 2.3rem;
+    gap: 4.1rem;
+  }
+
+  .text-container {
+    gap: 2.6rem;
+  }
+}
+
 @media only screen and (min-width: 800px) and (max-width: 819px) {
   #responsive-menu {
     left: 23rem;
@@ -1471,6 +1466,18 @@ Text/Margin Scale:
 
   .close-btn {
     transform: translateX(-2.3rem);
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 2399px) {
+  .who-we-are-img {
+    width: 45rem;
+    height: 30rem;
+  }
+
+  .who-we-are-text {
+    font-size: 1.4rem;
+    line-height: 1.6;
   }
 }
 
@@ -1771,7 +1778,7 @@ Text/Margin Scale:
   }
 
   #dropdown-menu {
-    top: 10.5rem;
+    top: 10.6rem;
     left: 53rem;
     padding: 2rem 1.2rem;
   }
@@ -1788,19 +1795,49 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 1100px) and (max-width: 1199px) {
   #dropdown-menu {
-    left: 50rem;
+    left: 60rem;
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1299px) {
   #dropdown-menu {
-    left: 60rem;
+    left: 70rem;
   }
 }
 
-@media only screen and (min-width: 1300px) and (max-width: 1439px) {
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
   #dropdown-menu {
-    left: 70rem;
+    left: 80rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1499px) {
+  #dropdown-menu {
+    left: 90rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1599px) {
+  #dropdown-menu {
+    left: 100rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1699px) {
+  #dropdown-menu {
+    left: 110rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 1799px) {
+  #dropdown-menu {
+    left: 120rem;
+  }
+}
+
+@media only screen and (min-width: 1800px) and (max-width: 1899px) {
+  #dropdown-menu {
+    left: 130rem;
   }
 }
 
@@ -1813,6 +1850,12 @@ Text/Margin Scale:
   }
 }
 
+@media only screen and (min-width: 1900px) and (max-width: 1999px) {
+  #dropdown-menu {
+    left: 140rem;
+  }
+}
+
 @media only screen and (min-width: 1900px) and (max-width: 2199px) {
   .contact-snapshot {
     gap: 32rem;
@@ -1822,11 +1865,8 @@ Text/Margin Scale:
     padding: 1.2rem 6.6rem;
   }
 
-  #dropdown-menu {
-    left: 135rem;
-  }
-
   .heading,
+  .cta,
   .cta:link,
   .cta:visited {
     margin-left: 17rem;
@@ -1843,6 +1883,18 @@ Text/Margin Scale:
 
   .answer {
     padding: 1.6rem 1.8rem 2rem;
+  }
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 2099px) {
+  #dropdown-menu {
+    left: 150rem;
+  }
+}
+
+@media only screen and (min-width: 2100px) and (max-width: 2199px) {
+  #dropdown-menu {
+    left: 160rem;
   }
 }
 
@@ -1866,24 +1918,8 @@ Text/Margin Scale:
     font-size: 1.8rem;
   }
 
-  #dropdown-menu {
-    top: 14.3rem;
-    left: 162rem;
-  }
-
-  .hero-section,
-  .overlay {
-    height: 95rem;
-  }
-
   .hero-section {
     gap: 11.9rem;
-  }
-
-  .heading,
-  .cta:link,
-  .cta:visited {
-    margin-left: 21.4rem;
   }
 
   .heading {
@@ -1987,5 +2023,66 @@ Text/Margin Scale:
 
   .footer-text {
     font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 2200px) and (max-width: 2250px) {
+  #dropdown-menu {
+    top: 14.5rem;
+    left: 165rem;
+  }
+}
+
+@media only screen and (min-width: 2200px) and (max-width: 2999px) {
+  .hero-section,
+  .overlay {
+    height: 95rem;
+  }
+
+  .heading,
+  .cta,
+  .cta:link,
+  .cta:visited {
+    margin-left: 21.4rem;
+  }
+}
+
+@media only screen and (min-width: 2251px) {
+  ul .hidden-links {
+    display: flex;
+    gap: 3.6rem;
+    list-style: none;
+  }
+
+  .about-link {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 2499px) {
+  .who-we-are-section {
+    padding-top: 4.1rem;
+    padding-bottom: 4.1rem;
+    gap: 27rem;
+  }
+}
+
+@media only screen and (min-width: 2600px) {
+  .service-box {
+    padding: 0 6.6rem;
+  }
+}
+
+@media only screen and (min-width: 3000px) {
+  .hero-section,
+  .overlay {
+    height: 125rem;
+  }
+
+  .heading,
+  .cta,
+  .cta:link,
+  .cta:visited {
+    margin-left: 32rem;
   }
 }
