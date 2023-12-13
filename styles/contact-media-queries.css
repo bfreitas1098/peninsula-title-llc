@@ -1096,29 +1096,6 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1099px) {
-  .nav-link a:link,
-  .nav-link a:visited,
-  .about-link {
-    font-size: 1.4rem;
-  }
-
-  #dropdown-menu {
-    top: 6.75rem;
-    left: 66rem;
-    padding: 2rem 1.2rem;
-  }
-
-  .dd-link a:link,
-  .dd-link a:visited {
-    font-size: 1.4rem;
-  }
-
-  main {
-    left: 4rem;
-  }
-}
-
 @media only screen and (min-width: 990px) and (max-width: 1099px) {
   main {
     gap: 6.6rem;
@@ -1167,9 +1144,32 @@ Text/Margin Scale:
   }
 }
 
+@media only screen and (min-width: 1025px) and (max-width: 1099px) {
+  .nav-link a:link,
+  .nav-link a:visited,
+  .about-link {
+    font-size: 1.4rem;
+  }
+
+  #dropdown-menu {
+    top: 6.75rem;
+    left: 55rem;
+    padding: 2rem 1rem;
+  }
+
+  .dd-link a:link,
+  .dd-link a:visited {
+    font-size: 1.4rem;
+  }
+
+  main {
+    left: 4rem;
+  }
+}
+
 @media only screen and (min-width: 1100px) and (max-width: 1199px) {
   #dropdown-menu {
-    left: 50rem;
+    left: 60rem;
   }
 
   main {
@@ -1190,40 +1190,74 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 1200px) and (max-width: 1299px) {
   #dropdown-menu {
-    left: 60rem;
+    left: 70rem;
   }
 
   main {
-    top: 13rem;
+    top: 15rem;
     left: 5rem;
     padding: 10.5rem 9.4rem;
     gap: 9.4rem;
   }
 }
 
-@media only screen and (min-width: 1300px) and (max-width: 1439px) {
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
   #dropdown-menu {
-    left: 70rem;
+    left: 80rem;
   }
 
   main {
-    top: 14rem;
-    left: 6rem;
+    left: 7rem;
   }
 }
 
-@media only screen and (min-width: 1900px) and (max-width: 2199px) {
-  #dropdown-menu {
-    left: 136.5rem;
+@media only screen and (min-width: 1300px) and (max-width: 1499px) {
+  main {
+    top: 15rem;
   }
+}
 
-  .bg-rectangle {
-    height: 60rem;
-    top: 27rem;
+@media only screen and (min-width: 1400px) and (max-width: 1499px) {
+  #dropdown-menu {
+    left: 90rem;
   }
 
   main {
-    left: 30rem;
+    left: 9rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1599px) {
+  #dropdown-menu {
+    left: 100rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1699px) {
+  #dropdown-menu {
+    left: 110rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1799px) {
+  main {
+    left: 23rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 1799px) {
+  #dropdown-menu {
+    left: 120rem;
+  }
+}
+
+@media only screen and (min-width: 1800px) and (max-width: 1899px) {
+  #dropdown-menu {
+    left: 130rem;
+  }
+
+  main {
+    left: 26rem;
   }
 }
 
@@ -1252,12 +1286,12 @@ Text/Margin Scale:
 
   form input:not(.submit-btn) {
     height: 5rem;
-    width: 63.5rem;
   }
 
   form input:not(.submit-btn),
   form textarea {
     font-size: 2rem;
+    width: 63.5rem;
   }
 
   form label {
@@ -1267,6 +1301,35 @@ Text/Margin Scale:
   .submit-btn {
     font-size: 2rem;
     padding: 1.2rem 2.6rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) and (max-width: 1999px) {
+  #dropdown-menu {
+    left: 140rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) and (max-width: 2199px) {
+  .bg-rectangle {
+    height: 60rem;
+    top: 27rem;
+  }
+
+  main {
+    left: 30rem;
+  }
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 2099px) {
+  #dropdown-menu {
+    left: 150rem;
+  }
+}
+
+@media only screen and (min-width: 2100px) and (max-width: 2199px) {
+  #dropdown-menu {
+    left: 160rem;
   }
 }
 
@@ -1288,16 +1351,11 @@ Text/Margin Scale:
 
   #dropdown-menu {
     top: 10.3rem;
-    left: 161rem;
   }
 
   .bg-rectangle {
     height: 62rem;
-    top: 26rem;
-  }
-
-  main {
-    left: 45rem;
+    top: 23rem;
   }
 
   .info {
@@ -1311,5 +1369,53 @@ Text/Margin Scale:
 
   .footer-text {
     font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 2200px) and (max-width: 2250px) {
+  #dropdown-menu {
+    left: 165rem;
+  }
+}
+
+@media only screen and (min-width: 2200px) and (max-width: 2599px) {
+  main {
+    left: 46rem;
+  }
+}
+
+@media only screen and (min-width: 2251px) {
+  ul .hidden-links {
+    display: flex;
+    gap: 3.6rem;
+    list-style: none;
+  }
+
+  .about-link {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 2600px) and (max-width: 2999px) {
+  main {
+    left: 66rem;
+  }
+}
+
+@media only screen and (min-width: 3000px) and (max-width: 3499px) {
+  main {
+    left: 83rem;
+  }
+}
+
+@media only screen and (min-width: 3500px) and (max-width: 3999px) {
+  main {
+    left: 105rem;
+  }
+}
+
+@media only screen and (min-width: 4000px) {
+  main {
+    left: 150rem;
   }
 }
