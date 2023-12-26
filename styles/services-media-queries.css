@@ -8,15 +8,20 @@ Text/Margin Scale:
 214px 240px 270px
 */
 
-@media only screen and (max-width: 259px) {
+@media only screen and (max-width: 259px),
+  (min-width: 310px) and (max-width: 319px),
+  (min-width: 340px) and (max-width: 349px) {
   #responsive-menu {
-    left: 2rem;
+    left: 3rem;
   }
 }
 
-@media only screen and (min-width: 260px) and (max-width: 269px) {
+@media only screen and (min-width: 260px) and (max-width: 269px),
+  (min-width: 320px) and (max-width: 329px),
+  (min-width: 350px) and (max-width: 359px),
+  (min-width: 420px) and (max-width: 439px) {
   #responsive-menu {
-    left: 3rem;
+    left: 4rem;
   }
 }
 
@@ -27,7 +32,6 @@ Text/Margin Scale:
 
   .description ul,
   .description p {
-    font-size: 8px;
     line-height: 1.6;
   }
 
@@ -35,6 +39,8 @@ Text/Margin Scale:
     padding: 0 1.2rem 4px;
   }
 
+  .description ul,
+  .description p,
   .contact-btn a,
   .contact-btn a:link,
   .contact-bt a:visited {
@@ -42,9 +48,12 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 270px) and (max-width: 279px) {
+@media only screen and (min-width: 270px) and (max-width: 279px),
+  (min-width: 330px) and (max-width: 339px),
+  (min-width: 360px) and (max-width: 369px),
+  (min-width: 440px) and (max-width: 459px) {
   #responsive-menu {
-    left: 4rem;
+    left: 5rem;
   }
 }
 
@@ -57,7 +66,6 @@ Text/Margin Scale:
 @media only screen and (min-width: 270px) and (max-width: 349px) {
   .description ul,
   .description p {
-    font-size: 1rem;
     line-height: 1.8;
   }
 
@@ -65,21 +73,26 @@ Text/Margin Scale:
     padding: 2px 1.2rem 4px;
   }
 
+  .description ul,
+  .description p,
   .contact-btn a:link,
   .contact-bt a:visited {
     font-size: 1rem;
   }
 }
 
-@media only screen and (min-width: 280px) and (max-width: 289px) {
+@media only screen and (min-width: 280px) and (max-width: 289px),
+  (min-width: 370px) and (max-width: 379px) {
   #responsive-menu {
-    left: 5rem;
+    left: 6rem;
   }
 }
 
-@media only screen and (min-width: 290px) and (max-width: 299px) {
+@media only screen and (min-width: 290px) and (max-width: 299px),
+  (min-width: 380px) and (max-width: 389px),
+  (min-width: 460px) and (max-width: 479px) {
   #responsive-menu {
-    left: 6rem;
+    left: 7rem;
   }
 }
 
@@ -90,12 +103,17 @@ Text/Margin Scale:
 
   .logo {
     width: 7.5rem;
+  }
+
+  .logo,
+  #menu-icon,
+  .close-btn {
     height: 2.3rem;
   }
 
-  #menu-icon {
+  #menu-icon,
+  .close-btn {
     width: 2.3rem;
-    height: 2.3rem;
   }
 
   #responsive-menu {
@@ -108,11 +126,6 @@ Text/Margin Scale:
   .responsive-link a:visited,
   .responsive-link {
     font-size: 1.2rem;
-  }
-
-  .close-btn {
-    width: 2.3rem;
-    height: 2.3rem;
   }
 
   .heading {
@@ -147,9 +160,10 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 309px) {
+@media only screen and (min-width: 300px) and (max-width: 309px),
+  (min-width: 400px) and (max-width: 419px) {
   #responsive-menu {
-    left: 1rem;
+    left: 2rem;
   }
 }
 
@@ -172,12 +186,15 @@ Text/Margin Scale:
 
   .logo {
     width: 9.5rem;
+  }
+
+  .logo,
+  #menu-icon {
     height: 2.9rem;
   }
 
   #menu-icon {
     width: 2.9rem;
-    height: 2.9rem;
   }
 
   #responsive-menu {
@@ -224,39 +241,9 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 310px) and (max-width: 319px) {
-  #responsive-menu {
-    left: 2rem;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 329px) {
-  #responsive-menu {
-    left: 3rem;
-  }
-}
-
-@media only screen and (min-width: 330px) and (max-width: 339px) {
-  #responsive-menu {
-    left: 4rem;
-  }
-}
-
-@media only screen and (min-width: 340px) and (max-width: 349px) {
-  #responsive-menu {
-    left: 2rem;
-  }
-}
-
 @media only screen and (min-width: 340px) and (max-width: 399px) {
   #responsive-menu {
     width: 32rem;
-  }
-}
-
-@media only screen and (min-width: 350px) and (max-width: 359px) {
-  #responsive-menu {
-    left: 3rem;
   }
 }
 
@@ -281,27 +268,9 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 369px) {
-  #responsive-menu {
-    left: 4rem;
-  }
-}
-
-@media only screen and (min-width: 370px) and (max-width: 379px) {
-  #responsive-menu {
-    left: 5rem;
-  }
-}
-
-@media only screen and (min-width: 380px) and (max-width: 389px) {
-  #responsive-menu {
-    left: 6rem;
-  }
-}
-
 @media only screen and (min-width: 390px) and (max-width: 399px) {
   #responsive-menu {
-    left: 7rem;
+    left: 8rem;
   }
 }
 
@@ -317,12 +286,6 @@ Text/Margin Scale:
 
   .description {
     padding: 0 3.2rem;
-  }
-}
-
-@media only screen and (min-width: 400px) and (max-width: 419px) {
-  #responsive-menu {
-    left: 1rem;
   }
 }
 
@@ -405,27 +368,9 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 420px) and (max-width: 439px) {
-  #responsive-menu {
-    left: 3rem;
-  }
-}
-
 @media only screen and (min-width: 430px) and (max-width: 559px) {
   footer {
     margin: 10.5rem 10.5rem 3.6rem;
-  }
-}
-
-@media only screen and (min-width: 440px) and (max-width: 459px) {
-  #responsive-menu {
-    left: 5rem;
-  }
-}
-
-@media only screen and (min-width: 460px) and (max-width: 479px) {
-  #responsive-menu {
-    left: 7rem;
   }
 }
 
@@ -473,15 +418,6 @@ Text/Margin Scale:
   h1 {
     font-size: 3.6rem;
   }
-
-  .footer-img img {
-    width: 4.1rem;
-    height: 4.1rem;
-  }
-
-  .footer-text {
-    font-size: 1.2rem;
-  }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 650px) {
@@ -491,10 +427,6 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 500px) and (max-width: 799px) {
-  .tcs {
-    width: 50rem;
-  }
-
   .tas,
   .eas,
   .cs {
@@ -503,6 +435,12 @@ Text/Margin Scale:
 
   .main-content {
     padding: 8.3rem 0 19rem;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1099px) {
+  .tcs {
+    width: 50rem;
   }
 }
 
@@ -518,19 +456,24 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 560px) and (max-width: 579px) {
+@media only screen and (min-width: 560px) and (max-width: 579px),
+  (min-width: 610px) and (max-width: 629px),
+  (min-width: 730px) and (max-width: 739px) {
   #responsive-menu {
-    left: 16rem;
+    left: 17rem;
   }
 }
 
-@media only screen and (min-width: 580px) and (max-width: 599px) {
+@media only screen and (min-width: 580px) and (max-width: 599px),
+  (min-width: 630px) and (max-width: 649px),
+  (min-width: 760px) and (max-width: 769px) {
   #responsive-menu {
-    left: 18rem;
+    left: 19rem;
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 609px) {
+@media only screen and (min-width: 600px) and (max-width: 609px),
+  (min-width: 720px) and (max-width: 729px) {
   #responsive-menu {
     left: 15rem;
   }
@@ -556,10 +499,6 @@ Text/Margin Scale:
 
   .overlay {
     height: 39.9rem;
-  }
-
-  h1 {
-    font-size: 4.1rem;
   }
 }
 
@@ -598,15 +537,9 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 610px) and (max-width: 619px) {
-  #responsive-menu {
-    left: 16rem;
-  }
-}
-
-@media only screen and (min-width: 620px) and (max-width: 629px) {
-  #responsive-menu {
-    left: 17rem;
+@media only screen and (min-width: 600px) and (max-width: 1099px) {
+  h1 {
+    font-size: 4.1rem;
   }
 }
 
@@ -616,31 +549,21 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 630px) and (max-width: 639px) {
-  #responsive-menu {
-    left: 18rem;
-  }
-}
-
-@media only screen and (min-width: 640px) and (max-width: 649px) {
-  #responsive-menu {
-    left: 19rem;
-  }
-}
-
 @media only screen and (min-width: 650px) and (max-width: 659px) {
   #responsive-menu {
     left: 20rem;
   }
 }
 
-@media only screen and (min-width: 660px) and (max-width: 669px) {
+@media only screen and (min-width: 660px) and (max-width: 669px),
+  (min-width: 770px) and (max-width: 779px) {
   #responsive-menu {
     left: 21rem;
   }
 }
 
-@media only screen and (min-width: 670px) and (max-width: 679px) {
+@media only screen and (min-width: 670px) and (max-width: 679px),
+  (min-width: 780px) and (max-width: 799px) {
   #responsive-menu {
     left: 22rem;
   }
@@ -663,34 +586,25 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 700px) and (max-width: 719px) {
+@media only screen and (min-width: 700px) and (max-width: 709px) {
   #responsive-menu {
     left: 13rem;
   }
 }
 
-@media only screen and (min-width: 720px) and (max-width: 739px) {
+@media only screen and (min-width: 710px) and (max-width: 719px) {
   #responsive-menu {
-    left: 15rem;
-  }
-}
-@media only screen and (min-width: 740px) and (max-width: 759px) {
-  #responsive-menu {
-    left: 17rem;
+    left: 14rem;
   }
 }
 
-@media only screen and (min-width: 760px) and (max-width: 779px) {
+@media only screen and (min-width: 740px) and (max-width: 749px) {
   #responsive-menu {
-    left: 19rem;
+    left: 16rem;
   }
 }
 
-@media only screen and (min-width: 780px) and (max-width: 799px) {
-  #responsive-menu {
-    left: 22rem;
-  }
-}
+/* stopped here */
 
 @media only screen and (min-width: 800px) and (max-width: 819px) {
   #responsive-menu {
@@ -742,14 +656,6 @@ Text/Margin Scale:
     height: 40rem;
   }
 
-  h1 {
-    font-size: 4.1rem;
-  }
-
-  .tcs {
-    width: 50rem;
-  }
-
   .tas {
     width: 30rem;
   }
@@ -777,8 +683,13 @@ Text/Margin Scale:
 
   .description ul,
   .description p {
-    font-size: 1.4rem;
     line-height: 2.3;
+  }
+
+  .description ul,
+  .description p,
+  .footer-text {
+    font-size: 1.4rem;
   }
 
   .contact-btn {
@@ -788,10 +699,6 @@ Text/Margin Scale:
   .footer-img img {
     width: 5.2rem;
     height: 5.2rem;
-  }
-
-  .footer-text {
-    font-size: 1.4rem;
   }
 }
 
@@ -819,7 +726,9 @@ Text/Margin Scale:
 @media only screen and (min-width: 1025px) and (max-width: 1099px) {
   .nav-link a:link,
   .nav-link a:visited,
-  .about-link {
+  .about-link,
+  .dd-link a:link,
+  .dd-link a:visited {
     font-size: 1.4rem;
   }
 
@@ -827,11 +736,6 @@ Text/Margin Scale:
     top: 6.75rem;
     left: 55rem;
     padding: 2rem 1.2rem;
-  }
-
-  .dd-link a:link,
-  .dd-link a:visited {
-    font-size: 1.4rem;
   }
 }
 
@@ -948,7 +852,8 @@ Text/Margin Scale:
 
   .nav-link a:link,
   .nav-link a:visited,
-  .about-link {
+  .about-link,
+  .footer-text {
     font-size: 1.8rem;
   }
 
@@ -981,10 +886,6 @@ Text/Margin Scale:
   .footer-img img {
     width: 7.4rem;
     height: 7.4rem;
-  }
-
-  .footer-text {
-    font-size: 1.8rem;
   }
 }
 

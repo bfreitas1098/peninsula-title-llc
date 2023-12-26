@@ -1285,7 +1285,8 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 690px) and (max-width: 699px) {
+@media only screen and (min-width: 690px) and (max-width: 699px),
+  (min-width: 810px) and (max-width: 819px) {
   #responsive-menu {
     left: 24rem;
   }
@@ -1387,9 +1388,10 @@ Text/Margin Scale:
     left: 29rem;
   }
 }
-@media only screen and (min-width: 760px) and (max-width: 779px) {
+@media only screen and (min-width: 760px) and (max-width: 779px),
+  (min-width: 820px) and (max-width: 859px) {
   #responsive-menu {
-    left: 31rem;
+    left: 32rem;
   }
 }
 
@@ -1399,7 +1401,8 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 790px) and (max-width: 799px) {
+@media only screen and (min-width: 790px) and (max-width: 799px),
+  (min-width: 860px) and (max-width: 879px) {
   #responsive-menu {
     left: 34rem;
   }
@@ -1428,10 +1431,6 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 800px) and (max-width: 819px) {
-  #responsive-menu {
-    left: 23rem;
-  }
-
   .close-btn {
     transform: translateX(-2.3rem);
   }
@@ -1460,9 +1459,9 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 820px) and (max-width: 870px) {
+@media only screen and (min-width: 800px) and (max-width: 809px) {
   #responsive-menu {
-    left: 32rem;
+    left: 23rem;
   }
 }
 
@@ -1483,7 +1482,7 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 880px) and (max-width: 930px) {
+@media only screen and (min-width: 880px) and (max-width: 909px) {
   #responsive-menu {
     left: 38rem;
   }
@@ -1526,19 +1525,31 @@ Text/Margin Scale:
   }
 }
 
+@media only screen and (min-width: 910px) and (max-width: 939px) {
+  #responsive-menu {
+    left: 40rem;
+  }
+}
+
 @media only screen and (min-width: 920px) and (max-width: 989px) {
   .testimonials-container {
     width: 90rem;
   }
 }
 
-@media only screen and (min-width: 940px) and (max-width: 989px) {
+@media only screen and (min-width: 940px) and (max-width: 979px) {
   #responsive-menu {
-    left: 40rem;
+    left: 41rem;
   }
 
   .close-btn {
     transform: translateX(-4.1rem);
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 989px) {
+  #responsive-menu {
+    left: 42rem;
   }
 }
 
