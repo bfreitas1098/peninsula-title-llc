@@ -543,15 +543,15 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 651px) and (max-width: 899px) {
-  .description {
-    padding: 0 8.3rem;
-  }
-}
-
 @media only screen and (min-width: 650px) and (max-width: 659px) {
   #responsive-menu {
     left: 20rem;
+  }
+}
+
+@media only screen and (min-width: 651px) and (max-width: 899px) {
+  .description {
+    padding: 0 8.3rem;
   }
 }
 
@@ -580,11 +580,6 @@ Text/Margin Scale:
     left: 24rem;
   }
 }
-@media only screen and (min-width: 680px) and (max-width: 689px) {
-  #responsive-menu {
-    left: 23rem;
-  }
-}
 
 @media only screen and (min-width: 700px) and (max-width: 709px) {
   #responsive-menu {
@@ -603,8 +598,6 @@ Text/Margin Scale:
     left: 16rem;
   }
 }
-
-/* stopped here */
 
 @media only screen and (min-width: 800px) and (max-width: 819px) {
   #responsive-menu {
@@ -631,6 +624,37 @@ Text/Margin Scale:
 @media only screen and (min-width: 880px) and (max-width: 930px) {
   #responsive-menu {
     left: 38rem;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  nav {
+    padding: 1rem 3.6rem;
+  }
+
+  .logo {
+    width: 16rem;
+    height: 4.5rem;
+  }
+
+  .description ul,
+  .description p {
+    line-height: 2.3;
+  }
+
+  .description ul,
+  .description p,
+  .footer-text {
+    font-size: 1.4rem;
+  }
+
+  .contact-btn {
+    padding: 8px 2rem;
+  }
+
+  .footer-img img {
+    width: 5.2rem;
+    height: 5.2rem;
   }
 }
 
@@ -668,37 +692,6 @@ Text/Margin Scale:
   .main-content {
     gap: 9.4rem;
     padding: 10.5rem 0 19rem;
-  }
-}
-
-@media only screen and (min-width: 900px) and (max-width: 1099px) {
-  nav {
-    padding: 1rem 3.6rem;
-  }
-
-  .logo {
-    width: 16rem;
-    height: 4.5rem;
-  }
-
-  .description ul,
-  .description p {
-    line-height: 2.3;
-  }
-
-  .description ul,
-  .description p,
-  .footer-text {
-    font-size: 1.4rem;
-  }
-
-  .contact-btn {
-    padding: 8px 2rem;
-  }
-
-  .footer-img img {
-    width: 5.2rem;
-    height: 5.2rem;
   }
 }
 
