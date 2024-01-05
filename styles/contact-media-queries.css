@@ -8,23 +8,22 @@ Text/Margin Scale:
 214px 240px 270px
 */
 
-@media only screen and (max-width: 259px) {
-  #responsive-menu {
-    left: 2rem;
-  }
-}
-
-@media only screen and (min-width: 260px) and (max-width: 269px) {
+@media only screen and (max-width: 259px),
+  (min-width: 340px) and (max-width: 349px),
+  (min-width: 420px) and (max-width: 439px) {
   #responsive-menu {
     left: 3rem;
   }
 }
 
-@media only screen and (max-width: 269px) {
-  main {
-    left: 1rem;
+@media only screen and (min-width: 260px) and (max-width: 269px),
+  (min-width: 350px) and (max-width: 359px) {
+  #responsive-menu {
+    left: 4rem;
   }
+}
 
+@media only screen and (max-width: 269px) {
   .heading span {
     font-size: 1.2rem;
   }
@@ -51,13 +50,12 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 270px) and (max-width: 279px) {
+@media only screen and (min-width: 270px) and (max-width: 279px),
+  (min-width: 300px) and (max-width: 309px),
+  (min-width: 360px) and (max-width: 369px),
+  (min-width: 440px) and (max-width: 459px) {
   #responsive-menu {
-    left: 4rem;
-  }
-
-  main {
-    left: 0;
+    left: 5rem;
   }
 }
 
@@ -90,21 +88,20 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 280px) and (max-width: 289px) {
-  #responsive-menu {
-    left: 5rem;
-  }
-}
-
-@media only screen and (min-width: 280px) and (max-width: 299px) {
-  main {
-    left: 1rem;
-  }
-}
-
-@media only screen and (min-width: 290px) and (max-width: 299px) {
+@media only screen and (min-width: 280px) and (max-width: 289px),
+  (min-width: 310px) and (max-width: 319px),
+  (min-width: 370px) and (max-width: 379px) {
   #responsive-menu {
     left: 6rem;
+  }
+}
+
+@media only screen and (min-width: 290px) and (max-width: 299px),
+  (min-width: 320px) and (max-width: 329px),
+  (min-width: 380px) and (max-width: 389px),
+  (min-width: 460px) and (max-width: 479px) {
+  #responsive-menu {
+    left: 7rem;
   }
 }
 
@@ -115,12 +112,17 @@ Text/Margin Scale:
 
   .logo {
     width: 7.5rem;
+  }
+
+  .logo,
+  #menu-icon,
+  .close-btn {
     height: 2.3rem;
   }
 
-  #menu-icon {
+  #menu-icon,
+  .close-btn {
     width: 2.3rem;
-    height: 2.3rem;
   }
 
   #responsive-menu {
@@ -131,17 +133,15 @@ Text/Margin Scale:
 
   .responsive-link a:link,
   .responsive-link a:visited,
-  .responsive-link {
+  .responsive-link,
+  form label,
+  .submit-btn {
     font-size: 1.2rem;
-  }
-
-  .close-btn {
-    width: 2.3rem;
-    height: 2.3rem;
   }
 
   main {
     top: 8.3rem;
+    left: 1rem;
   }
 
   .contact-form {
@@ -150,11 +150,6 @@ Text/Margin Scale:
 
   h1 {
     font-size: 2rem;
-  }
-
-  form label,
-  .submit-btn {
-    font-size: 1.2rem;
   }
 
   form input:not(.submit-btn),
@@ -178,18 +173,6 @@ Text/Margin Scale:
 
   .footer-text {
     font-size: 8px;
-  }
-}
-
-@media only screen and (min-width: 300px) and (max-width: 309px) {
-  #responsive-menu {
-    left: 4rem;
-  }
-}
-
-@media only screen and (min-width: 300px) and (max-width: 319px) {
-  main {
-    left: 0;
   }
 }
 
@@ -235,12 +218,15 @@ Text/Margin Scale:
 
   .logo {
     width: 9.5rem;
+  }
+
+  .logo,
+  #menu-icon {
     height: 2.9rem;
   }
 
   #menu-icon {
     width: 2.9rem;
-    height: 2.9rem;
   }
 
   #responsive-menu {
@@ -261,6 +247,7 @@ Text/Margin Scale:
 
   main {
     top: 12rem;
+    left: 1rem;
   }
 
   footer {
@@ -296,29 +283,10 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 310px) and (max-width: 319px) {
+@media only screen and (min-width: 330px) and (max-width: 339px),
+  (min-width: 390px) and (max-width: 399px) {
   #responsive-menu {
-    left: 5rem;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 329px) {
-  #responsive-menu {
-    left: 6rem;
-  }
-
-  main {
-    left: 1rem;
-  }
-}
-
-@media only screen and (min-width: 330px) and (max-width: 339px) {
-  #responsive-menu {
-    left: 7rem;
-  }
-
-  main {
-    left: 0;
+    left: 8rem;
   }
 }
 
@@ -351,45 +319,17 @@ Text/Margin Scale:
   form textarea {
     font-size: 1.4rem;
   }
+}
 
+@media only screen and (min-width: 330px) and (max-width: 1099px) {
   .submit-btn {
     padding: 8px 1.8rem;
-  }
-}
-
-@media only screen and (min-width: 340px) and (max-width: 349px) {
-  #responsive-menu {
-    left: 2rem;
-  }
-}
-
-@media only screen and (min-width: 340px) and (max-width: 359px) {
-  main {
-    left: 1rem;
   }
 }
 
 @media only screen and (min-width: 340px) and (max-width: 399px) {
   #responsive-menu {
     width: 32rem;
-  }
-}
-
-@media only screen and (min-width: 350px) and (max-width: 359px) {
-  #responsive-menu {
-    left: 3rem;
-  }
-}
-
-@media only screen and (min-width: 360px) and (max-width: 369px) {
-  #responsive-menu {
-    left: 4rem;
-  }
-}
-
-@media only screen and (min-width: 360px) and (max-width: 379px) {
-  main {
-    left: 0;
   }
 }
 
@@ -405,30 +345,6 @@ Text/Margin Scale:
   form input:not(.submit-btn),
   form textarea {
     width: 28rem;
-  }
-}
-
-@media only screen and (min-width: 370px) and (max-width: 379px) {
-  #responsive-menu {
-    left: 5rem;
-  }
-}
-
-@media only screen and (min-width: 380px) and (max-width: 389px) {
-  #responsive-menu {
-    left: 6rem;
-  }
-}
-
-@media only screen and (min-width: 380px) and (max-width: 399px) {
-  main {
-    left: 1rem;
-  }
-}
-
-@media only screen and (min-width: 390px) and (max-width: 399px) {
-  #responsive-menu {
-    left: 7rem;
   }
 }
 
@@ -449,7 +365,7 @@ Text/Margin Scale:
   }
 
   main {
-    left: 0rem;
+    left: 0;
   }
 }
 
@@ -527,20 +443,13 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 420px) and (max-width: 439px) {
-  #responsive-menu {
-    left: 3rem;
-  }
-
   main {
     left: 1.5rem;
   }
 }
 
-@media only screen and (min-width: 440px) and (max-width: 459px) {
-  #responsive-menu {
-    left: 4rem;
-  }
-
+@media only screen and (min-width: 440px) and (max-width: 459px),
+  (min-width: 480px) and (max-width: 549px) {
   main {
     left: 2.5rem;
   }
@@ -553,10 +462,6 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 460px) and (max-width: 479px) {
-  #responsive-menu {
-    left: 7rem;
-  }
-
   main {
     left: 1rem;
   }
@@ -592,25 +497,13 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 480px) and (max-width: 499px) {
   #responsive-menu {
-    left: 8rem;
-  }
-
-  main {
-    left: 2rem;
+    left: 9rem;
   }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 519px) {
   #responsive-menu {
     left: 10rem;
-  }
-
-  .contact-info {
-    margin-left: 2rem;
-  }
-
-  main {
-    left: 2.75rem;
   }
 }
 
@@ -631,13 +524,8 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 520px) and (max-width: 549px) {
-  main {
-    left: 2rem;
-  }
-}
-
-@media only screen and (min-width: 520px) and (max-width: 599px) {
+@media only screen and (min-width: 520px) and (max-width: 599px),
+  (min-width: 800px) and (max-width: 980px) {
   form {
     width: 46rem;
   }
@@ -671,11 +559,11 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 540px) and (max-width: 559px) {
   #responsive-menu {
-    left: 14rem;
+    left: 15rem;
   }
 }
 
-@media only screen and (min-width: 550px) and (max-width: 599px) {
+@media only screen and (min-width: 550px) and (max-width: 639px) {
   main {
     left: 4rem;
   }
@@ -683,30 +571,20 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 560px) and (max-width: 579px) {
   #responsive-menu {
+    left: 17rem;
+  }
+}
+
+@media only screen and (min-width: 580px) and (max-width: 599px) {
+  #responsive-menu {
+    left: 19rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 619px),
+  (min-width: 720px) and (max-width: 739px) {
+  #responsive-menu {
     left: 16rem;
-  }
-}
-
-@media only screen and (min-width: 580px) and (max-width: 599px) {
-  #responsive-menu {
-    left: 18rem;
-  }
-}
-@media only screen and (min-width: 580px) and (max-width: 599px) {
-  #responsive-menu {
-    left: 18rem;
-  }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 609px) {
-  main {
-    left: 3rem;
-  }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 619px) {
-  #responsive-menu {
-    left: 15rem;
   }
 }
 
@@ -732,12 +610,6 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 799px) {
-  footer {
-    margin: 21rem 15rem 0;
-  }
-}
-
 @media only screen and (min-width: 600px) and (max-width: 899px) {
   nav {
     padding: 0.8rem 3.2rem;
@@ -758,6 +630,12 @@ Text/Margin Scale:
   }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 989px) {
+  footer {
+    margin: 21rem 15rem 0;
+  }
+}
+
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
   #menu-icon {
     width: 3.6rem;
@@ -765,25 +643,21 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 610px) and (max-width: 639px) {
-  main {
-    left: 4rem;
-  }
-}
-
-@media only screen and (min-width: 620px) and (max-width: 639px) {
+@media only screen and (min-width: 620px) and (max-width: 639px),
+  (min-width: 740px) and (max-width: 759px) {
   #responsive-menu {
-    left: 17rem;
+    left: 18rem;
   }
 }
 
-@media only screen and (min-width: 640px) and (max-width: 659px) {
+@media only screen and (min-width: 640px) and (max-width: 659px),
+  (min-width: 760px) and (max-width: 779px) {
   #responsive-menu {
-    left: 19rem;
+    left: 20rem;
   }
 }
 
-@media only screen and (min-width: 640px) and (max-width: 669px) {
+@media only screen and (min-width: 640px) and (max-width: 749px) {
   main {
     left: 6rem;
   }
@@ -796,10 +670,6 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 670px) and (max-width: 699px) {
-  main {
-    left: 8rem;
-  }
-
   .contact-info {
     margin-left: 1rem;
   }
@@ -808,6 +678,18 @@ Text/Margin Scale:
 @media only screen and (min-width: 680px) and (max-width: 699px) {
   #responsive-menu {
     left: 23rem;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 719px) {
+  #responsive-menu {
+    left: 14rem;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 749px) {
+  .contact-info {
+    margin-left: -2rem;
   }
 }
 
@@ -822,34 +704,6 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 700px) and (max-width: 749px) {
-  main {
-    left: 6rem;
-  }
-
-  .contact-info {
-    margin-left: -2rem;
-  }
-}
-
-@media only screen and (min-width: 700px) and (max-width: 719px) {
-  #responsive-menu {
-    left: 14rem;
-  }
-}
-
-@media only screen and (min-width: 720px) and (max-width: 739px) {
-  #responsive-menu {
-    left: 16rem;
-  }
-}
-
-@media only screen and (min-width: 740px) and (max-width: 759px) {
-  #responsive-menu {
-    left: 18rem;
-  }
-}
-
 @media only screen and (min-width: 750px) and (max-width: 799px) {
   main {
     left: 9rem;
@@ -857,12 +711,6 @@ Text/Margin Scale:
 
   .contact-info {
     margin-left: 2rem;
-  }
-}
-
-@media only screen and (min-width: 760px) and (max-width: 779px) {
-  #responsive-menu {
-    left: 20rem;
   }
 }
 
@@ -928,26 +776,17 @@ Text/Margin Scale:
     height: 46rem;
     top: 27rem;
   }
+}
 
-  form {
-    width: 46rem;
-  }
-
-  form input:not(.submit-btn),
-  form textarea {
-    width: 40rem;
+@media only screen and (min-width: 820px) and (max-width: 859px) {
+  .close-btn {
+    transform: translateX(-5.8rem);
   }
 }
 
 @media only screen and (min-width: 820px) and (max-width: 870px) {
   #responsive-menu {
     left: 29rem;
-  }
-}
-
-@media only screen and (min-width: 820px) and (max-width: 859px) {
-  .close-btn {
-    transform: translateX(-5.8rem);
   }
 }
 
@@ -959,14 +798,6 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 860px) and (max-width: 899px) {
-  main {
-    gap: 5.2rem;
-    padding: 10.5rem 4.6rem;
-    left: 6rem;
-  }
-}
-
 @media only screen and (min-width: 860px) and (max-width: 889px) {
   #responsive-menu {
     left: 30rem;
@@ -975,6 +806,14 @@ Text/Margin Scale:
   .close-btn {
     margin-top: -2rem;
     transform: translateX(-3.6rem);
+  }
+}
+
+@media only screen and (min-width: 860px) and (max-width: 899px) {
+  main {
+    gap: 5.2rem;
+    padding: 10.5rem 4.6rem;
+    left: 6rem;
   }
 }
 
@@ -994,6 +833,33 @@ Text/Margin Scale:
     gap: 4.6rem;
     padding: 10.5rem 4.1rem;
     left: 10rem;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 989px) {
+  .bg-rectangle {
+    height: 45rem;
+    top: 28rem;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  nav {
+    padding: 1rem 3.6rem;
+  }
+
+  .logo {
+    width: 16rem;
+    height: 4.5rem;
+  }
+
+  .footer-img img {
+    width: 5.2rem;
+    height: 5.2rem;
+  }
+
+  .footer-text {
+    font-size: 1.4rem;
   }
 }
 
@@ -1021,37 +887,6 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 989px) {
-  .bg-rectangle {
-    height: 45rem;
-    top: 28rem;
-  }
-
-  footer {
-    margin: 21rem 15rem 0;
-  }
-}
-
-@media only screen and (min-width: 900px) and (max-width: 1099px) {
-  nav {
-    padding: 1rem 3.6rem;
-  }
-
-  .logo {
-    width: 16rem;
-    height: 4.5rem;
-  }
-
-  .footer-img img {
-    width: 5.2rem;
-    height: 5.2rem;
-  }
-
-  .footer-text {
-    font-size: 1.4rem;
-  }
-}
-
 @media only screen and (max-width: 980px) {
   .heading {
     gap: 1.2rem;
@@ -1063,43 +898,15 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 990px) and (max-width: 1024px) {
-  main {
-    left: 2rem;
-  }
-}
-
 @media only screen and (min-width: 990px) and (max-width: 1009px) {
   #responsive-menu {
     left: 42rem;
   }
 }
 
-@media only screen and (min-width: 1010px) and (max-width: 1024px) {
-  #responsive-menu {
-    left: 44rem;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  nav ul {
-    display: none;
-  }
-
-  #menu-icon {
-    display: block;
-    color: var(--primary-color);
-  }
-
-  #responsive-menu {
-    top: 0;
-  }
-}
-
 @media only screen and (min-width: 990px) and (max-width: 1099px) {
   main {
     gap: 6.6rem;
-    padding: 10.5rem 6.6rem;
   }
 
   .heading {
@@ -1135,19 +942,50 @@ Text/Margin Scale:
     width: 47.5rem;
   }
 
-  .submit-btn {
-    padding: 8px 1.8rem;
-  }
-
   footer {
     margin: 24rem 15rem 0;
+  }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1199px) {
+  main {
+    padding: 10.5rem 6.6rem;
+  }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1024px) {
+  main {
+    left: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1010px) and (max-width: 1024px) {
+  #responsive-menu {
+    left: 44rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+
+  #menu-icon {
+    display: block;
+    color: var(--primary-color);
+  }
+
+  #responsive-menu {
+    top: 0;
   }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1099px) {
   .nav-link a:link,
   .nav-link a:visited,
-  .about-link {
+  .about-link,
+  .dd-link a:link,
+  .dd-link a:visited {
     font-size: 1.4rem;
   }
 
@@ -1155,11 +993,6 @@ Text/Margin Scale:
     top: 6.75rem;
     left: 55rem;
     padding: 2rem 1rem;
-  }
-
-  .dd-link a:link,
-  .dd-link a:visited {
-    font-size: 1.4rem;
   }
 
   main {
@@ -1176,7 +1009,6 @@ Text/Margin Scale:
     top: 12rem;
     left: 4rem;
     gap: 7.4rem;
-    padding: 10.5rem 6.6rem;
   }
 
   .bg-rectangle {
@@ -1271,7 +1103,11 @@ Text/Margin Scale:
     font-size: 2.9rem;
   }
 
-  .info {
+  .info,
+  form input:not(.submit-btn),
+  form textarea,
+  form label,
+  .submit-btn {
     font-size: 2rem;
   }
 
@@ -1290,16 +1126,10 @@ Text/Margin Scale:
 
   form input:not(.submit-btn),
   form textarea {
-    font-size: 2rem;
     width: 63.5rem;
   }
 
-  form label {
-    font-size: 2rem;
-  }
-
   .submit-btn {
-    font-size: 2rem;
     padding: 1.2rem 2.6rem;
   }
 }
@@ -1345,7 +1175,8 @@ Text/Margin Scale:
 
   .nav-link a:link,
   .nav-link a:visited,
-  .about-link {
+  .about-link,
+  .footer-text {
     font-size: 1.8rem;
   }
 
@@ -1365,10 +1196,6 @@ Text/Margin Scale:
   .footer-img img {
     width: 7.4rem;
     height: 7.4rem;
-  }
-
-  .footer-text {
-    font-size: 1.8rem;
   }
 }
 
