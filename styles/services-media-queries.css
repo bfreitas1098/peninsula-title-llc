@@ -430,7 +430,7 @@ Text/Margin Scale:
   .tas,
   .eas,
   .cs {
-    width: 30rem;
+    width: 25rem;
   }
 
   .main-content {
@@ -680,13 +680,10 @@ Text/Margin Scale:
     height: 40rem;
   }
 
-  .tas {
-    width: 30rem;
-  }
-
+  .tas,
   .cs,
   .eas {
-    width: 35rem;
+    width: 30rem;
   }
 
   .main-content {
@@ -864,12 +861,9 @@ Text/Margin Scale:
     width: 74rem;
   }
 
-  .eas {
-    width: 45rem;
-  }
-
+  .eas,
   .cs {
-    width: 66rem;
+    width: 45rem;
   }
 
   p {
