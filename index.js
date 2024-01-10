@@ -52,3 +52,27 @@ const present = new Date();
 const currentYear = present.getFullYear();
 
 document.getElementById("year").textContent = currentYear;
+
+/* Testimonials */
+const initials = document.querySelectorAll(".initials");
+const authorNames = document.querySelectorAll(".testimonial-author");
+
+const initialsArr = Array.from(initials);
+
+let authorsArr = [];
+authorNames.forEach((author) => {
+  let aut = author.innerHTML;
+  authorsArr.push(
+    aut
+      .toUpperCase()
+      .split(" ")
+      .map((name) => name[0])
+      .join("")
+  );
+});
+
+for (let i = 0; i < initialsArr.length; i++) {
+  for (let i = 0; i < authorsArr.length; i++) {
+    initialsArr[i].innerHTML = authorsArr[i];
+  }
+}

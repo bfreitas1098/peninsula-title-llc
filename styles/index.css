@@ -531,6 +531,7 @@ h2:not(.who-we-are-section h2) {
   gap: 3.2rem;
   border: 1px solid rgba(0, 0, 0, 0.05);
   background-color: var(--white);
+  width: 85rem;
 }
 
 .initials {
