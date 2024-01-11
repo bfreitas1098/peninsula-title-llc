@@ -654,6 +654,10 @@ h3 {
   animation-duration: 2s; */
 }
 
+.open {
+  display: block;
+}
+
 /* Footer */
 
 footer {
