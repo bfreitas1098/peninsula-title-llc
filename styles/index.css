@@ -219,7 +219,7 @@ ul .hidden-links {
 #dropdown-menu {
   background-color: var(--white);
   position: absolute;
-  top: 12.2rem;
+  top: 12.5rem;
   left: 90rem;
   z-index: 5000;
   padding: 2.6rem 1.6rem;
@@ -419,7 +419,7 @@ h2:not(.who-we-are-section h2) {
 .services {
   display: flex;
   gap: 7.4rem;
-  margin: 15rem 12rem;
+  padding: 15rem 10.5rem;
 }
 
 .service-box {
@@ -491,6 +491,8 @@ h2:not(.who-we-are-section h2) {
 .who-we-are-img {
   width: 60rem;
   height: 40rem;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .text-container {

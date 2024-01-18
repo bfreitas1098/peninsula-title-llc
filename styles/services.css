@@ -263,7 +263,6 @@ main {
 
 .heading {
   background-size: cover;
-  background-position: bottom;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -273,6 +272,11 @@ main {
 .heading,
 .overlay {
   height: 50rem;
+}
+
+.heading--tc,
+.heading--title-agent {
+  background-position: bottom;
 }
 
 h1 {
@@ -288,9 +292,12 @@ h1 {
 }
 
 .tas,
-.eas,
 .cs {
   width: 30rem;
+}
+
+.eas {
+  width: 40rem;
 }
 
 .main-content {
@@ -303,13 +310,17 @@ h1 {
 }
 
 .description {
-  padding: 0 15rem;
+  padding: 0 12rem;
 }
 
 .description ul,
 .description p {
   font-size: 1.6rem;
   line-height: 2;
+}
+
+.description li {
+  margin-bottom: 1.6rem;
 }
 
 .description p {
