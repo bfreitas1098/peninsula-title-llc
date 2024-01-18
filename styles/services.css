@@ -263,6 +263,7 @@ main {
 
 .heading {
   background-size: cover;
+  background-position: bottom;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -274,9 +275,9 @@ main {
   height: 50rem;
 }
 
-.heading--tc,
-.heading--title-agent {
-  background-position: bottom;
+.heading--escrow,
+.heading--closing {
+  background-position: top !important;
 }
 
 h1 {
