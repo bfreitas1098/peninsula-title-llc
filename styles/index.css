@@ -682,3 +682,11 @@ footer {
   text-align: center;
   font-size: 1.6rem;
 }
+
+.sticky {
+  position: fixed;
+}
+
+.solid {
+  background-color: rgba(245, 245, 245, 0.95);
+}

@@ -1,8 +1,20 @@
-/* Dropdown & Responsive menu */
-
+///////////////////////////////////////////////////////////////////////////////
 const dropDown = document.getElementById("dropdown-menu");
 const downArrow = document.getElementById("down-arrow");
 const upArrow = document.getElementById("up-arrow");
+const rAboutMenu = document.getElementById("r-about");
+const downArr = document.getElementById("down-arr");
+const upArr = document.getElementById("up-arr");
+const accordion = document.querySelectorAll(".questions-box");
+const answers = document.querySelectorAll(".answer");
+const initials = document.querySelectorAll(".initials");
+const authorNames = document.querySelectorAll(".testimonial-author");
+const heroSection = document.querySelector(".hero-section");
+const nav = document.querySelector("nav");
+const header = document.querySelector("header");
+///////////////////////////////////////////////////////////////////////////////
+
+/* Dropdown & Responsive menu */
 
 // open and close dropdown menu
 const makeDDVisible = () => {
@@ -10,10 +22,6 @@ const makeDDVisible = () => {
   downArrow.classList.toggle("not-visible");
   upArrow.classList.toggle("visible");
 };
-
-const rAboutMenu = document.getElementById("r-about");
-const downArr = document.getElementById("down-arr");
-const upArr = document.getElementById("up-arr");
 
 // open and close about menu in dropdown
 const makeRMVisible = () => {
@@ -33,8 +41,6 @@ const closeRMenu = () => {
 };
 
 /* FAQ */
-const accordion = document.querySelectorAll(".questions-box");
-const answers = document.querySelectorAll(".answer");
 
 // Display the answers to questions as the questions are clicked then hide them again
 for (let i = 0; i < accordion.length; i++) {
@@ -56,8 +62,6 @@ const currentYear = new Date().getFullYear();
 document.getElementById("year").textContent = currentYear;
 
 /* Testimonials */
-const initials = document.querySelectorAll(".initials");
-const authorNames = document.querySelectorAll(".testimonial-author");
 
 const initialsArr = Array.from(initials);
 
@@ -80,3 +84,26 @@ for (let i = 0; i < initialsArr.length; i++) {
     initialsArr[i].innerHTML = authorsArr[i];
   }
 }
+
+/* Sticky Nav */
+const headerHeight = header.getBoundingClientRect().height;
+
+const stickyNav = (entries) => {
+  const [entry] = entries;
+
+  if (!entry.isIntersecting) {
+    header.classList.add("sticky");
+    nav.classList.add("solid");
+  } else {
+    header.classList.remove("sticky");
+    nav.classList.remove("solid");
+  }
+};
+
+const heroObserver = new IntersectionObserver(stickyNav, {
+  root: null,
+  threshold: 0,
+  rootMargin: `-${headerHeight}px`,
+});
+
+heroObserver.observe(heroSection);
