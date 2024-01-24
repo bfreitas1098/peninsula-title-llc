@@ -498,7 +498,7 @@ Text/Margin Scale:
   .service-page:visited,
   .testimonials-page:link,
   .testimonials-page:visited {
-    font-size: 1.1rem;
+    font-size: 0.6rem;
   }
 }
 
@@ -551,7 +551,7 @@ Text/Margin Scale:
   .service-description,
   .service-page:link,
   .service-page:visited {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
 
   .who-we-are-section h2 {
@@ -762,10 +762,12 @@ Text/Margin Scale:
 @media only screen and (min-width: 430px) and (max-width: 469px) {
   .contact-snapshot {
     gap: 1rem;
+    padding: 1rem 2rem;
   }
 
   .who-we-are-img,
   .testimonials-container,
+  .testimonial,
   .faq-container,
   .questions {
     width: 40rem;
@@ -851,6 +853,7 @@ Text/Margin Scale:
 @media only screen and (min-width: 470px) and (max-width: 499px) {
   .contact-snapshot {
     gap: 4.1rem;
+    padding: 1rem 2.3rem;
   }
 
   .who-we-are-section {
@@ -915,7 +918,7 @@ Text/Margin Scale:
   .service-description,
   .service-page:link,
   .service-page:visited {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
   }
 
   .who-we-are-section h2,
@@ -1632,7 +1635,7 @@ Text/Margin Scale:
   .service-description,
   .service-page:link,
   .service-page:visited {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   h2 {
@@ -1753,16 +1756,6 @@ Text/Margin Scale:
     gap: 3.6rem;
     padding: 15rem 3.6rem;
   }
-
-  .service-title {
-    font-size: 1.6rem;
-  }
-
-  .service-description,
-  .service-page:link,
-  .service-page:visited {
-    font-size: 1.4rem;
-  }
 }
 
 @media only screen and (min-width: 1100px) and (max-width: 1199px) {
@@ -1775,6 +1768,21 @@ Text/Margin Scale:
   .who-we-are-text {
     font-size: 1.4rem;
     line-height: 1.6;
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1999px) {
+  .service-title {
+    font-size: 1.6rem;
+  }
+
+  .service-description {
+    font-size: 1.4rem;
+  }
+
+  .service-page:link,
+  .service-page:visited {
+    font-size: 1.2rem;
   }
 }
 
