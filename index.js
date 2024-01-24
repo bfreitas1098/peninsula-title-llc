@@ -88,22 +88,24 @@ for (let i = 0; i < initialsArr.length; i++) {
 /* Sticky Nav */
 const headerHeight = header.getBoundingClientRect().height;
 
-const stickyNav = (entries) => {
-  const [entry] = entries;
+document.addEventListener("DOMContentLoaded", () => {
+  const stickyNav = (entries) => {
+    const [entry] = entries;
 
-  if (!entry.isIntersecting) {
-    header.classList.add("sticky");
-    nav.classList.add("solid");
-  } else {
-    header.classList.remove("sticky");
-    nav.classList.remove("solid");
-  }
-};
+    if (!entry.isIntersecting) {
+      header.classList.add("sticky");
+      nav.classList.add("solid");
+    } else {
+      header.classList.remove("sticky");
+      nav.classList.remove("solid");
+    }
+  };
 
-const heroObserver = new IntersectionObserver(stickyNav, {
-  root: null,
-  threshold: 0,
-  rootMargin: `-${headerHeight}px`,
+  const heroObserver = new IntersectionObserver(stickyNav, {
+    root: null,
+    threshold: 0,
+    rootMargin: `-${headerHeight}px`,
+  });
+
+  heroObserver.observe(heroSection);
 });
-
-heroObserver.observe(heroSection);

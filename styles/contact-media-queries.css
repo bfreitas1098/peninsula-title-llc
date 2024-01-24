@@ -991,7 +991,7 @@ Text/Margin Scale:
 
   #dropdown-menu {
     top: 6.75rem;
-    left: 55rem;
+    left: 66rem;
     padding: 2rem 1rem;
   }
 
@@ -1002,7 +1002,7 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 1100px) and (max-width: 1199px) {
   #dropdown-menu {
-    left: 60rem;
+    left: 70rem;
   }
 
   main {
@@ -1022,7 +1022,7 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 1200px) and (max-width: 1299px) {
   #dropdown-menu {
-    left: 70rem;
+    left: 80rem;
   }
 
   main {
@@ -1035,7 +1035,7 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
   #dropdown-menu {
-    left: 80rem;
+    left: 90rem;
   }
 
   main {
@@ -1050,10 +1050,6 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1499px) {
-  #dropdown-menu {
-    left: 90rem;
-  }
-
   main {
     left: 9rem;
   }
@@ -1061,13 +1057,13 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 1500px) and (max-width: 1599px) {
   #dropdown-menu {
-    left: 100rem;
+    left: 110rem;
   }
 }
 
 @media only screen and (min-width: 1600px) and (max-width: 1699px) {
   #dropdown-menu {
-    left: 110rem;
+    left: 120rem;
   }
 }
 
@@ -1079,13 +1075,13 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 1700px) and (max-width: 1799px) {
   #dropdown-menu {
-    left: 120rem;
+    left: 130rem;
   }
 }
 
 @media only screen and (min-width: 1800px) and (max-width: 1899px) {
   #dropdown-menu {
-    left: 130rem;
+    left: 140rem;
   }
 
   main {
@@ -1136,7 +1132,7 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 1900px) and (max-width: 1999px) {
   #dropdown-menu {
-    left: 140rem;
+    left: 150rem;
   }
 }
 
@@ -1153,13 +1149,13 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 2000px) and (max-width: 2099px) {
   #dropdown-menu {
-    left: 150rem;
+    left: 160rem;
   }
 }
 
 @media only screen and (min-width: 2100px) and (max-width: 2199px) {
   #dropdown-menu {
-    left: 160rem;
+    left: 170rem;
   }
 }
 
@@ -1180,10 +1176,6 @@ Text/Margin Scale:
     font-size: 1.8rem;
   }
 
-  #dropdown-menu {
-    top: 10.3rem;
-  }
-
   .bg-rectangle {
     height: 62rem;
     top: 23rem;
@@ -1201,7 +1193,8 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 2200px) and (max-width: 2250px) {
   #dropdown-menu {
-    left: 165rem;
+    top: 10.3rem;
+    left: 175rem;
   }
 }
 

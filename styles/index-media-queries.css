@@ -1738,8 +1738,8 @@ Text/Margin Scale:
   }
 
   #dropdown-menu {
-    top: 10.6rem;
-    left: 53rem;
+    top: 10.8rem;
+    left: 66rem;
     padding: 2rem 1.2rem;
   }
 
@@ -1767,7 +1767,7 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 1100px) and (max-width: 1199px) {
   #dropdown-menu {
-    left: 60rem;
+    left: 70rem;
   }
 }
 
@@ -1780,17 +1780,11 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 1200px) and (max-width: 1299px) {
   #dropdown-menu {
-    left: 70rem;
-  }
-}
-
-@media only screen and (min-width: 1300px) and (max-width: 1399px) {
-  #dropdown-menu {
     left: 80rem;
   }
 }
 
-@media only screen and (min-width: 1400px) and (max-width: 1499px) {
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
   #dropdown-menu {
     left: 90rem;
   }
@@ -1798,25 +1792,25 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 1500px) and (max-width: 1599px) {
   #dropdown-menu {
-    left: 100rem;
+    left: 110rem;
   }
 }
 
 @media only screen and (min-width: 1600px) and (max-width: 1699px) {
   #dropdown-menu {
-    left: 110rem;
+    left: 120rem;
   }
 }
 
 @media only screen and (min-width: 1700px) and (max-width: 1799px) {
   #dropdown-menu {
-    left: 120rem;
+    left: 130rem;
   }
 }
 
 @media only screen and (min-width: 1800px) and (max-width: 1899px) {
   #dropdown-menu {
-    left: 130rem;
+    left: 140rem;
   }
 }
 
@@ -1831,7 +1825,7 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 1900px) and (max-width: 1999px) {
   #dropdown-menu {
-    left: 140rem;
+    left: 148rem;
   }
 }
 
@@ -1867,13 +1861,13 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 2000px) and (max-width: 2099px) {
   #dropdown-menu {
-    left: 150rem;
+    left: 157rem;
   }
 }
 
 @media only screen and (min-width: 2100px) and (max-width: 2199px) {
   #dropdown-menu {
-    left: 160rem;
+    left: 166rem;
   }
 }
 
@@ -1994,8 +1988,8 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 2200px) and (max-width: 2250px) {
   #dropdown-menu {
-    top: 14.5rem;
-    left: 165rem;
+    top: 14.8rem;
+    left: 175rem;
   }
 }
 
