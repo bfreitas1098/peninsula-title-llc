@@ -254,24 +254,17 @@ main {
   width: 100vw;
 }
 
-.overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  width: 100vw;
-  z-index: 2;
-}
-
 .heading {
   background-size: cover;
   background-position: bottom;
+  background-blend-mode: multiply;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1;
 }
 
-.heading,
-.overlay {
+.heading {
   height: 50rem;
 }
 

@@ -132,10 +132,6 @@ Text/Margin Scale:
     height: 25rem;
   }
 
-  .overlay {
-    height: 24.9rem;
-  }
-
   .tas,
   .eas,
   .cs {
@@ -215,10 +211,6 @@ Text/Margin Scale:
 
   .heading {
     height: 30rem;
-  }
-
-  .overlay {
-    height: 29.9rem;
   }
 
   h1 {
@@ -346,10 +338,6 @@ Text/Margin Scale:
 
   .heading {
     height: 35rem;
-  }
-
-  .overlay {
-    height: 34.9rem;
   }
 
   .contact-btn {
@@ -495,10 +483,6 @@ Text/Margin Scale:
 @media only screen and (min-width: 600px) and (max-width: 799px) {
   .heading {
     height: 40rem;
-  }
-
-  .overlay {
-    height: 39.9rem;
   }
 }
 
@@ -675,8 +659,7 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1099px) {
-  .heading,
-  .overlay {
+  .heading {
     height: 40rem;
   }
 
@@ -795,10 +778,6 @@ Text/Margin Scale:
   .heading {
     height: 55rem;
   }
-
-  .overlay {
-    height: 54.8rem;
-  }
 }
 
 @media only screen and (min-width: 1900px) and (max-width: 2299px) {
@@ -876,10 +855,6 @@ Text/Margin Scale:
   .heading {
     height: 66rem;
   }
-
-  .overlay {
-    height: 65.8rem;
-  }
 }
 
 @media only screen and (min-width: 2251px) {
@@ -912,10 +887,6 @@ Text/Margin Scale:
 @media only screen and (min-width: 3000px) {
   .heading {
     height: 83rem;
-  }
-
-  .overlay {
-    height: 82.8rem;
   }
 
   .description {

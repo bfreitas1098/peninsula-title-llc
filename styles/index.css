@@ -147,14 +147,16 @@ h3,
 .hero-section {
   height: 83rem;
   position: relative;
-  background-image: url(/images/hero-img.webp);
+  background: url(/images/hero-img.webp), rgba(0, 0, 0, 0.46);
   background-size: cover;
+  background-blend-mode: multiply;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   gap: 10.5rem;
   padding: 7.4rem 0 6.6rem 0;
+  backdrop-filter: blur(3px);
 }
 
 .logo {
@@ -339,15 +341,6 @@ ul .hidden-links {
 
 #up-arr {
   display: none;
-}
-
-.overlay {
-  width: 100vw;
-  height: 83rem;
-  background-color: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  z-index: 1;
-  backdrop-filter: blur(3px);
 }
 
 .heading {

@@ -261,8 +261,7 @@ Text/Margin Scale:
   }
 
   #responsive-menu,
-  .hero-section,
-  .overlay {
+  .hero-section {
     height: 35rem;
   }
 
@@ -361,8 +360,7 @@ Text/Margin Scale:
   }
 
   #responsive-menu,
-  .hero-section,
-  .overlay {
+  .hero-section {
     height: 50rem;
   }
 
@@ -715,8 +713,7 @@ Text/Margin Scale:
   }
 
   #responsive-menu,
-  .hero-section,
-  .overlay {
+  .hero-section {
     height: 55rem;
   }
 
@@ -1149,8 +1146,7 @@ Text/Margin Scale:
     height: 60rem;
   }
 
-  .hero-section,
-  .overlay {
+  .hero-section {
     height: 60rem;
   }
 
@@ -1604,8 +1600,7 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 990px) and (max-width: 1099px) {
-  .hero-section,
-  .overlay {
+  .hero-section {
     height: 75rem;
   }
 
@@ -2002,8 +1997,7 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 2200px) and (max-width: 2999px) {
-  .hero-section,
-  .overlay {
+  .hero-section {
     height: 95rem;
   }
 
@@ -2048,8 +2042,7 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 3000px) {
-  .hero-section,
-  .overlay {
+  .hero-section {
     height: 125rem;
   }
 
