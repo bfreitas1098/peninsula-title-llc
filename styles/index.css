@@ -464,7 +464,6 @@ h2:not(.who-we-are-section h2) {
   height: 6.6rem;
   width: 6.6rem;
   color: var(--primary-color);
-  z-index: 2000;
 }
 
 /* Who We Are section */
@@ -689,6 +688,5 @@ footer {
 }
 
 .solid {
-  background-color: rgba(245, 245, 245, 0.95);
-  z-index: 3000;
+  background-color: rgb(245, 245, 245);
 }
