@@ -144,6 +144,10 @@ h3,
 
 /* Hero Section */
 
+header {
+  z-index: 3000;
+}
+
 .hero-section {
   height: 83rem;
   position: relative;
