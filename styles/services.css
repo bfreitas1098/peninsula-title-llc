@@ -256,7 +256,6 @@ main {
 
 .heading {
   background-size: cover;
-  background-position: bottom;
   background-blend-mode: multiply;
   display: flex;
   justify-content: center;
@@ -268,9 +267,33 @@ main {
   height: 50rem;
 }
 
-.heading--escrow,
+.heading--transaction {
+  background: url(../images/transaction-coordinator-lg.png), rgba(0, 0, 0, 0.5);
+}
+
+.heading--title {
+  background: url(../images/title-agent-lg.png), rgba(0, 0, 0, 0.5);
+}
+
+.heading--escrow {
+  background: url(../images/escrow-agent-lg.png), rgba(0, 0, 0, 0.5);
+}
+
 .heading--closing {
-  background-position: top !important;
+  background: url(../images/closing-lg.png), rgba(0, 0, 0, 0.5);
+}
+
+.heading--transaction {
+  background-position: bottom;
+}
+
+.heading--escrow {
+  background-position: top;
+}
+
+.heading--closing,
+.heading--title {
+  background-position: center;
 }
 
 h1 {

@@ -393,6 +393,26 @@ Text/Margin Scale:
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .heading--transaction {
+    background: url(../images/transaction-coordinator-sm.png),
+      rgba(0, 0, 0, 0.5);
+  }
+
+  .heading--title {
+    background: url(../images/title-agent-sm.png), rgba(0, 0, 0, 0.5);
+  }
+
+  .heading--escrow {
+    background: url(../images/escrow-agent-sm.png), rgba(0, 0, 0, 0.5);
+  }
+
+  .heading--closing {
+    background: url(../images/closing-sm.png), rgba(0, 0, 0, 0.5);
+    background-position: center;
+  }
+}
+
 @media only screen and (min-width: 500px) and (max-width: 599px) {
   nav {
     padding: 0.6rem 3.6rem;
@@ -429,6 +449,25 @@ Text/Margin Scale:
 @media only screen and (min-width: 500px) and (max-width: 1099px) {
   .tcs {
     width: 50rem;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 999px) {
+  .heading--transaction {
+    background: url(../images/transaction-coordinator-md.png),
+      rgba(0, 0, 0, 0.5);
+  }
+
+  .heading--title {
+    background: url(../images/title-agent-md.png), rgba(0, 0, 0, 0.5);
+  }
+
+  .heading--escrow {
+    background: url(../images/escrow-agent-md.png), rgba(0, 0, 0, 0.5);
+  }
+
+  .heading--closing {
+    background: url(../images/closing-md.png), rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -593,6 +632,23 @@ Text/Margin Scale:
   }
 }
 
+@media only screen and (min-width: 800px) and (max-width: 1099px) {
+  .heading {
+    height: 40rem;
+  }
+
+  .tas,
+  .cs,
+  .eas {
+    width: 30rem;
+  }
+
+  .main-content {
+    gap: 9.4rem;
+    padding: 10.5rem 0 19rem;
+  }
+}
+
 @media only screen and (min-width: 820px) and (max-width: 870px) {
   #responsive-menu {
     left: 32rem;
@@ -658,26 +714,21 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 800px) and (max-width: 1099px) {
-  .heading {
-    height: 40rem;
-  }
-
-  .tas,
-  .cs,
-  .eas {
-    width: 30rem;
-  }
-
-  .main-content {
-    gap: 9.4rem;
-    padding: 10.5rem 0 19rem;
-  }
-}
-
 @media only screen and (min-width: 990px) and (max-width: 1024px) {
   #responsive-menu {
     left: 44.5rem;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .heading--transaction {
+    background-position: center;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1299px) {
+  .heading--title {
+    background-position: center right -30rem;
   }
 }
 
