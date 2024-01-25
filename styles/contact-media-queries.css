@@ -247,7 +247,7 @@ Text/Margin Scale:
 
   main {
     top: 12rem;
-    left: 1rem;
+    left: 0.5rem;
   }
 
   footer {
@@ -767,7 +767,7 @@ Text/Margin Scale:
   main {
     gap: 4.1rem;
     padding: 10.5rem 3.6rem;
-    left: 3rem;
+    left: 4rem;
   }
 }
 

@@ -387,6 +387,17 @@ Text/Margin Scale:
   }
 }
 
+@media only screen and (max-width: 499px) {
+  .eas,
+  .tas {
+    width: 20rem;
+  }
+
+  .cs {
+    width: 15rem;
+  }
+}
+
 @media only screen and (min-width: 500px) and (max-width: 519px) {
   #responsive-menu {
     left: 10rem;
@@ -436,7 +447,10 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 500px) and (max-width: 799px) {
   .tas,
-  .eas,
+  .eas {
+    width: 30rem;
+  }
+
   .cs {
     width: 25rem;
   }
@@ -619,6 +633,12 @@ Text/Margin Scale:
 @media only screen and (min-width: 740px) and (max-width: 749px) {
   #responsive-menu {
     left: 16rem;
+  }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 759px) {
+  #responsive-menu {
+    left: 17rem;
   }
 }
 
