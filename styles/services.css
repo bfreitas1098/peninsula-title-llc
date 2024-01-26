@@ -304,19 +304,6 @@ h1 {
   text-align: center;
 }
 
-.tcs {
-  width: 62rem;
-}
-
-.tas,
-.cs {
-  width: 30rem;
-}
-
-.eas {
-  width: 40rem;
-}
-
 .main-content {
   display: flex;
   flex-direction: column;

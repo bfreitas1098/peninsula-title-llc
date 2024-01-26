@@ -107,5 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
     rootMargin: `-${headerHeight}px`,
   });
 
-  heroObserver.observe(heroSection);
+  if (heroSection) {
+    heroObserver.observe(heroSection);
+  }
 });

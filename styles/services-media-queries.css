@@ -132,12 +132,6 @@ Text/Margin Scale:
     height: 25rem;
   }
 
-  .tas,
-  .eas,
-  .cs {
-    width: 20rem;
-  }
-
   .main-content {
     padding: 4.1rem 0 3.2rem;
   }
@@ -387,17 +381,6 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (max-width: 499px) {
-  .eas,
-  .tas {
-    width: 20rem;
-  }
-
-  .cs {
-    width: 15rem;
-  }
-}
-
 @media only screen and (min-width: 500px) and (max-width: 519px) {
   #responsive-menu {
     left: 10rem;
@@ -446,23 +429,8 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 500px) and (max-width: 799px) {
-  .tas,
-  .eas {
-    width: 30rem;
-  }
-
-  .cs {
-    width: 25rem;
-  }
-
   .main-content {
     padding: 8.3rem 0 19rem;
-  }
-}
-
-@media only screen and (min-width: 500px) and (max-width: 1099px) {
-  .tcs {
-    width: 50rem;
   }
 }
 
@@ -655,12 +623,6 @@ Text/Margin Scale:
 @media only screen and (min-width: 800px) and (max-width: 1099px) {
   .heading {
     height: 40rem;
-  }
-
-  .tas,
-  .cs,
-  .eas {
-    width: 30rem;
   }
 
   .main-content {
@@ -894,15 +856,6 @@ Text/Margin Scale:
   h1 {
     font-size: 6.6rem;
     line-height: 1.4;
-  }
-
-  .tcs {
-    width: 74rem;
-  }
-
-  .eas,
-  .cs {
-    width: 45rem;
   }
 
   p {
