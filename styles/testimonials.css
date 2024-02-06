@@ -55,7 +55,8 @@ body {
 .responsive-link,
 .responsive-about,
 .ab-menu-link,
-.testimonial {
+.testimonial,
+.footer-text {
   font-family: "Inter", sans-serif;
 }
 
