@@ -144,6 +144,25 @@ Text/Margin Scale:
     left: 1rem;
   }
 
+  .bg-rectangle {
+    height: 20rem;
+    top: 6rem;
+  }
+
+  .contact-info {
+    column-gap: 2rem;
+    transform: translateX(-1rem);
+  }
+
+  .heading span {
+    font-size: 1.2rem;
+  }
+
+  .info {
+    margin-bottom: 2.9rem;
+    font-size: 8px;
+  }
+
   .contact-form {
     margin-top: -12rem;
   }
@@ -177,6 +196,10 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 300px) and (max-width: 329px) {
+  main {
+    left: 0rem;
+  }
+
   .phones {
     gap: 4.6rem;
   }
@@ -247,7 +270,24 @@ Text/Margin Scale:
 
   main {
     top: 12rem;
-    left: 0.5rem;
+  }
+
+  .bg-rectangle {
+    height: 25rem;
+    top: 9rem;
+  }
+
+  .contact-info {
+    column-gap: 2.3rem;
+  }
+
+  .heading span {
+    font-size: 1.4rem;
+  }
+
+  .info {
+    margin-bottom: 2.9rem;
+    font-size: 1rem;
   }
 
   footer {
@@ -264,16 +304,6 @@ Text/Margin Scale:
 
   .footer-text {
     font-size: 1rem;
-  }
-}
-
-@media only screen and (min-width: 300px) and (max-width: 519px) {
-  .heading span {
-    font-size: 1.6rem;
-  }
-
-  .info {
-    font-size: 1.3rem;
   }
 }
 
@@ -302,6 +332,18 @@ Text/Margin Scale:
   form input:not(.submit-btn),
   form textarea {
     width: 25rem;
+  }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 399px) {
+  main {
+    left: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 459px) {
+  .contact-info {
+    padding: 1rem;
   }
 }
 
@@ -389,6 +431,24 @@ Text/Margin Scale:
     width: 11rem;
     height: 3.2rem;
   }
+
+  .bg-rectangle {
+    height: 26rem;
+    top: 11rem;
+  }
+
+  .contact-info {
+    column-gap: 4.6rem;
+  }
+
+  .heading span {
+    font-size: 1.6rem;
+  }
+
+  .info {
+    margin-bottom: 2.9rem;
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 559px) {
@@ -455,12 +515,6 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (max-width: 459px) {
-  .contact-info {
-    padding: 1rem;
-  }
-}
-
 @media only screen and (min-width: 460px) and (max-width: 479px) {
   main {
     left: 1rem;
@@ -475,12 +529,6 @@ Text/Margin Scale:
   form input:not(.submit-btn),
   form textarea {
     width: 35rem;
-  }
-}
-
-@media only screen and (min-width: 460px) and (max-width: 799px) {
-  .contact-info {
-    padding: 3.2rem;
   }
 }
 
@@ -516,6 +564,24 @@ Text/Margin Scale:
     width: 12rem;
     height: 3.4rem;
   }
+
+  .bg-rectangle {
+    height: 28rem;
+    top: 10rem;
+  }
+
+  .contact-info {
+    column-gap: 6.6rem;
+  }
+
+  .heading span {
+    font-size: 1.8rem;
+  }
+
+  .info {
+    margin-bottom: 3.2rem;
+    font-size: 1.2rem;
+  }
 }
 
 @media only screen and (min-width: 520px) and (max-width: 539px) {
@@ -539,21 +605,6 @@ Text/Margin Scale:
 @media only screen and (min-width: 520px) and (max-width: 669px) {
   .contact-info {
     margin-left: 0;
-  }
-}
-
-@media only screen and (min-width: 520px) and (max-width: 980px) {
-  .heading span {
-    font-size: 1.8rem;
-  }
-
-  .heading-icon {
-    width: 1.8rem;
-    height: 1.8rem;
-  }
-
-  .info {
-    font-size: 1.4rem;
   }
 }
 
@@ -600,6 +651,20 @@ Text/Margin Scale:
     font-size: 1.8rem;
   }
 
+  .bg-rectangle {
+    height: 30rem;
+    top: 10rem;
+  }
+
+  .heading span {
+    font-size: 2rem;
+  }
+
+  .info {
+    margin-bottom: 3.2rem;
+    font-size: 1.4rem;
+  }
+
   form {
     width: 52rem;
   }
@@ -607,6 +672,12 @@ Text/Margin Scale:
   form input:not(.submit-btn),
   form textarea {
     width: 46rem;
+  }
+}
+
+@media only screen and (nin-width: 600px) and (max-width: 799px) {
+  .contact-info {
+    column-gap: 12rem;
   }
 }
 
@@ -694,6 +765,20 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 700px) and (max-width: 799px) {
+  .bg-rectangle {
+    height: 34rem;
+    top: 10rem;
+  }
+
+  .heading span {
+    font-size: 2.3rem;
+  }
+
+  .info {
+    margin-bottom: 3.6rem;
+    font-size: 1.6rem;
+  }
+
   form {
     width: 58rem;
   }
@@ -707,10 +792,6 @@ Text/Margin Scale:
 @media only screen and (min-width: 750px) and (max-width: 799px) {
   main {
     left: 9rem;
-  }
-
-  .contact-info {
-    margin-left: 2rem;
   }
 }
 
@@ -730,25 +811,25 @@ Text/Margin Scale:
   }
 
   .bg-rectangle {
-    display: none;
+    position: absolute;
   }
 
-  .phones {
+  .contact {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .contact-info {
-    align-self: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3.6rem;
+    position: relative;
   }
 
   .heading {
     margin-bottom: 1.8rem;
     margin-left: 0;
-  }
-
-  .info {
-    margin-bottom: 3.6rem;
   }
 }
 
@@ -775,6 +856,19 @@ Text/Margin Scale:
   .bg-rectangle {
     height: 46rem;
     top: 27rem;
+  }
+
+  .heading span {
+    font-size: 1.8rem;
+  }
+
+  .heading-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .info {
+    font-size: 1.4rem;
   }
 }
 
