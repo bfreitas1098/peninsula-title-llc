@@ -1878,10 +1878,6 @@ Text/Margin Scale:
     gap: 45rem;
   }
 
-  nav {
-    padding: 1.8rem 4.6rem;
-  }
-
   .logo {
     width: 23rem;
     height: 6.3rem;
@@ -1996,6 +1992,10 @@ Text/Margin Scale:
 }
 
 @media only screen and (min-width: 2200px) and (max-width: 2999px) {
+  nav {
+    padding: 1.8rem 4.6rem;
+  }
+
   .hero-section {
     height: 95rem;
   }
@@ -2042,7 +2042,22 @@ Text/Margin Scale:
 
 @media only screen and (min-width: 3000px) {
   .hero-section {
-    height: 125rem;
+    height: 150rem;
+  }
+}
+
+@media only screen and (min-width: 3000px) and (max-width: 3999px) {
+  .heading,
+  .cta,
+  .cta:link,
+  .cta:visited {
+    margin-left: 32rem;
+  }
+}
+
+@media only screen and (min-width: 3000px) and (max-width: 4999px) {
+  nav {
+    padding: 2rem 8.3rem;
   }
 
   .heading,
@@ -2050,5 +2065,123 @@ Text/Margin Scale:
   .cta:link,
   .cta:visited {
     margin-left: 32rem;
+  }
+}
+
+@media only screen and (min-width: 4000px) {
+  .services-section {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 4000px) and (max-width: 4499px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media only screen and (min-width: 4000px) and (max-width: 6999px) {
+  .heading,
+  .cta,
+  .cta:link,
+  .cta:visited {
+    margin-left: 41rem;
+  }
+}
+
+@media only screen and (min-width: 4000px) and (max-width: 7999px) {
+  .services-section {
+    max-width: 90vw;
+  }
+}
+
+@media only screen and (min-width: 4500px) and (max-width: 4999px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media only screen and (min-width: 5000px) and (max-width: 5499px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (min-width: 5000px) and (max-width: 6999px) {
+  nav {
+    padding: 2.3rem 12rem;
+  }
+}
+
+@media only screen and (min-width: 5500px) and (max-width: 5999px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media only screen and (min-width: 6000px) and (max-width: 6499px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (min-width: 6500px) and (max-width: 6999px) {
+  html {
+    font-size: 95%;
+  }
+}
+
+@media only screen and (min-width: 7000px) {
+  nav {
+    padding: 3.2rem 18rem;
+  }
+
+  .heading,
+  .cta,
+  .cta:link,
+  .cta:visited {
+    margin-left: 46rem;
+  }
+}
+
+@media only screen and (min-width: 7000px) and (max-width: 7499px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (min-width: 7500px) and (max-width: 7999px) {
+  html {
+    font-size: 105%;
+  }
+}
+
+@media only screen and (min-width: 8000px) {
+  .services-section {
+    max-width: 80vw;
+  }
+}
+
+@media only screen and (min-width: 8000px) and (max-width: 8499px) {
+  html {
+    font-size: 110%;
+  }
+}
+
+@media only screen and (min-width: 8500px) and (max-width: 8999px) {
+  html {
+    font-size: 115%;
+  }
+}
+
+@media only screen and (min-width: 9000px) and (max-width: 9499px) {
+  html {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 9500px) and (max-width: 9999px) {
+  html {
+    font-size: 125%;
   }
 }
