@@ -263,39 +263,6 @@ main {
   z-index: 1;
 }
 
-.heading {
-  height: 50rem;
-}
-
-.heading--transaction {
-  background: url(../images/transaction-coordinator-lg.png), rgba(0, 0, 0, 0.5);
-}
-
-.heading--title {
-  background: url(../images/title-agent-lg.png), rgba(0, 0, 0, 0.5);
-}
-
-.heading--escrow {
-  background: url(../images/escrow-agent-lg.png), rgba(0, 0, 0, 0.5);
-}
-
-.heading--closing {
-  background: url(../images/closing-lg.png), rgba(0, 0, 0, 0.5);
-}
-
-.heading--transaction {
-  background-position: bottom;
-}
-
-.heading--escrow {
-  background-position: top;
-}
-
-.heading--closing,
-.heading--title {
-  background-position: center;
-}
-
 h1 {
   font-size: 5.2rem;
   color: var(--white);

@@ -714,6 +714,32 @@ Text/Margin Scale:
   }
 }
 
+@media only screen and (min-width: 1000px) and (max-width: 3999px) {
+  .heading--transaction {
+    background: url(../images/transaction-coordinator-lg.png),
+      rgba(0, 0, 0, 0.5);
+    background-position: bottom;
+  }
+
+  .heading--title {
+    background: url(../images/title-agent-lg.png), rgba(0, 0, 0, 0.5);
+  }
+
+  .heading--escrow {
+    background: url(../images/escrow-agent-lg.png), rgba(0, 0, 0, 0.5);
+    background-position: top;
+  }
+
+  .heading--closing {
+    background: url(../images/closing-lg.png), rgba(0, 0, 0, 0.5);
+  }
+
+  .heading--closing,
+  .heading--title {
+    background-position: center;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   nav ul {
     display: none;
@@ -824,6 +850,12 @@ Text/Margin Scale:
   }
 }
 
+@media only screen and (min-width: 2000px) {
+  .heading {
+    background-repeat: no-repeat;
+  }
+}
+
 @media only screen and (min-width: 2000px) and (max-width: 2099px) {
   #dropdown-menu {
     left: 157rem;
@@ -908,9 +940,17 @@ Text/Margin Scale:
     font-size: 2.3rem;
   }
 }
-@media only screen and (min-width: 3000px) {
+
+@media only screen and (max-width: 2999px) {
   .heading {
-    height: 83rem;
+    height: 50rem;
+  }
+}
+
+@media only screen and (min-width: 3000px) {
+  .main-content {
+    max-width: 80vw;
+    margin: 0 auto;
   }
 
   .description {
@@ -930,5 +970,221 @@ Text/Margin Scale:
   .contact-btn a:link,
   .contact-btn a:visited {
     font-size: 2.6rem;
+  }
+}
+
+@media only screen and (min-width: 3000px) and (max-width: 3999px) {
+  .heading {
+    height: 83rem;
+  }
+}
+
+@media only screen and (min-width: 3000px) and (max-width: 4999px) {
+  nav {
+    padding: 2rem 8.3rem;
+  }
+}
+
+@media only screen and (min-width: 4000px) and (max-width: 4499px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media only screen and (min-width: 4000px) and (max-width: 5999px) {
+  .heading {
+    height: 100rem;
+  }
+
+  .heading--transaction {
+    background: url(../images/transaction-coordinator-xl.png),
+      rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+  }
+
+  .heading--title {
+    background: url(../images/title-agent-xl.png), rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+  }
+
+  .heading--escrow {
+    background: url(../images/escrow-agent-xl.png), rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+  }
+
+  .heading--closing {
+    background: url(../images/closing-xl.png), rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+  }
+
+  .heading--transaction {
+    background-position: bottom;
+  }
+
+  .heading--title {
+    background-position: center;
+  }
+
+  .heading--escrow,
+  .heading--closing {
+    background-position: top;
+  }
+}
+
+@media only screen and (min-width: 4500px) and (max-width: 4999px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media only screen and (min-width: 5000px) and (max-width: 5499px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (min-width: 5000px) and (max-width: 6999px) {
+  nav {
+    padding: 2.3rem 12rem;
+  }
+}
+
+@media only screen and (min-width: 5500px) and (max-width: 5999px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media only screen and (min-width: 6000px) and (max-width: 6499px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (min-width: 6000px) and (max-width: 7999px) {
+  .heading {
+    height: 125rem;
+  }
+
+  .heading--transaction {
+    background: url(../images/transaction-coordinator-xxl.png),
+      rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+  }
+
+  .heading--title {
+    background: url(../images/title-agent-xxl.png), rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+  }
+
+  .heading--escrow {
+    background: url(../images/escrow-agent-xxl.png), rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+  }
+
+  .heading--closing {
+    background: url(../images/closing-xxl.png), rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+  }
+
+  .heading--transaction {
+    background-position: bottom;
+  }
+
+  .heading--title {
+    background-position: center;
+  }
+
+  .heading--escrow,
+  .heading--closing {
+    background-position: top;
+  }
+}
+
+@media only screen and (min-width: 6500px) and (max-width: 6999px) {
+  html {
+    font-size: 95%;
+  }
+}
+
+@media only screen and (min-width: 7000px) {
+  nav {
+    padding: 3.2rem 18rem;
+  }
+}
+
+@media only screen and (min-width: 7000px) and (max-width: 7499px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (min-width: 7500px) and (max-width: 7999px) {
+  html {
+    font-size: 105%;
+  }
+}
+
+@media only screen and (min-width: 8000px) {
+  .heading {
+    height: 135rem;
+  }
+
+  .heading--transaction {
+    background: url(../images/transaction-coordinator-lgst.png),
+      rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+  }
+
+  .heading--title {
+    background: url(../images/title-agent-lgst.png), rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+  }
+
+  .heading--escrow {
+    background: url(../images/escrow-agent-lgst.png), rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+  }
+
+  .heading--closing {
+    background: url(../images/closing-lgst.png), rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+  }
+
+  .heading--transaction {
+    background-position: bottom;
+  }
+
+  .heading--title {
+    background-position: center;
+  }
+
+  .heading--escrow,
+  .heading--closing {
+    background-position: top;
+  }
+}
+
+@media only screen and (min-width: 8000px) and (max-width: 8499px) {
+  html {
+    font-size: 110%;
+  }
+}
+
+@media only screen and (min-width: 8500px) and (max-width: 8999px) {
+  html {
+    font-size: 115%;
+  }
+}
+
+@media only screen and (min-width: 9000px) and (max-width: 9499px) {
+  html {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 9500px) and (max-width: 9999px) {
+  html {
+    font-size: 125%;
   }
 }
