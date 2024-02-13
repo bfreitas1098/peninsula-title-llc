@@ -1109,6 +1109,12 @@ Text/Margin Scale:
   }
 }
 
+@media only screen and (min-width: 3000px) and (max-width: 3999px) {
+  nav {
+    padding: 2rem 8.3rem;
+  }
+}
+
 @media only screen and (min-width: 3500px) {
   h1 {
     font-size: 7.4rem;
@@ -1148,11 +1154,13 @@ Text/Margin Scale:
   }
 }
 
-@media only screen and (min-width: 4000px) {
-  nav {
-    padding: 2rem 6.6rem;
+@media only screen and (min-width: 3500px) and (max-width: 4999px) {
+  .testimonials-container {
+    max-width: 80vw;
   }
+}
 
+@media only screen and (min-width: 4000px) {
   .logo {
     width: 26.5rem;
     height: 8.3rem;
@@ -1162,5 +1170,107 @@ Text/Margin Scale:
   .nav-link a:visited,
   .about-link {
     font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 4000px) and (max-width: 4499px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media only screen and (min-width: 4000px) and (max-width: 4999px) {
+  nav {
+    padding: 2rem 6.6rem;
+  }
+}
+
+@media only screen and (min-width: 4500px) and (max-width: 4999px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media only screen and (min-width: 5000px) and (max-width: 5499px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (min-width: 5000px) and (max-width: 7999px) {
+  .testimonials-container {
+    max-width: 70vw;
+  }
+}
+
+@media only screen and (min-width: 5000px) and (max-width: 6999px) {
+  nav {
+    padding: 2.3rem 12rem;
+  }
+}
+
+@media only screen and (min-width: 5500px) and (max-width: 5999px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media only screen and (min-width: 6000px) and (max-width: 6499px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (min-width: 6500px) and (max-width: 6999px) {
+  html {
+    font-size: 95%;
+  }
+}
+
+@media only screen and (min-width: 7000px) {
+  nav {
+    padding: 3.2rem 18rem;
+  }
+}
+
+@media only screen and (min-width: 7000px) and (max-width: 7499px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (min-width: 7500px) and (max-width: 7999px) {
+  html {
+    font-size: 105%;
+  }
+}
+
+@media only screen and (min-width: 8000px) {
+  .testimonials-container {
+    max-width: 60vw;
+  }
+}
+
+@media only screen and (min-width: 8000px) and (max-width: 8499px) {
+  html {
+    font-size: 110%;
+  }
+}
+
+@media only screen and (min-width: 8500px) and (max-width: 8999px) {
+  html {
+    font-size: 115%;
+  }
+}
+
+@media only screen and (min-width: 9000px) and (max-width: 9499px) {
+  html {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 9500px) and (max-width: 9999px) {
+  html {
+    font-size: 125%;
   }
 }
