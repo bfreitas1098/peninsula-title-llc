@@ -79,6 +79,12 @@
         </a>
         <ul>
           <li class="nav-link"><a href="/" class="active">Home</a></li>
+          <li class="nav-link story-link">
+            <a href="#our-story">About Us</a>
+          </li>
+          <li class="nav-link faq-link">
+            <a href="#faq">FAQ</a>
+          </li>
           <ul class="hidden-links">
             <li class="nav-link">
               <a href="./pages/transaction-coordinator-services.html"
@@ -100,7 +106,7 @@
             </li>
           </ul>
           <li class="about-link" onclick="makeDDVisible()">
-            About Us<ion-icon
+            Services<ion-icon
               name="chevron-down-outline"
               class="down-arrow-icon"
               id="down-arrow"
@@ -151,6 +157,12 @@
             <li class="responsive-link r-active" onclick="closeRMenu()">
               Home
             </li>
+            <li class="responsive-link" onclick="closeRMenu()">
+              <a href="#our-story">About Us</a>
+            </li>
+            <li class="responsive-link" onclick="closeRMenu()">
+              <a href="#faq">FAQ</a>
+            </li>
             <li class="responsive-link">
               <a href="./pages/transaction-coordinator-services.html"
                 >Transaction Coordinator Services</a
@@ -175,7 +187,7 @@
             <!-- <li class="responsive-link">
               <a href="./pages/videos.html">Videos</a>
             </li> -->
-            <li class="responsive-link">
+            <li class="responsive-link last-link">
               <a href="./pages/contact.html">Contact Us</a>
             </li>
           </ul>
@@ -192,7 +204,6 @@
     <section class="hero-section">
       <div class="heading">
         <h1>Integrity,<br />Reliability, & Trust</h1>
-        <p class="tagline">Seamless Titles, Smooth Transactions</p>
       </div>
       <a href="./pages/contact.html" class="cta">Contact Us</a>
     </section>
@@ -255,7 +266,10 @@
             undertaking tasks such as fund disbursement, issuance of title
             insurance, and other related activities.
           </div>
-          <a href="./pages/closing-services.html" class="service-page"
+          <a
+            href="./pages/closing-services.html"
+            class="service-page"
+            id="our-story"
             >Learn More About Our Closing Services</a
           >
         </div>
@@ -271,7 +285,7 @@
       <div class="text-container">
         <h2>Our Story</h2>
         <p class="who-we-are-text">
-          Established in 2019 by industry veterans with a wealth of experience,
+          Established in 2018 by industry veterans with a wealth of experience,
           Peninsula Title Agency set out to redefine the standards of title
           services. With a mission to provide unparalleled accuracy, efficiency,
           and customer satisfaction, the company strategically adapted to the
@@ -372,7 +386,7 @@
       >
     </section>
     <!-- FAQ section -->
-    <section class="faq-section">
+    <section class="faq-section" id="faq">
       <div class="faq-container">
         <h3>Frequently Asked Questions</h3>
         <div class="questions">

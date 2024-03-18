@@ -12,6 +12,10 @@ const authorNames = document.querySelectorAll(".testimonial-author");
 const heroSection = document.querySelector(".hero-section");
 const nav = document.querySelector("nav");
 const header = document.querySelector("header");
+const faqLink = document.querySelector(".faq-link");
+const storyLink = document.querySelector(".story-link");
+const storySection = document.getElementById("our-story");
+const faqSection = document.getElementById("faq");
 ///////////////////////////////////////////////////////////////////////////////
 
 /* Dropdown & Responsive menu */
@@ -39,6 +43,8 @@ const openRMenu = () => {
 const closeRMenu = () => {
   responsiveMenu.classList.toggle("visible");
 };
+
+faqLink.addEventListener;
 
 /* FAQ */
 
@@ -111,3 +117,12 @@ document.addEventListener("DOMContentLoaded", () => {
     heroObserver.observe(heroSection);
   }
 });
+
+/* Smooth scrolling */
+
+const scroll = function (section) {
+  section.scrollIntoView({ behavior: "smooth" });
+};
+
+storyLink.addEventListener("click", scroll.bind(this, storySection));
+faqLink.addEventListener("click", scroll.bind(this, faqSection));

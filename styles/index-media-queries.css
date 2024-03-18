@@ -26,7 +26,6 @@ Text/Margin Scale:
     font-size: 2.1rem;
   }
 
-  .tagline,
   .who-we-are-text,
   .answer {
     font-size: 1rem;
@@ -112,10 +111,6 @@ Text/Margin Scale:
 @media only screen and (min-width: 270px) and (max-width: 299px) {
   h1 {
     font-size: 2.3rem;
-  }
-
-  .tagline {
-    font-size: 1.2rem;
   }
 
   .who-we-are-section {
@@ -262,7 +257,7 @@ Text/Margin Scale:
 
   #responsive-menu,
   .hero-section {
-    height: 35rem;
+    height: 30rem;
   }
 
   .responsive-link a:link,
@@ -306,10 +301,6 @@ Text/Margin Scale:
 
   h1 {
     font-size: 2.6rem;
-  }
-
-  .tagline {
-    font-size: 1.4rem;
   }
 }
 
@@ -360,7 +351,7 @@ Text/Margin Scale:
 
   #responsive-menu,
   .hero-section {
-    height: 50rem;
+    height: 40rem;
   }
 
   .responsive-link a:link,
@@ -382,6 +373,12 @@ Text/Margin Scale:
 
   .footer-text {
     font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 499px) {
+  .hero-section {
+    background-position: -25rem 0;
   }
 }
 
@@ -414,10 +411,6 @@ Text/Margin Scale:
 @media only screen and (min-width: 330px) and (max-width: 359px) {
   h1 {
     font-size: 2.9rem;
-  }
-
-  .tagline {
-    font-size: 1.5rem;
   }
 }
 
@@ -511,7 +504,6 @@ Text/Margin Scale:
     font-size: 3.2rem;
   }
 
-  .tagline,
   h2:not(.who-we-are-section h2) {
     font-size: 1.6rem;
   }
@@ -713,17 +705,13 @@ Text/Margin Scale:
 
   #responsive-menu,
   .hero-section {
-    height: 55rem;
+    height: 50rem;
   }
 
   .responsive-link a:link,
   .responsive-link a:visited,
   .responsive-link {
     font-size: 1.6rem;
-  }
-
-  .tagline {
-    font-size: 1.8rem;
   }
 
   .cta:link,
@@ -937,10 +925,6 @@ Text/Margin Scale:
     transform: translateX(-1rem);
   }
 
-  .hero-section {
-    background-position: -25rem 0;
-  }
-
   .heading,
   .cta,
   .cta:link,
@@ -1147,10 +1131,6 @@ Text/Margin Scale:
 
   .hero-section {
     height: 60rem;
-  }
-
-  .tagline {
-    font-size: 2rem;
   }
 
   .cta:link,
@@ -1607,10 +1587,6 @@ Text/Margin Scale:
     font-size: 7.4rem;
   }
 
-  .tagline {
-    font-size: 2.3rem;
-  }
-
   .cta:link,
   .cta:visited {
     padding: 8px 2rem;
@@ -1895,7 +1871,6 @@ Text/Margin Scale:
     font-size: 10.5rem;
   }
 
-  .tagline,
   h2 {
     font-size: 3.2rem;
   }
