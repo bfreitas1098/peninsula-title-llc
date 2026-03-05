@@ -62,9 +62,13 @@ main,
 
 /* Nav */
 
+.logo-container {
+  width: 50%;
+}
+
 .logo {
-  width: 20rem;
-  height: 5.5rem;
+  width: 20%;
+  height: 20%;
 }
 
 nav {
@@ -338,9 +342,14 @@ footer {
   padding-top: 3.6rem;
 }
 
+.footer-img {
+  display: flex;
+  justify-content: center;
+}
+
 .footer-img img {
-  width: 6.6rem;
-  height: 6.6rem;
+  width: 15%;
+  height: 15%;
 }
 
 .footer-text {
