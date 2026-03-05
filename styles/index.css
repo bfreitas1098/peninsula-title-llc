@@ -93,7 +93,7 @@ h3,
   gap: 27rem;
 }
 
-.peninsula-info {
+.premier-info {
   display: flex;
   align-items: center;
   gap: 3.2rem;
@@ -662,9 +662,14 @@ footer {
   padding-top: 3.6rem;
 }
 
+.footer-img {
+  display: flex;
+  justify-content: center;
+}
+
 .footer-img img {
-  width: 6.6rem;
-  height: 6.6rem;
+  width: 15%;
+  height: 15%;
 }
 
 .footer-text {
